@@ -1,0 +1,6 @@
+"Value Set DocumentEntry.sourcePatientInfo.PID-8 - 2.16.840.1.113883.4.642.3.1 2023-05-22T17:38:37";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;female;Female;2.16.840.1.113883.4.642.1.2;AdministrativeGender;;;false;Femminile;Feminin;Weiblich;Féminin;Female
+0;L;male;Male;2.16.840.1.113883.4.642.1.2;AdministrativeGender;;;false;Maschile;Masculin;Männlich;Masculin;Male
+0;L;other;Other;2.16.840.1.113883.4.642.1.2;AdministrativeGender;;;false;Altro;Auter;Anderes;Autre;Other
+0;L;unknown;Unknown;2.16.840.1.113883.4.642.1.2;AdministrativeGender;;;false;Sconosciuto;Nunenconuschent;Unbekannt;Inconnu;Unknown

@@ -1,0 +1,6 @@
+"Value Set EprPurposeOfUse - 2.16.756.5.30.1.127.3.10.15.2 2023-04-12T15:23:46";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;DICOM_AUTO;"Automatic upload of radiological contents";2.16.756.5.30.1.127.3.10.5;ch-ehealth-codesystem-purposeOfUse;;;false;"Caricamento automatico del contenuto radiologico";"Chargia automatica dal cuntegn radiologic";"Automatisches Hochladen von radiologischen Inhalten";"Téléchargement automatique de contenus radiologiques";"Automatic upload of radiological contents"
+0;L;EMER;"Emergency Access";2.16.756.5.30.1.127.3.10.5;ch-ehealth-codesystem-purposeOfUse;;;false;"Accesso di emergenza";"Access d'urgenza";Notfallzugriff;"Accès d’urgence";"Emergency Access"
+0;L;NORM;"Normal Access";2.16.756.5.30.1.127.3.10.5;ch-ehealth-codesystem-purposeOfUse;;;false;"Accesso normale";"Access normal";"Normaler Zugriff";"Accès normal";"Normal Access"
+0;L;AUTO;"Automatic Upload";2.16.756.5.30.1.127.3.10.5;ch-ehealth-codesystem-purposeOfUse;;;false;"Caricamento automatico";"Chargia automatica";"Automatisches Hochladen";"Téléchargement automatique";"Automatic Upload"

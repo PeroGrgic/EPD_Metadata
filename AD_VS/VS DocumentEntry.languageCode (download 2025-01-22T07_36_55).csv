@@ -1,0 +1,60 @@
+"Value Set DocumentEntry.languageCode - 2.16.756.5.30.1.127.3.10.1.13 2023-05-22T17:37:32";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;ar;Arabic;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Arabo;Arab;Arabisch;Arabe;Arabic
+0;L;bn;Bengali;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Bengalese;Bengal;Bengalisch;Bengali;Bengali
+0;L;cs;Czech;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Ceco;Tschec;Tschechisch;Tchèque;Czech
+0;L;da;Danish;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Danese;Danais;Dänisch;Danois;Danish
+0;L;de;German;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Tedesco;Tudestg;Deutsch;Allemand;German
+0;L;de-AT;"German (Austria)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Tedesco (Austria)";"Tudestg (Austria)";"Deutsch (Österreich)";"Allemand (Autriche)";"German (Austria)"
+0;L;de-CH;"German (Switzerland)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Tedesco (Svizzera)";"Tudestg (Svizra)";"Deutsch (Schweiz)";"Allemand (Suisse)";"German (Switzerland)"
+0;L;de-DE;"German (Germany)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Tedesco (Germania)";"Tudestg (Germania)";"Deutsch (Deutschland)";"Allemand (Allemagne)";"German (Germany)"
+0;L;el;Greek;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Greco;Grec;Griechisch;Grec;Greek
+0;L;en;English;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Inglese;Englais;Englisch;Anglais;English
+0;L;en-AU;"English (Australia)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Australia)";"Englais (Australia)";"Englisch (Australien)";"Anglais (Australie)";"English (Australia)"
+0;L;en-CA;"English (Canada)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Canada)";"Englais (Canada)";"Englisch (Kanada)";"Anglais (Canada)";"English (Canada)"
+0;L;en-GB;"English (Great Britain)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Gran Bretagna)";"Englais (Gronda Britannia)";"Englisch (Grossbritannien)";"Anglais (Grande Bretagne)";"English (Great Britain)"
+0;L;en-IN;"English (India)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (India)";"Englais (India)";"Englisch (Indien)";"Anglais (Inde)";"English (India)"
+0;L;en-NZ;"English (New Zealand)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Nuova Zelanda)";"Englais (Nova Zelanda)";"Englisch (Neuseeland)";"Anglais (Nouvelle Zélande)";"English (New Zealand)"
+0;L;en-SG;"English (Singapore)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Singapore)";"Englais (Singapur)";"Englisch (Singapur)";"Anglais (Singapour)";"English (Singapore)"
+0;L;en-US;"English (United States)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Inglese (Stati Uniti)";"Englais (USA)";"Englisch (USA)";"Anglais (États Unis)";"English (United States)"
+0;L;es;Spanish;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Spagnolo;Spagnol;Spanisch;Espagnol;Spanish
+0;L;es-AR;"Spanish (Argentina)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Spagnolo (Argentina)";"Spagnol (Argentina)";"Spanisch (Argentinien)";"Espagnol (Argentine)";"Spanish (Argentina)"
+0;L;es-ES;"Spanish (Spain)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Spagnolo (Spagna)";"Spagnol (Spagna)";"Spanisch (Spanien)";"Espagnol (Espagne)";"Spanish (Spain)"
+0;L;es-UY;"Spanish (Uruguay)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Spagnolo (Uruguay)";"Spagnol (Uruguai)";"Spanisch (Uruguay)";"Espagnol (Uruguay)";"Spanish (Uruguay)"
+0;L;fi;Finnish;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Finlandese;Finlandais;Finnisch;Finnois;Finnish
+0;L;fr;French;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Francese;Franzos;Französisch;Français;French
+0;L;fr-BE;"French (Belgium)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Francese (Belgio)";"Franzos (Belgia)";"Französisch (Belgien)";"Français (Belgique)";"French (Belgium)"
+0;L;fr-CH;"French (Switzerland)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Francese (Svizzera)";"Franzos (Svizra)";"Französisch (Schweiz)";"Français (Suisse)";"French (Switzerland)"
+0;L;fr-FR;"French (France)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Francese (Francia)";"Franzos (Frantscha)";"Französisch (Frankreich)";"Français (France)";"French (France)"
+0;L;fy;Frysian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Frisone;Fris;Friesisch;Frison;Frysian
+0;L;fy-NL;"Frysian (Netherlands)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Frisone (Paesi Bassi)";"Fris (Pajais Bass)";"Friesisch (Niederlande)";"Frison (Pays-Bas)";"Frysian (Netherlands)"
+0;L;hi;Hindi;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Hindi;Hindi;Hindi;Hindi;Hindi
+0;L;hr;Croatian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Croato;Croat;Kroatisch;Croate;Croatian
+0;L;it;Italian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Italiano;Talian;Italienisch;Italien;Italian
+0;L;it-CH;"Italian (Switzerland)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Italiano (Svizzera)";"Talian (Svizra)";"Italienisch (Schweiz)";"Italien (Suisse)";"Italian (Switzerland)"
+0;L;it-IT;"Italian (Italy)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Italiano (Italia)";"Talian (Italia)";"Italienisch (Italien)";"Italien (Italie)";"Italian (Italy)"
+0;L;ja;Japanese;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Giapponese;Giapunais;Japanisch;Japonais;Japanese
+0;L;ko;Korean;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Coreano;Corean;Koreanisch;Coréen;Korean
+0;L;nl;Dutch;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Olandese;Ollandais;Niederländisch;Néerlandais;Dutch
+0;L;nl-BE;"Dutch (Belgium)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Olandese (Belgio)";"Ollandais (Belgia)";"Niederländisch (Belgien)";"Néerlandais (Belgique)";"Dutch (Belgium)"
+0;L;nl-NL;"Dutch (Netherlands)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Olandese (Paesi Bassi)";"Ollandais (Pajais Bass)";"Niederländisch (Niederlande)";"Néerlandais (Pays-Bas)";"Dutch (Netherlands)"
+0;L;no;Norwegian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Norvegese;Norvegiais;Norwegisch;Norvégien;Norwegian
+0;L;no-NO;"Norwegian (Norway)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Norvegese (Norvegia)";"Norvegiais (Norvegia)";"Norwegisch (Norwegen)";"Norvégien (Norvège)";"Norwegian (Norway)"
+0;L;pa;Punjabi;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Panjabi;Punjabi;Panjabi;Panjabi;Punjabi
+0;L;pl;Polish;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Polacco;Polac;Polnisch;Polonais;Polish
+0;L;pt;Portuguese;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Portoghese;Portugais;Portugiesisch;Portugais;Portuguese
+0;L;pt-BR;"Portuguese (Brazil)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Portoghese (Brasile)";"Portugais (Brasilia)";"Portugiesisch (Brasilien)";"Portugais (Brésil)";"Portuguese (Brazil)"
+0;L;rm;Romansh;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Romancio;Rumantsch;Rätoromanisch;Rhéto-roman;Romansh
+0;L;ru;Russian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Russo;Russ;Russisch;Russe;Russian
+0;L;ru-RU;"Russian (Russia)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Russo (Russia)";"Russ (Russia)";"Russisch (Russland)";"Russe (Russie)";"Russian (Russia)"
+0;L;sr;Serbian;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Serbo;Serb;Serbisch;Serbe;Serbian
+0;L;sr-RS;"Serbian (Serbia)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Serbo (Serbia)";"Serb (Serbia)";"Serbisch (Serbien)";"Serbe (Serbie)";"Serbian (Serbia)"
+0;L;sv;Swedish;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Svedese;Svedais;Schwedisch;Suédois;Swedish
+0;L;sv-SE;"Swedish (Sweden)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Svedese (Svezia)";"Svedais (Svezia)";"Schwedisch (Schweden)";"Suédois (Suède)";"Swedish (Sweden)"
+0;L;te;Telegu;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Telugu;Telugu;Telugu;Telugu;Telegu
+0;L;zh;Chinese;2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;Cinese;Chinais;Chinesisch;Chinois;Chinese
+0;L;zh-CN;"Chinese (China)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Cinese (Cina)";"Chinais (China)";"Chinesisch (China)";"Chinois (Chine)";"Chinese (China)"
+0;L;zh-HK;"Chinese (Hong Kong)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Cinese (Hong Kong)";"Chinais (HongKong)";"Chinesisch (Hong Kong)";"Chinois (Hong Kong)";"Chinese (Hong Kong)"
+0;L;zh-SG;"Chinese (Singapore)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Cinese (Singapore)";"Chinais (Singapur)";"Chinesisch (Singapur)";"Chinois (Singapour)";"Chinese (Singapore)"
+0;L;zh-TW;"Chinese (Taiwan)";2.16.840.1.113883.6.316;"Tags for Identifying Languages - RFC5646";;;false;"Cinese (Taiwan)";"Chinais (Taiwan)";"Chinesisch (Taiwan)";"Chinois (Taïwan)";"Chinese (Taiwan)"
+0;L;OTHER;"Other language";2.16.756.5.30.1.127.3.10.12;ch-ehealth-codesystem-language;;;false;"Altra lingua";"Autras linguas";"Andere Sprache";"Autre langue";"Other language"

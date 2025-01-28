@@ -1,0 +1,27 @@
+"Value Set DocumentEntry.mimeType - 2.16.756.5.30.1.127.3.10.1.16 2023-05-22T17:51:11";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;application/dicom;DICOM;2.16.840.1.113883.5.79;"Media Type";;;false;DICOM;DICOM;DICOM;DICOM;DICOM
+0;L;application/fhir+json;"FHIR (JSON)";2.16.840.1.113883.5.79;"Media Type";;;false;"FHIR (JSON)";"FHIR (JSON)";"FHIR (JSON)";"FHIR (JSON)";"FHIR (JSON)"
+0;L;application/fhir+xml;"FHIR (XML)";2.16.840.1.113883.5.79;"Media Type";;;false;"FHIR (XML)";"FHIR (XML)";"FHIR (XML)";"FHIR (XML)";"FHIR (XML)"
+0;L;application/pdf;PDF;2.16.840.1.113883.5.79;"Media Type";;;false;PDF;PDF;PDF;PDF;PDF
+0;L;audio/mp4;"MP4 Audio";2.16.840.1.113883.5.79;"Media Type";;;false;"MP4 Audio";"MP4 Audio";"MP4 Audio";"MP4 Audio";"MP4 Audio"
+0;L;audio/mpeg;"MPEG audio layer 3";2.16.840.1.113883.5.79;"Media Type";;;false;"MPEG audio layer 3";"MPEG audio layer 3";"MPEG audio layer 3";"MPEG audio layer 3";"MPEG audio layer 3"
+0;L;image/gif;"GIF Graphics Interchange Format";2.16.840.1.113883.5.79;"Media Type";;;false;"GIF Graphics Interchange Format";"GIF Graphics Interchange Format";"GIF Graphics Interchange Format";"GIF Graphics Interchange Format";"GIF Graphics Interchange Format"
+0;L;image/jp2;"JPEG 2000 Core Image File";2.16.840.1.113883.5.79;"Media Type";;;false;"JPEG 2000 Core Image File";"JPEG 2000 Core Image File";"JPEG 2000 Core Image File";"JPEG 2000 Core Image File";"JPEG 2000 Core Image File"
+0;L;image/jpeg;"JPEG Image";2.16.840.1.113883.5.79;"Media Type";;;false;"JPEG Image";"JPEG Image";"JPEG Image";"JPEG Image";"JPEG Image"
+0;L;image/jpm;"JPEG 2000 Compound Image File";2.16.840.1.113883.5.79;"Media Type";;;false;"JPEG 2000 Compound Image File";"JPEG 2000 Compound Image File";"JPEG 2000 Compound Image File";"JPEG 2000 Compound Image File";"JPEG 2000 Compound Image File"
+0;L;image/jpx;"JPEG 2000 Image File";2.16.840.1.113883.5.79;"Media Type";;;false;"JPEG 2000 Image File";"JPEG 2000 Image File";"JPEG 2000 Image File";"JPEG 2000 Image File";"JPEG 2000 Image File"
+0;L;image/png;"PNG Portable Network Graphics";2.16.840.1.113883.5.79;"Media Type";;;false;"PNG Portable Network Graphics";"PNG Portable Network Graphics";"PNG Portable Network Graphics";"PNG Portable Network Graphics";"PNG Portable Network Graphics"
+0;L;image/tiff;"TIFF Image";2.16.840.1.113883.5.79;"Media Type";;;false;"TIFF Image";"TIFF Image";"TIFF Image";"TIFF Image";"TIFF Image"
+0;L;model/vrml;"Virtual Reality Modeling Language";2.16.840.1.113883.5.79;"Media Type";;;false;"Virtual Reality Modeling Language";"Virtual Reality Modeling Language";"Virtual Reality Modeling Language";"Virtual Reality Modeling Language";"Virtual Reality Modeling Language"
+0;L;model/x3d+xml;"Extensible 3D Graphics (XML)";2.16.840.1.113883.5.79;"Media Type";;;false;"Extensible 3D Graphics (XML)";"Extensible 3D Graphics (XML)";"Extensible 3D Graphics (XML)";"Extensible 3D Graphics (XML)";"Extensible 3D Graphics (XML)"
+0;L;model/x3d-vrml;"Extensible 3D Graphics (VRML)";2.16.840.1.113883.5.79;"Media Type";;;false;"Extensible 3D Graphics (VRML)";"Extensible 3D Graphics (VRML)";"Extensible 3D Graphics (VRML)";"Extensible 3D Graphics (VRML)";"Extensible 3D Graphics (VRML)"
+0;L;multipart/multilingual;"Multilingual Multipart";2.16.840.1.113883.5.79;"Media Type";;;false;"Multilingual Multipart";"Multilingual Multipart";"Multilingual Multipart";"Multilingual Multipart";"Multilingual Multipart"
+0;L;multipart/signed;"Signed Multipart";2.16.840.1.113883.5.79;"Media Type";;;false;"Signed Multipart";"Signed Multipart";"Signed Multipart";"Signed Multipart";"Signed Multipart"
+0;L;multipart/x-hl7-cda-level1;"CDA Level 1 Multipart";2.16.840.1.113883.5.79;"Media Type";;;false;"CDA Level 1 Multipart";"CDA Level 1 Multipart";"CDA Level 1 Multipart";"CDA Level 1 Multipart";"CDA Level 1 Multipart"
+0;L;text/csv;"CSV Comma-separated Values";2.16.840.1.113883.5.79;"Media Type";;;false;"CSV Comma-separated Values";"CSV Comma-separated Values";"CSV Comma-separated Values";"CSV Comma-separated Values";"CSV Comma-separated Values"
+0;L;text/plain;"Plain Text";2.16.840.1.113883.5.79;"Media Type";;;false;"Plain Text";"Plain Text";"Plain Text";"Plain Text";"Plain Text"
+0;L;text/xml;XML-Text;2.16.840.1.113883.5.79;"Media Type";;;false;XML-Text;XML-Text;XML-Text;XML-Text;XML-Text
+0;L;video/mj2;"Motion JPEG 2000";2.16.840.1.113883.5.79;"Media Type";;;false;"Motion JPEG 2000";"Motion JPEG 2000";"Motion JPEG 2000";"Motion JPEG 2000";"Motion JPEG 2000"
+0;L;video/mp4;"MPEG-4 Part 14";2.16.840.1.113883.5.79;"Media Type";;;false;"MPEG-4 Part 14";"MPEG-4 Part 14";"MPEG-4 Part 14";"MPEG-4 Part 14";"MPEG-4 Part 14"
+0;L;video/mpeg;"MPEG Video";2.16.840.1.113883.5.79;"Media Type";;;false;"MPEG Video";"MPEG Video";"MPEG Video";"MPEG Video";"MPEG Video"

@@ -1,0 +1,9 @@
+"Value Set EprRole - 2.16.756.5.30.1.127.3.10.15.1 2022-06-26T15:23:55";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;PAT;Patient;2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;Paziente;Pazient;Patient;Patient;Patient
+0;L;HCP;"Healthcare professional";2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;"Professionista della salute";"Persuna spezialisada dal sectur da sanadad";Gesundheitsfachperson;"Professionnel de la santé";"Healthcare professional"
+0;L;ASS;Assistant;2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;Assistente;"Persuna d'agid";Hilfsperson;Assistant;Assistant
+0;L;REP;Representative;2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;Rappresentante;Substituziun;Stellvertretung;Représentant;Representative
+0;L;TCU;"Technical user";2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;"Utente tecnico";"Utilisader tecnic";"Technischer Nutzer";"Utilisateur technique";"Technical user"
+0;L;DADM;"Document Administrator";2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;"Amministratore documenti";"Administratur da documents";Dokumenten-Administrator;"Administrateur des documents";"Document Administrator"
+0;L;PADM;"Policy Administrator";2.16.756.5.30.1.127.3.10.6;ch-ehealth-codesystem-role;;;false;"Amministratore diritti di accesso";"Administratur da las directivas davart la protecziun da datas";Datenschutzrichtlinien-Administrator;"Administrateur des directives de protection des données";"Policy Administrator"

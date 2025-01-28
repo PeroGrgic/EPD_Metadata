@@ -1,0 +1,29 @@
+"Value Set HCProfessional.hcProfession - 2.16.756.5.30.1.127.3.10.8.1 2022-06-26T15:48:04";;;;;;;;;;;;;
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception;"Designation preferred / it-CH";"Designation preferred / rm-CH";"Designation preferred / de-CH";"Designation preferred / fr-CH";"Designation preferred / en-US"
+0;L;00000;Other;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;altro;auter;Andere;autre;Other
+0;L;00100;Aktivierungsfachfrau/Aktivierungsfachmann;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"specialista in attivazione";"spezialist(-a) d'activaziun";"Fachperson für Aktivierung";"spécialiste de l'activation";"Activation therapy specialist"
+0;L;00200;Optician;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;ottico(-a);opticra/opticher;Optiker/Optikerin;opticien(ne);Optician
+0;L;00300;"Biomedizinische Analytikerin/Biomedizinischer Analytiker";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"tecnico(-a) in analisi biomediche";"analiticra biomedicinala/analiticher biomedicinal";"Biomedizinischer Analytiker/Biomedizinische Analytikerin";"technicien(ne) en analyses biomédicales";"Biomedical analyst"
+0;L;00400;"Dental hygienist";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"igienista dentale";"igienicra/igienicher da dents";Dentalhygieniker/Dentalhygienikerin;"hygiéniste dentaire";"Dental hygienist"
+0;L;00500;Drogist/Drogistin;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;droghiere(-a);droghist(-a);Drogist/Drogistin;droguiste;Druggist
+0;L;00600;"Fachfrau für medizinisch-technische Radiologie/Fachmann für medizinisch-technische Radiologie";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"tecnico(-a) di radiologia medica";"spezialist(-a) da tecnica da radiologia medicinala";"Fachperson für medizinisch-technische Radiologie";"technicien(ne) en radiologie médicale";"Medical-technical radiology assistant"
+0;L;00700;"Fachfrau Gesundheit/Fachmann Gesundheit";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"operatore(-trice) sociosanitario";"spezialist(-a) da sanadad";"Fachperson Gesundheit";"assistant(e) en soins et santé communautaire";"Healthcare assistant"
+0;L;00800;"Fachfrau Operationstechnik/Fachmann Operationstechnik";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"tecnico(-a) di sala operatoria";"Spezialist(-as) da tecnica d'operaziun";"Fachperson Operationstechnik";"technicien(ne) en salle d'opération";"Operating room technician"
+0;L;00900;"Medizinische Masseurin/Medizinischer Masseur";2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;"massaggiatore(-trice) medicale";"massadra medicinala/massader medicinal";"Medizinischer Masseur/Medizinische Masseurin";"masseur(-euse) médical";"Medical masseur"
+0;L;01000;Naturheilpraktikerin/Naturheilpraktiker;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;naturopata;naturopat(-a);Naturheilpraktiker/Naturheilpraktikerin;naturopathe;"Naturopathic practitioner"
+0;L;01100;Optometrist;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;optometrista;optometrist(-a);Optometrist/Optometristin;optométriste;Optometrist
+0;L;01200;Orthoptist;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;ortottista;ortoptist(-a);Orthoptist/Orthoptistin;orthoptiste;orthoptist
+0;L;01300;Osteopath;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;osteopata;osteopat(-a);Osteopath/Osteopathin;ostéopathe;Osteopath
+0;L;01400;Podologin/Podologe;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;podologo(-a);podolog(-a);Podologe/Podologin;podologue;Podiatrist
+0;L;01500;Rettungssanitäterin/Rettungssanitäter;2.16.756.5.30.1.127.3.10.9;ch-ehealth-codesystem-hpd;;;false;soccorritore(-trice);"sanitari(-a) da salvament";Rettungssanitäter/Rettungssanitäterin;ambulancier(-ère);Paramedic
+0;L;36682004;"Physiotherapist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;fisioterapista;fisioterapeut(-a);Physiotherapeut/Physiotherapeutin;physiothérapeute;Physiotherapist
+0;L;3842006;"Chiropractor (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;chiropratico(-a);chiropraticra/chiropraticher;Chiropraktiker/Chiropraktikerin;chiropraticien(ne);Chiropractor
+0;L;46255001;"Pharmacist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;farmacista;apotecra/apotecher;Apotheker/Apothekerin;pharmacien(ne);Pharmacist
+0;L;59944000;"Psychologist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;psicologo(-a);psicolog(-a);Psychologe/Psychologin;psychologue;Psychologist
+0;L;80546007;"Occupational therapist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;ergoterapista;ergoterapeut(-a);Ergotherapeut/Ergotherapeutin;ergothérapeute;"Occupational therapist"
+0;L;106289002;"Dentist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;dentista;dentist(-a);Zahnarzt/Zahnärztin;dentiste;Dentist
+0;L;106292003;"Professional nurse (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;infermiere(-a);tgirunz(-a);Pflegefachmann/Pflegefachfrau;infirmier(-ère);"Professional nurse"
+0;L;159026005;"Speech/language therapist (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;logopedista;logoped(-a);Sprachtherapeut/Sprachtherapeutin;orthophoniste;"Speech/language therapist"
+0;L;159033005;"Dietitian (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;dietista;"cussegliadra/cussegliader da nutriment";Ernährungsberater/Ernährungsberaterin;diététicien(ne);Dietitian
+0;L;309343006;"Physician (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;medico;medi(-a);Arzt/Ärztin;médecin;Physician
+0;L;309453006;"Registered midwife (occupation)";2.16.840.1.113883.6.96;"SNOMED CT";;;false;levatrice;spendrera;"Registrierte Hebamme";sage-femme;"Registered midwife"

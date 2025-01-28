@@ -1,0 +1,264 @@
+{
+    "codeListEntries": [
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.10.6",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-role",
+                        "en": "ch-ehealth-codesystem-role",
+                        "fr": "ch-ehealth-codesystem-role",
+                        "it": "ch-ehealth-codesystem-role",
+                        "rm": "ch-ehealth-codesystem-role"
+                    },
+                    "title": "ch-ehealth-codesystem-role",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Patient",
+                        "en": "Patient",
+                        "fr": "Patient",
+                        "it": "Paziente",
+                        "rm": "Pazient"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "PAT",
+            "name": {
+                "de": "Patient",
+                "en": "Patient",
+                "fr": "Patient",
+                "it": "Paziente",
+                "rm": "Pazient"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.10.6",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-role",
+                        "en": "ch-ehealth-codesystem-role",
+                        "fr": "ch-ehealth-codesystem-role",
+                        "it": "ch-ehealth-codesystem-role",
+                        "rm": "ch-ehealth-codesystem-role"
+                    },
+                    "title": "ch-ehealth-codesystem-role",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Gesundheitsfachperson",
+                        "en": "Healthcare professional",
+                        "fr": "Professionnel de la santé",
+                        "it": "Professionista della salute",
+                        "rm": "Persuna spezialisada dal sectur da sanadad"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "HCP",
+            "name": {
+                "de": "Gesundheitsfachperson",
+                "en": "Healthcare professional",
+                "fr": "Professionnel de la santé",
+                "it": "Professionista della salute",
+                "rm": "Persuna spezialisada dal sectur da sanadad"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.10.6",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-role",
+                        "en": "ch-ehealth-codesystem-role",
+                        "fr": "ch-ehealth-codesystem-role",
+                        "it": "ch-ehealth-codesystem-role",
+                        "rm": "ch-ehealth-codesystem-role"
+                    },
+                    "title": "ch-ehealth-codesystem-role",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Hilfsperson",
+                        "en": "Assistant",
+                        "fr": "Auxiliaire",
+                        "it": "Persona ausiliara",
+                        "rm": "Persuna d'agid"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "ASS",
+            "name": {
+                "de": "Hilfsperson",
+                "en": "Assistant",
+                "fr": "Auxiliaire",
+                "it": "Persona ausiliara",
+                "rm": "Persuna d'agid"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.10.6",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-role",
+                        "en": "ch-ehealth-codesystem-role",
+                        "fr": "ch-ehealth-codesystem-role",
+                        "it": "ch-ehealth-codesystem-role",
+                        "rm": "ch-ehealth-codesystem-role"
+                    },
+                    "title": "ch-ehealth-codesystem-role",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Stellvertretung",
+                        "en": "Representative",
+                        "fr": "Représentant",
+                        "it": "Rappresentante",
+                        "rm": "Substituziun"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "REP",
+            "name": {
+                "de": "Stellvertretung",
+                "en": "Representative",
+                "fr": "Représentant",
+                "it": "Rappresentante",
+                "rm": "Substituziun"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.10.6",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-role",
+                        "en": "ch-ehealth-codesystem-role",
+                        "fr": "ch-ehealth-codesystem-role",
+                        "it": "ch-ehealth-codesystem-role",
+                        "rm": "ch-ehealth-codesystem-role"
+                    },
+                    "title": "ch-ehealth-codesystem-role",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Technischer Benutzer",
+                        "en": "Technical user",
+                        "fr": "Utilisateur technique",
+                        "it": "Utente tecnico",
+                        "rm": "Utilisader tecnic"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "TCU",
+            "name": {
+                "de": "Technischer Benutzer",
+                "en": "Technical user",
+                "fr": "Utilisateur technique",
+                "it": "Utente tecnico",
+                "rm": "Utilisader tecnic"
+            }
+        }
+    ]
+}

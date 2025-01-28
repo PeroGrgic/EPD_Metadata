@@ -1,0 +1,3072 @@
+{
+    "codeListEntries": [
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Chirurgie",
+                        "en": "Surgery",
+                        "fr": "Chirurgie",
+                        "it": "Chirurgia",
+                        "rm": "Chirurgia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1002",
+            "name": {
+                "de": "Chirurgie",
+                "en": "Surgery",
+                "fr": "Chirurgie",
+                "it": "Chirurgia",
+                "rm": "Chirurgia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Gynäkologie und Geburtshilfe",
+                        "en": "Gynaecology and obstetrics",
+                        "fr": "Gynécologie et obstétrique",
+                        "it": "Ginecologia e ostetricia",
+                        "rm": "Ginecologia ed assistenza al part"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1003",
+            "name": {
+                "de": "Gynäkologie und Geburtshilfe",
+                "en": "Gynaecology and obstetrics",
+                "fr": "Gynécologie et obstétrique",
+                "it": "Ginecologia e ostetricia",
+                "rm": "Ginecologia ed assistenza al part"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Herz- und thorakale Gefässchirurgie",
+                        "en": "Cardiac and thoracic vascular surgery",
+                        "fr": "Chirurgie cardiaque et vasculaire thoracique",
+                        "it": "Chirurgia del cuore e dei vasi toracici",
+                        "rm": "Chirurgia dal cor e chirurgia vasculara dal torax"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1004",
+            "name": {
+                "de": "Herz- und thorakale Gefässchirurgie",
+                "en": "Cardiac and thoracic vascular surgery",
+                "fr": "Chirurgie cardiaque et vasculaire thoracique",
+                "it": "Chirurgia del cuore e dei vasi toracici",
+                "rm": "Chirurgia dal cor e chirurgia vasculara dal torax"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kinder- und Jugendmedizin",
+                        "en": "Paediatrics",
+                        "fr": "Pédiatrie",
+                        "it": "Pediatria",
+                        "rm": "Pediatria"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1006",
+            "name": {
+                "de": "Kinder- und Jugendmedizin",
+                "en": "Paediatrics",
+                "fr": "Pédiatrie",
+                "it": "Pediatria",
+                "rm": "Pediatria"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Ophthalmologie",
+                        "en": "Ophthalmology",
+                        "fr": "Ophtalmologie",
+                        "it": "Oftalmologia",
+                        "rm": "Oftalmologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1007",
+            "name": {
+                "de": "Ophthalmologie",
+                "en": "Ophthalmology",
+                "fr": "Ophtalmologie",
+                "it": "Oftalmologia",
+                "rm": "Oftalmologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Oto-Rhino-Laryngologie",
+                        "en": "Otorhinolaryngology",
+                        "fr": "Oto-rhino-laryngologie",
+                        "it": "Otorinolaringoiatria",
+                        "rm": "Oto-rino-laringologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1008",
+            "name": {
+                "de": "Oto-Rhino-Laryngologie",
+                "en": "Otorhinolaryngology",
+                "fr": "Oto-rhino-laryngologie",
+                "it": "Otorinolaringoiatria",
+                "rm": "Oto-rino-laringologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Pathologie",
+                        "en": "Pathology",
+                        "fr": "Pathologie",
+                        "it": "Patologia",
+                        "rm": "Patologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1009",
+            "name": {
+                "de": "Pathologie",
+                "en": "Pathology",
+                "fr": "Pathologie",
+                "it": "Patologia",
+                "rm": "Patologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kieferorthopädie",
+                        "en": "Orthodontics",
+                        "fr": "Orthodontie",
+                        "it": "Ortodonzia",
+                        "rm": "Ortopedia da la missella"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1010",
+            "name": {
+                "de": "Kieferorthopädie",
+                "en": "Orthodontics",
+                "fr": "Orthodontie",
+                "it": "Ortodonzia",
+                "rm": "Ortopedia da la missella"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Fachchiropraktik",
+                        "en": "Chiropractic specialist",
+                        "fr": "Chiropratique spécialisée",
+                        "it": "Chiropratica specialistica",
+                        "rm": "Chiropratica speziala"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1011",
+            "name": {
+                "de": "Fachchiropraktik",
+                "en": "Chiropractic specialist",
+                "fr": "Chiropratique spécialisée",
+                "it": "Chiropratica specialistica",
+                "rm": "Chiropratica speziala"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Anästhesiologie",
+                        "en": "Anaesthesiology",
+                        "fr": "Anesthésiologie",
+                        "it": "Anestesiologia",
+                        "rm": "Anestesiologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1012",
+            "name": {
+                "de": "Anästhesiologie",
+                "en": "Anaesthesiology",
+                "fr": "Anesthésiologie",
+                "it": "Anestesiologia",
+                "rm": "Anestesiologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Neurochirurgie",
+                        "en": "Neurosurgery",
+                        "fr": "Neurochirurgie",
+                        "it": "Neurochirurgia",
+                        "rm": "Neurochirurgia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1013",
+            "name": {
+                "de": "Neurochirurgie",
+                "en": "Neurosurgery",
+                "fr": "Neurochirurgie",
+                "it": "Neurochirurgia",
+                "rm": "Neurochirurgia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Neurologie",
+                        "en": "Neurology",
+                        "fr": "Neurologie",
+                        "it": "Neurologia",
+                        "rm": "Neurologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1014",
+            "name": {
+                "de": "Neurologie",
+                "en": "Neurology",
+                "fr": "Neurologie",
+                "it": "Neurologia",
+                "rm": "Neurologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Orthopädische Chirurgie und Traumatologie des Bewegungsapparates",
+                        "en": "Orthopaedic surgery and traumatology of the locomotor apparatus",
+                        "fr": "Chirurgie orthopédique et traumatologie de l’appareil locomoteur",
+                        "it": "Chirurgia ortopedica e traumatologia dell’apparato locomotore",
+                        "rm": "Chirurgia ortopedica e traumatologia da l'apparat motoric"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1015",
+            "name": {
+                "de": "Orthopädische Chirurgie und Traumatologie des Bewegungsapparates",
+                "en": "Orthopaedic surgery and traumatology of the locomotor apparatus",
+                "fr": "Chirurgie orthopédique et traumatologie de l’appareil locomoteur",
+                "it": "Chirurgia ortopedica e traumatologia dell’apparato locomotore",
+                "rm": "Chirurgia ortopedica e traumatologia da l'apparat motoric"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Pneumologie",
+                        "en": "Pneumology",
+                        "fr": "Pneumologie",
+                        "it": "Pneumologia",
+                        "rm": "Pneumologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1016",
+            "name": {
+                "de": "Pneumologie",
+                "en": "Pneumology",
+                "fr": "Pneumologie",
+                "it": "Pneumologia",
+                "rm": "Pneumologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Psychiatrie und Psychotherapie",
+                        "en": "Psychiatry and psychotherapy",
+                        "fr": "Psychiatrie et psychothérapie",
+                        "it": "Psichiatria e psicoterapia",
+                        "rm": "Psichiatria e psicoterapia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1017",
+            "name": {
+                "de": "Psychiatrie und Psychotherapie",
+                "en": "Psychiatry and psychotherapy",
+                "fr": "Psychiatrie et psychothérapie",
+                "it": "Psichiatria e psicoterapia",
+                "rm": "Psichiatria e psicoterapia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Urologie",
+                        "en": "Urology",
+                        "fr": "Urologie",
+                        "it": "Urologia",
+                        "rm": "Urologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1018",
+            "name": {
+                "de": "Urologie",
+                "en": "Urology",
+                "fr": "Urologie",
+                "it": "Urologia",
+                "rm": "Urologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Allergologie und klinische Immunologie",
+                        "en": "Allergology and clinical immunology",
+                        "fr": "Allergologie et immunologie clinique",
+                        "it": "Allergologia e immunologia clinica",
+                        "rm": "Allergologia ed immunologia clinica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1019",
+            "name": {
+                "de": "Allergologie und klinische Immunologie",
+                "en": "Allergology and clinical immunology",
+                "fr": "Allergologie et immunologie clinique",
+                "it": "Allergologia e immunologia clinica",
+                "rm": "Allergologia ed immunologia clinica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Arbeitsmedizin",
+                        "en": "Occupational medicine",
+                        "fr": "Médecine du travail",
+                        "it": "Medicina del lavoro",
+                        "rm": "Medischina da lavur"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1020",
+            "name": {
+                "de": "Arbeitsmedizin",
+                "en": "Occupational medicine",
+                "fr": "Médecine du travail",
+                "it": "Medicina del lavoro",
+                "rm": "Medischina da lavur"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Dermatologie und Venerologie",
+                        "en": "Dermatology and venereology",
+                        "fr": "Dermatologie et vénéréologie",
+                        "it": "Dermatologia e venereologia",
+                        "rm": "Dermatologia e venerologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1021",
+            "name": {
+                "de": "Dermatologie und Venerologie",
+                "en": "Dermatology and venereology",
+                "fr": "Dermatologie et vénéréologie",
+                "it": "Dermatologia e venereologia",
+                "rm": "Dermatologia e venerologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Endokrinologie und Diabetologie",
+                        "en": "Endocrinology and diabetology",
+                        "fr": "Endocrinologie et diabétologie",
+                        "it": "Endocrinologia e diabetologia",
+                        "rm": "Endocrinologia e diabetologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1022",
+            "name": {
+                "de": "Endokrinologie und Diabetologie",
+                "en": "Endocrinology – Diabetology",
+                "fr": "Endocrinologie et diabétologie",
+                "it": "Endocrinologia e diabetologia",
+                "rm": "Endocrinologia e diabetologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Gastroenterologie",
+                        "en": "Gastroenterology",
+                        "fr": "Gastroentérologie",
+                        "it": "Gastroenterologia",
+                        "rm": "Gastroenterologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1023",
+            "name": {
+                "de": "Gastroenterologie",
+                "en": "Gastroenterology",
+                "fr": "Gastroentérologie",
+                "it": "Gastroenterologia",
+                "rm": "Gastroenterologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Hämatologie",
+                        "en": "Haematology",
+                        "fr": "Hématologie",
+                        "it": "Ematologia",
+                        "rm": "Hematologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1024",
+            "name": {
+                "de": "Hämatologie",
+                "en": "Haematology",
+                "fr": "Hématologie",
+                "it": "Ematologia",
+                "rm": "Hematologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kardiologie",
+                        "en": "Cardiology",
+                        "fr": "Cardiologie",
+                        "it": "Cardiologia",
+                        "rm": "Cardiologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1025",
+            "name": {
+                "de": "Kardiologie",
+                "en": "Cardiology",
+                "fr": "Cardiologie",
+                "it": "Cardiologia",
+                "rm": "Cardiologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Mund-, Kiefer- und Gesichtschirurgie",
+                        "en": "Oral and maxillofacial surgery",
+                        "fr": "Chirurgie orale et maxillo-faciale",
+                        "it": "Chirurgia oro-maxillo-facciale",
+                        "rm": "Chirurgia da la bucca, da la missella e da la fatscha"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1026",
+            "name": {
+                "de": "Mund-, Kiefer- und Gesichtschirurgie",
+                "en": "Oral and maxillofacial surgery",
+                "fr": "Chirurgie orale et maxillo-faciale",
+                "it": "Chirurgia oro-maxillo-facciale",
+                "rm": "Chirurgia da la bucca, da la missella e da la fatscha"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kinder- und Jugendpsychiatrie und -psychotherapie",
+                        "en": "Child and adolescent psychiatry and psychotherapy",
+                        "fr": "Psychiatrie et psychothérapie d’enfants et d’adolescents",
+                        "it": "Psichiatria e psicoterapia infantile e dell’adolescenza",
+                        "rm": "Psichiatria e psicoterapia d'uffants e da giuvenils"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1027",
+            "name": {
+                "de": "Kinder- und Jugendpsychiatrie und -psychotherapie",
+                "en": "Child and adolescent psychiatry and psychotherapy",
+                "fr": "Psychiatrie et psychothérapie d’enfants et d’adolescents",
+                "it": "Psichiatria e psicoterapia infantile e dell’adolescenza",
+                "rm": "Psichiatria e psicoterapia d'uffants e da giuvenils"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kinderchirurgie",
+                        "en": "Paediatric surgery",
+                        "fr": "Chirurgie pédiatrique",
+                        "it": "Chirurgia pediatrica",
+                        "rm": "Chirurgia d'uffants"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1028",
+            "name": {
+                "de": "Kinderchirurgie",
+                "en": "Paediatric surgery",
+                "fr": "Chirurgie pédiatrique",
+                "it": "Chirurgia pediatrica",
+                "rm": "Chirurgia d'uffants"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Klinische Pharmakologie und Toxikologie",
+                        "en": "Clinical pharmacology and toxicology",
+                        "fr": "Pharmacologie et toxicologie cliniques",
+                        "it": "Farmacologia e tossicologia cliniche",
+                        "rm": "Farmacologia e toxicologia clinica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1029",
+            "name": {
+                "de": "Klinische Pharmakologie und Toxikologie",
+                "en": "Clinical pharmacology and toxicology",
+                "fr": "Pharmacologie et toxicologie cliniques",
+                "it": "Farmacologia e tossicologia cliniche",
+                "rm": "Farmacologia e toxicologia clinica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Radiologie",
+                        "en": "Radiology",
+                        "fr": "Radiologie",
+                        "it": "Radiologia",
+                        "rm": "Radiologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1030",
+            "name": {
+                "de": "Radiologie",
+                "en": "Radiology",
+                "fr": "Radiologie",
+                "it": "Radiologia",
+                "rm": "Radiologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Nuklearmedizin",
+                        "en": "Nuclear medicine",
+                        "fr": "Médecine nucléaire",
+                        "it": "Medicina nucleare",
+                        "rm": "Medischina nucleara"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1031",
+            "name": {
+                "de": "Nuklearmedizin",
+                "en": "Nuclear medicine",
+                "fr": "Médecine nucléaire",
+                "it": "Medicina nucleare",
+                "rm": "Medischina nucleara"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Radio-Onkologie/Strahlentherapie",
+                        "en": "Radio-oncology/radiotherapy",
+                        "fr": "Radio-oncologie/radiothérapie",
+                        "it": "Radio-oncologia/radioterapia",
+                        "rm": "Radio-oncologia/radioterapia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1032",
+            "name": {
+                "de": "Radio-Onkologie/Strahlentherapie",
+                "en": "Radio-oncology / radiotherapy",
+                "fr": "Radio-oncologie/radiothérapie",
+                "it": "Radio-oncologia/radioterapia",
+                "rm": "Radio-oncologia/radioterapia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Nephrologie",
+                        "en": "Nephrology",
+                        "fr": "Néphrologie",
+                        "it": "Nefrologia",
+                        "rm": "Nefrologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1033",
+            "name": {
+                "de": "Nephrologie",
+                "en": "Nephrology",
+                "fr": "Néphrologie",
+                "it": "Nefrologia",
+                "rm": "Nefrologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Physikalische Medizin und Rehabilitation",
+                        "en": "Physical medicine and rehabilitation",
+                        "fr": "Médecine physique et réadaptation",
+                        "it": "Medicina fisica e riabilitazione",
+                        "rm": "Medischina fisicala e reabilitaziun"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1034",
+            "name": {
+                "de": "Physikalische Medizin und Rehabilitation",
+                "en": "Physical medicine and rehabilitation",
+                "fr": "Médecine physique et réadaptation",
+                "it": "Medicina fisica e riabilitazione",
+                "rm": "Medischina fisicala e reabilitaziun"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Plastische, Rekonstruktive und Ästhetische Chirurgie",
+                        "en": "Plastic, reconstructive and aesthetic surgery",
+                        "fr": "Chirurgie plastique, reconstructive et esthétique",
+                        "it": "Chirurgia plastica, ricostruttiva ed estetica",
+                        "rm": "Chirurgia plastica, reconstructiva ed estetica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1035",
+            "name": {
+                "de": "Plastische, Rekonstruktive und Ästhetische Chirurgie",
+                "en": "Plastic, reconstructive and aesthetic surgery",
+                "fr": "Chirurgie plastique, reconstructive et esthétique",
+                "it": "Chirurgia plastica, ricostruttiva ed estetica",
+                "rm": "Chirurgia plastica, reconstructiva ed estetica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Prävention und Gesundheitswesen",
+                        "en": "Prevention and public health",
+                        "fr": "Prévention et santé publique",
+                        "it": "Prevenzione e salute pubblica",
+                        "rm": "Prevenziun e sanadad publica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1036",
+            "name": {
+                "de": "Prävention und Gesundheitswesen",
+                "en": "Prevention and public health",
+                "fr": "Prévention et santé publique",
+                "it": "Prevenzione e salute pubblica",
+                "rm": "Prevenziun e sanadad publica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Rheumatologie",
+                        "en": "Rheumatology",
+                        "fr": "Rhumatologie",
+                        "it": "Reumatologia",
+                        "rm": "Reumatologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1037",
+            "name": {
+                "de": "Rheumatologie",
+                "en": "Rheumatology",
+                "fr": "Rhumatologie",
+                "it": "Reumatologia",
+                "rm": "Reumatologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Tropen- und Reisemedizin",
+                        "en": "Tropical and travel medicine",
+                        "fr": "Médecine tropicale et médecine des voyages",
+                        "it": "Medicina tropicale e medicina di viaggio",
+                        "rm": "Medischina da las tropas e da viadis"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1038",
+            "name": {
+                "de": "Tropen- und Reisemedizin",
+                "en": "Tropical and travel medicine",
+                "fr": "Médecine tropicale et médecine des voyages",
+                "it": "Medicina tropicale e medicina di viaggio",
+                "rm": "Medischina da las tropas e da viadis"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Infektiologie",
+                        "en": "Infectology",
+                        "fr": "Infectiologie",
+                        "it": "Malattie infettive",
+                        "rm": "Infecziologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1039",
+            "name": {
+                "de": "Infektiologie",
+                "en": "Infectology",
+                "fr": "Infectiologie",
+                "it": "Malattie infettive",
+                "rm": "Infecziologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Praktischer Arzt/Praktische Ärztin",
+                        "en": "General medical practitioner",
+                        "fr": "Médecin praticien",
+                        "it": "Medico generico",
+                        "rm": "Media generalista/medi generalist"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1040",
+            "name": {
+                "de": "Praktischer Arzt/Praktische Ärztin",
+                "en": "General medical practitioner",
+                "fr": "Médecin praticien",
+                "it": "Medico generico",
+                "rm": "Media generalista/medi generalist"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Angiologie",
+                        "en": "Angiology",
+                        "fr": "Angiologie",
+                        "it": "Angiologia",
+                        "rm": "Angiologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1041",
+            "name": {
+                "de": "Angiologie",
+                "en": "Angiology",
+                "fr": "Angiologie",
+                "it": "Angiologia",
+                "rm": "Angiologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Intensivmedizin",
+                        "en": "Intensive care medicine",
+                        "fr": "Médecine intensive",
+                        "it": "Medicina intensiva",
+                        "rm": "Medischina intensiva"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1042",
+            "name": {
+                "de": "Intensivmedizin",
+                "en": "Intensive care medicine",
+                "fr": "Médecine intensive",
+                "it": "Medicina intensiva",
+                "rm": "Medischina intensiva"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Medizinische Genetik",
+                        "en": "Medical genetics",
+                        "fr": "Génétique médicale",
+                        "it": "Genetica medica",
+                        "rm": "Genetica medicinala"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1043",
+            "name": {
+                "de": "Medizinische Genetik",
+                "en": "Medical genetics",
+                "fr": "Génétique médicale",
+                "it": "Genetica medica",
+                "rm": "Genetica medicinala"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Medizinische Onkologie",
+                        "en": "Medical oncology",
+                        "fr": "Oncologie médicale",
+                        "it": "Oncologia medica",
+                        "rm": "Oncologia medicinala"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1044",
+            "name": {
+                "de": "Medizinische Onkologie",
+                "en": "Medical oncology",
+                "fr": "Oncologie médicale",
+                "it": "Oncologia medica",
+                "rm": "Oncologia medicinala"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Pharmazeutische Medizin",
+                        "en": "Pharmaceutical medicine",
+                        "fr": "Médecine pharmaceutique",
+                        "it": "Medicina farmacologica",
+                        "rm": "Medischina farmaceutica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1045",
+            "name": {
+                "de": "Pharmazeutische Medizin",
+                "en": "Pharmaceutical medicine",
+                "fr": "Médecine pharmaceutique",
+                "it": "Medicina farmacologica",
+                "rm": "Medischina farmaceutica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Rechtsmedizin",
+                        "en": "Forensic medicine",
+                        "fr": "Médecine légale",
+                        "it": "Medicina legale",
+                        "rm": "Medischina forensica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1046",
+            "name": {
+                "de": "Rechtsmedizin",
+                "en": "Forensic medicine",
+                "fr": "Médecine légale",
+                "it": "Medicina legale",
+                "rm": "Medischina forensica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Oralchirurgie",
+                        "en": "Oral surgery",
+                        "fr": "Chirurgie orale",
+                        "it": "Chirurgia orale",
+                        "rm": "Chirurgia orala"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1047",
+            "name": {
+                "de": "Oralchirurgie",
+                "en": "Oral surgery",
+                "fr": "Chirurgie orale",
+                "it": "Chirurgia orale",
+                "rm": "Chirurgia orala"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Parodontologie",
+                        "en": "Paradontology",
+                        "fr": "Parodontologie",
+                        "it": "Parodontologia",
+                        "rm": "Parodontologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1048",
+            "name": {
+                "de": "Parodontologie",
+                "en": "Paradontology",
+                "fr": "Parodontologie",
+                "it": "Parodontologia",
+                "rm": "Parodontologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Rekonstruktive Zahnmedizin",
+                        "en": "Reconstructive dentistry",
+                        "fr": "Médecine dentaire reconstructive",
+                        "it": "Medicina dentaria riconstruttiva",
+                        "rm": "Odontologia reconstructiva"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1049",
+            "name": {
+                "de": "Rekonstruktive Zahnmedizin",
+                "en": "Reconstructive dentistry",
+                "fr": "Médecine dentaire reconstructive",
+                "it": "Medicina dentaria riconstruttiva",
+                "rm": "Odontologia reconstructiva"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Andere",
+                        "en": "Other",
+                        "fr": "Autre",
+                        "it": "Altre",
+                        "rm": "Auter"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1050",
+            "name": {
+                "de": "Andere",
+                "en": "Other",
+                "fr": "Autre",
+                "it": "Altre",
+                "rm": "Auter"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Allgemeine Innere Medizin",
+                        "en": "General internal medicine",
+                        "fr": "Médecine interne générale",
+                        "it": "Medicina interna generale",
+                        "rm": "Medischina interna generala"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1051",
+            "name": {
+                "de": "Allgemeine Innere Medizin",
+                "en": "General internal medicine",
+                "fr": "Médecine interne générale",
+                "it": "Medicina interna generale",
+                "rm": "Medischina interna generala"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Offizinpharmazie",
+                        "en": "Community pharmacy",
+                        "fr": "Pharmacie d’officine",
+                        "it": "Farmacia d’officina",
+                        "rm": "Farmazia d'ufficina"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1052",
+            "name": {
+                "de": "Offizinpharmazie",
+                "en": "Community pharmacy",
+                "fr": "Pharmacie d’officine",
+                "it": "Farmacia d’officina",
+                "rm": "Farmazia d'ufficina"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Spitalpharmazie",
+                        "en": "Hospital pharmacy",
+                        "fr": "Pharmacie hospitalière",
+                        "it": "Farmacia d’ospedale",
+                        "rm": "Farmazia d'ospital"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1053",
+            "name": {
+                "de": "Spitalpharmazie",
+                "en": "Hospital pharmacy",
+                "fr": "Pharmacie hospitalière",
+                "it": "Farmacia d’ospedale",
+                "rm": "Farmazia d'ospital"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Psychotherapie",
+                        "en": "Psychotherapy",
+                        "fr": "Psychothérapie",
+                        "it": "Psicoterapia",
+                        "rm": "Psicoterapia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1054",
+            "name": {
+                "de": "Psychotherapie",
+                "en": "Psychotherapy",
+                "fr": "Psychothérapie",
+                "it": "Psicoterapia",
+                "rm": "Psicoterapia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Kinder- und Jugendpsychologie",
+                        "en": "Child and adolescent psychology",
+                        "fr": "Psychologie des enfants et des adolescents",
+                        "it": "Psicologia dell’età evolutiva",
+                        "rm": "Psicologia d'uffants e da giuvenils"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1055",
+            "name": {
+                "de": "Kinder- und Jugendpsychologie",
+                "en": "Child and adolescent psychology",
+                "fr": "Psychologie des enfants et des adolescents",
+                "it": "Psicologia dell’età evolutiva",
+                "rm": "Psicologia d'uffants e da giuvenils"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Klinische Psychologie",
+                        "en": "Clinical psychology",
+                        "fr": "Psychologie clinique",
+                        "it": "Psicologia clinica",
+                        "rm": "Psicologia clinica"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1056",
+            "name": {
+                "de": "Klinische Psychologie",
+                "en": "Clinical psychology",
+                "fr": "Psychologie clinique",
+                "it": "Psicologia clinica",
+                "rm": "Psicologia clinica"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Neuropsychologie",
+                        "en": "Neuropsychology",
+                        "fr": "Neuropsychologie",
+                        "it": "Neuropsicologia",
+                        "rm": "Neuropsicologia"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1057",
+            "name": {
+                "de": "Neuropsychologie",
+                "en": "Neuropsychology",
+                "fr": "Neuropsychologie",
+                "it": "Neuropsicologia",
+                "rm": "Neuropsicologia"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Gesundheitspsychologie",
+                        "en": "Health psychology",
+                        "fr": "Psychologie de la santé",
+                        "it": "Psicologia della salute",
+                        "rm": "Psicologia da sanadad"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1058",
+            "name": {
+                "de": "Gesundheitspsychologie",
+                "en": "Health psychology",
+                "fr": "Psychologie de la santé",
+                "it": "Psicologia della salute",
+                "rm": "Psicologia da sanadad"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Handchirurgie",
+                        "en": "Hand surgery",
+                        "fr": "Chirurgie de la main",
+                        "it": "Chirurgia della mano",
+                        "rm": "Chirurgia dal maun"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1059",
+            "name": {
+                "de": "Handchirurgie",
+                "en": "Hand surgery",
+                "fr": "Chirurgie de la main",
+                "it": "Chirurgia della mano",
+                "rm": "Chirurgia dal maun"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Gefässchirurgie",
+                        "en": "Vascular surgery",
+                        "fr": "Chirurgie vasculaire",
+                        "it": "Chirurgia vascolare",
+                        "rm": "Chirurgia vasculara"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1060",
+            "name": {
+                "de": "Gefässchirurgie",
+                "en": "Vascular surgery",
+                "fr": "Chirurgie vasculaire",
+                "it": "Chirurgia vascolare",
+                "rm": "Chirurgia vasculara"
+            }
+        },
+        {
+            "annotations": [
+                {
+                    "identifier": "2.16.756.5.30.1.127.3.5",
+                    "text": {
+                        "de": "ch-ehealth-codesystem-medreg",
+                        "en": "ch-ehealth-codesystem-medreg",
+                        "fr": "ch-ehealth-codesystem-medreg",
+                        "it": "ch-ehealth-codesystem-medreg",
+                        "rm": "ch-ehealth-codesystem-medreg"
+                    },
+                    "title": "ch-ehealth-codesystem-medreg",
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": "end",
+                    "text": {
+                        "en": "01.06.2100"
+                    },
+                    "title": "end",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "start",
+                    "text": {
+                        "en": "01.06.2024"
+                    },
+                    "title": "start",
+                    "type": "Period"
+                },
+                {
+                    "identifier": "PS",
+                    "text": {
+                        "de": "Thoraxchirurgie",
+                        "en": "Thoracic surgery",
+                        "fr": "Chirurgie thoracique",
+                        "it": "Chirurgia toracica",
+                        "rm": "Chirurgia dal torax"
+                    },
+                    "title": "Preferred Synonym",
+                    "type": "Synonym"
+                }
+            ],
+            "code": "1061",
+            "name": {
+                "de": "Thoraxchirurgie",
+                "en": "Thoracic surgery",
+                "fr": "Chirurgie thoracique",
+                "it": "Chirurgia toracica",
+                "rm": "Chirurgia dal torax"
+            }
+        }
+    ]
+}
