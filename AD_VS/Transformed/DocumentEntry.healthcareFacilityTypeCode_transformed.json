@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Diagnostische Einrichtung",
                         "en": "Diagnostic institution",
@@ -39,7 +39,7 @@
                         "it": "istituto diagnostica",
                         "rm": "instituziun diagnostica"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Notfall- und Rettungsdienste",
                         "en": "Accident and Emergency department",
@@ -91,7 +91,7 @@
                         "it": "servizio di pronto soccorso e di salvataggio",
                         "rm": "servetsch d'urgenza e da salvament"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Gesundheitsbehörde",
                         "en": "Health Authority",
@@ -143,7 +143,7 @@
                         "it": "autorità sanitaria",
                         "rm": "autoritad da sanadad"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Organisation für Pflege zu Hause",
                         "en": "Private home-based care",
@@ -195,7 +195,7 @@
                         "it": "servizio di assistenza e cura a domicilio",
                         "rm": "organisaziun per la tgira a chasa"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Spital",
                         "en": "Hospital",
@@ -247,7 +247,7 @@
                         "it": "ospedale",
                         "rm": "ospital"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Armeeärztliche Dienste",
                         "en": "Military health institution",
@@ -299,7 +299,7 @@
                         "it": "servizio di medicina militare",
                         "rm": "servetsch da medischina militara"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Gesundheitseinrichtung in der Haftanstalt",
                         "en": "Prison based care site",
@@ -351,7 +351,7 @@
                         "it": "struttura sanitaria in uno stabilimento carcerario",
                         "rm": "structura da sanadad en in stabiliment giudizial"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Pflegeheim",
                         "en": "Nursing home",
@@ -403,7 +403,7 @@
                         "it": "casa di cura",
                         "rm": "chasa da tgira"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Apotheke",
                         "en": "Pharmacy",
@@ -455,7 +455,7 @@
                         "it": "farmacia",
                         "rm": "apoteca"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Ambulante Einrichtung",
                         "en": "Ambulatory care site",
@@ -507,7 +507,7 @@
                         "it": "struttura ambulatoriale",
                         "rm": "instituziun ambulanta"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Organisation für stationäre Rehabilitation",
                         "en": "Rehabilitation hospital",
@@ -559,7 +559,7 @@
                         "it": "istituto di riabilitazione stazionaria",
                         "rm": "institut da reabilitaziun staziunara"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Domizil des Patienten",
                         "en": "Client's or patient's home",
@@ -611,7 +611,7 @@
                         "it": "domicilio del paziente",
                         "rm": "domicil dal pazient"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Telemedizinische Einrichtung",
                         "en": "Telemedicine institution",
@@ -663,7 +663,7 @@
                         "it": "centro di telemedicina",
                         "rm": "instituziun da telemedischina"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Arztpraxis",
                         "en": "General practice premises",
@@ -715,7 +715,7 @@
                         "it": "studio medico",
                         "rm": "pratica da medi"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Behandlungsort",
                         "en": "Site of care",
@@ -767,7 +767,7 @@
                         "it": "luogo di trattamento",
                         "rm": "autras organisaziuns dals fatgs da tgira"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 },
                 {
@@ -778,8 +778,8 @@
                         "fr": "autres prestataires de soins",
                         "it": "altre organizzazioni sanitarie"
                     },
-                    "title": "Designation",
-                    "type": "Synonym"
+                    "title": "Acceptable",
+                    "type": "Designation"
                 }
             ],
             "code": "43741000",
@@ -822,7 +822,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Geburtshaus",
                         "en": "Birthing center",
@@ -830,7 +830,7 @@
                         "it": "casa di nascita",
                         "rm": "chasa da parturir"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -874,7 +874,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Zahnarztpraxis",
                         "en": "Dental practice",
@@ -882,7 +882,7 @@
                         "it": "studio dentistico",
                         "rm": "pratica da dentist"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],

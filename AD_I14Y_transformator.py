@@ -56,7 +56,7 @@ class AD_csv_to_i14y_json():
                 codeSystem.set_Text_RM(row[5])
                 codeSystem.set_Identifier(row[4])
 
-                synonymPS = Synonym("Preferred Synonym")
+                synonymPS = Synonym("Preferred")
                 if indexENps is not None:
                     synonymPS.set_text_EN(row[indexENps])#this is the EN synonym of the code
                 if indexDEps is not None:
@@ -68,7 +68,7 @@ class AD_csv_to_i14y_json():
                 if indexRMps is not None:
                     synonymPS.set_text_RM(row[indexRMps])
 
-                synonymAS = Synonym("Acceptable Synonym")
+                synonymAS = Synonym("Acceptable")
                 if indexENas is not None:
                     synonymAS.set_text_EN(row[indexENas])#this is the EN synonym of the code
                 if indexDEas is not None:
@@ -180,13 +180,13 @@ class Period():
 
 class Synonym():
     def __init__(self, title):
-        self.Title = "Designation"
+        self.Title = title
         self.Text_DE = None
         self.Text_FR = None
         self.Text_IT = None
         self.Text_EN = None
         self.Text_RM = None
-        if title == "preferred":
+        if title == "Preferred":
             self.identifier = "900000000000548007"
         else :
             self.identifier = "900000000000549004"
@@ -320,7 +320,7 @@ def create_json_output(codeListEntries):
                     "identifier": synonymAS.identifier,
                     "text": text_dict,
                     "title": synonymAS.Title,
-                    "type": "Synonym"
+                    "type": "Designation"
                 })
         json_entry = {
             "annotations": annotations,
@@ -370,3 +370,6 @@ if __name__ == "__main__":
             print(f"Transformed {filename} -> {new_filename}")
     
     print(f"All transformations complete. Output files written to: {output_folder}")
+
+
+#TODO: Mapping handling ergänzen

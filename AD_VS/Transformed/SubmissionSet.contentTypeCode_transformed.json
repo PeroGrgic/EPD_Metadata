@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Prozedur",
                         "en": "Procedure",
@@ -39,7 +39,7 @@
                         "it": "Procedura",
                         "rm": "Procedura"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],

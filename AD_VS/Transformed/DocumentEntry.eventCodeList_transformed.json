@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Ophthalmische Tomographie En Face",
                         "en": "Ophthalmic Tomography En Face",
@@ -39,7 +39,7 @@
                         "it": "Tomografia oftalmica En Face",
                         "rm": "Ophthalmische Tomographie En Face"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Ophthalmologische Tomographie B-Scan Volumenanalyse",
                         "en": "Ophthalmic Tomography B-scan Volume Analysis",
@@ -91,7 +91,7 @@
                         "it": "Analisi del volume della scansione B della tomografia oftalmica",
                         "rm": "Ophthalmologische Tomographie B-Scan Volumenanalyse"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Gesichtsfeld der Augen",
                         "en": "Ophthalmic Visual Field",
@@ -143,7 +143,7 @@
                         "it": "Perimetria computerizzata",
                         "rm": "Gesichtsfeld der Augen"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Digitales Röntgen",
                         "en": "Digital Radiography",
@@ -195,7 +195,7 @@
                         "it": "Radiografia digitale",
                         "rm": "Digitales Röntgen"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Augentomografie",
                         "en": "Ophthalmic Tomography",
@@ -247,7 +247,7 @@
                         "it": "Tomografia ottica computerizzata",
                         "rm": "Augentomografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Knochenmineraldensitometrie",
                         "en": "Bone Mineral Densitometry",
@@ -299,7 +299,7 @@
                         "it": "Mineralometria ossea computerizzata",
                         "rm": "Knochenmineraldensitometrie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Mammografie",
                         "en": "Mammography",
@@ -351,7 +351,7 @@
                         "it": "Mammografia",
                         "rm": "Mammografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Objektträger Mikroskopie",
                         "en": "Slide Microscopy",
@@ -403,7 +403,7 @@
                         "it": "Microscopia a vetrini",
                         "rm": "Objektträger Mikroskopie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Ultraschall",
                         "en": "Ultrasound",
@@ -455,7 +455,7 @@
                         "it": "Ecografia",
                         "rm": "Ultraschall"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Augenfotografie",
                         "en": "Ophthalmic Photography",
@@ -507,7 +507,7 @@
                         "it": "Fotografia oftalmica",
                         "rm": "Augenfotografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Intravaskuläre optische Kohärenztomografie",
                         "en": "Intravascular Optical Coherence Tomography",
@@ -559,7 +559,7 @@
                         "it": "Tomografia intravascolare a coerenza ottica",
                         "rm": "Intravaskuläre optische Kohärenztomografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Magnetresonanz",
                         "en": "Magnetic Resonance",
@@ -611,7 +611,7 @@
                         "it": "Risonanza magnetica",
                         "rm": "Magnetresonanz"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Elektrokardiografie",
                         "en": "Electrocardiography",
@@ -663,7 +663,7 @@
                         "it": "Elettrocardiografia",
                         "rm": "Elektrokardiografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Allgemeine Mikroskopie",
                         "en": "General Microscopy",
@@ -715,7 +715,7 @@
                         "it": "Microscopia generale",
                         "rm": "Allgemeine Mikroskopie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Intraorales Röntgen",
                         "en": "Intra-oral Radiography",
@@ -767,7 +767,7 @@
                         "it": "Radiografia intraorale",
                         "rm": "Intraorales Röntgen"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Röntgen-Angiografie",
                         "en": "X-Ray Angiography",
@@ -819,7 +819,7 @@
                         "it": "Angiografia a raggi X",
                         "rm": "Röntgen-Angiografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Fotografie mit externer Kamera",
                         "en": "External-camera Photography",
@@ -871,7 +871,7 @@
                         "it": "Fotografia con fotocamera esterna",
                         "rm": "Fotografie mit externer Kamera"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Sehschärfe",
                         "en": "Visual Acuity",
@@ -923,7 +923,7 @@
                         "it": "Acutezza visiva",
                         "rm": "Sehschärfe"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Intravaskulärer Ultraschall",
                         "en": "Intravascular Ultrasound",
@@ -975,7 +975,7 @@
                         "it": "Ecografia intravascolare",
                         "rm": "Intravaskulärer Ultraschall"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Computerradiografie",
                         "en": "Computed Radiography",
@@ -1027,7 +1027,7 @@
                         "it": "Radiografia computerizzata",
                         "rm": "Computerradiografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Endoskopie",
                         "en": "Endoscopy",
@@ -1079,7 +1079,7 @@
                         "it": "Endoscopia",
                         "rm": "Endoskopie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Autorefraktion",
                         "en": "Autorefraction",
@@ -1131,7 +1131,7 @@
                         "it": "Autorifrazione",
                         "rm": "Autorefraktion"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Computertomografie",
                         "en": "Computed Tomography",
@@ -1183,7 +1183,7 @@
                         "it": "Tomografia computerizzata",
                         "rm": "Computertomografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Optischer Oberflächenscanner",
                         "en": "Optical Surface Scanner",
@@ -1235,7 +1235,7 @@
                         "it": "Scanner ottico per superfici",
                         "rm": "Optischer Oberflächenscanner"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Linsenmessung",
                         "en": "Lensometry",
@@ -1287,7 +1287,7 @@
                         "it": "Focometria",
                         "rm": "Linsenmessung"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1331,7 +1331,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Röntgenbildgebung",
                         "en": "Radiographic imaging",
@@ -1339,7 +1339,7 @@
                         "it": "Imaging radiografico",
                         "rm": "Röntgenbildgebung"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1383,7 +1383,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Radio-Fluoroskopie",
                         "en": "Radiofluoroscopy",
@@ -1391,7 +1391,7 @@
                         "it": "Radiofluoroscopia",
                         "rm": "Radio-Fluoroskopie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1435,7 +1435,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Keratometrie",
                         "en": "Keratometry",
@@ -1443,7 +1443,7 @@
                         "it": "Cheratometria",
                         "rm": "Keratometrie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1487,7 +1487,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Hämodynamische Druckkurve",
                         "en": "Hemodynamic Waveform",
@@ -1495,7 +1495,7 @@
                         "it": "Monitoraggio emodinamico",
                         "rm": "Hämodynamische Druckkurve"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1539,7 +1539,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Augenachsenmessungen",
                         "en": "Ophthalmic Axial Measurements",
@@ -1547,7 +1547,7 @@
                         "it": "Misurazioni oftalmiche assiali",
                         "rm": "Augenachsenmessungen"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1591,7 +1591,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Nuklearmedizin",
                         "en": "Nuclear Medicine",
@@ -1599,7 +1599,7 @@
                         "it": "Medicina nucleare",
                         "rm": "Nuklearmedizin"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1643,7 +1643,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Optische Kohärenztomografie",
                         "en": "Optical Coherence Tomography",
@@ -1651,7 +1651,7 @@
                         "it": "Tomografia a coerenza ottica",
                         "rm": "Optische Kohärenztomografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1695,7 +1695,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Ultraschall-Knochendichtemessung",
                         "en": "Ultrasound Bone Densitometry",
@@ -1703,7 +1703,7 @@
                         "it": "Densitometria ossea a ultrasuoni",
                         "rm": "Ultraschall-Knochendichtemessun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1747,7 +1747,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Positronen-Emissions-Tomografie",
                         "en": "Positron emission tomography",
@@ -1755,7 +1755,7 @@
                         "it": "Tomografia a emissione di positroni",
                         "rm": "Positronen-Emissions-Tomografie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1799,7 +1799,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Herz-Elektrophysiologie",
                         "en": "Cardiac Electrophysiology",
@@ -1807,7 +1807,7 @@
                         "it": "Elettrofisiologia cardiaca",
                         "rm": "Herz-Elektrophysiologie"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1851,7 +1851,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Panoramaröntgen",
                         "en": "Panoramic X-Ray",
@@ -1859,7 +1859,7 @@
                         "it": "Radiografia panoramica",
                         "rm": "Panoramaröntgen"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1903,7 +1903,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Subjektive Refraktion",
                         "en": "Subjective Refraction",
@@ -1911,7 +1911,7 @@
                         "it": "Rifrazione soggettiva",
                         "rm": "Subjektive Refraktion"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -1955,7 +1955,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Augenkartierung",
                         "en": "Ophthalmic Mapping",
@@ -1963,7 +1963,7 @@
                         "it": "Mappatura oftalmica",
                         "rm": "Augenkartierung"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -2007,7 +2007,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Augenrefraktion",
                         "en": "Ophthalmic Refraction",
@@ -2015,7 +2015,7 @@
                         "it": "Rifrazione oggettiva",
                         "rm": "Augenrefraktion"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],

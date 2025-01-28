@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Weiblich",
                         "en": "Female",
@@ -39,7 +39,7 @@
                         "it": "Femminile",
                         "rm": "Feminin"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Männlich",
                         "en": "Male",
@@ -91,7 +91,7 @@
                         "it": "Maschile",
                         "rm": "Masculin"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Anderes",
                         "en": "Other",
@@ -143,7 +143,7 @@
                         "it": "Altro",
                         "rm": "Auter"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Unbekannt",
                         "en": "Unknown",
@@ -195,7 +195,7 @@
                         "it": "Sconosciuto",
                         "rm": "Nunenconuschent"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],

@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Automatisches Hochladen von radiologischen Inhalten",
                         "en": "Automatic upload of radiological contents",
@@ -39,7 +39,7 @@
                         "it": "Caricamento automatico del contenuto radiologico",
                         "rm": "Chargia automatica dal cuntegn radiologic"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Notfallzugriff",
                         "en": "Emergency Access",
@@ -91,7 +91,7 @@
                         "it": "Accesso di emergenza",
                         "rm": "Access d'urgenza"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Normaler Zugriff",
                         "en": "Normal Access",
@@ -143,7 +143,7 @@
                         "it": "Accesso normale",
                         "rm": "Access normal"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Automatisches Hochladen",
                         "en": "Automatic Upload",
@@ -195,7 +195,7 @@
                         "it": "Caricamento automatico",
                         "rm": "Chargia automatica"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],

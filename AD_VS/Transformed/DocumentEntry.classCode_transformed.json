@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Konsultationsbericht",
                         "en": "Report of clinical encounter",
@@ -39,7 +39,7 @@
                         "it": "rapporto di visita medica",
                         "rm": "rapport da consultaziun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Zuweisungsschreiben",
                         "en": "Referral note",
@@ -91,7 +91,7 @@
                         "it": "lettera d'invio",
                         "rm": "brev d'assegnaziun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Untersuchungsauftrag",
                         "en": "Order",
@@ -143,7 +143,7 @@
                         "it": "richiesta di esami",
                         "rm": "incumbensa da consultaziun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Zusammenfassung",
                         "en": "Summary",
@@ -195,7 +195,7 @@
                         "it": "riepilogo",
                         "rm": "rapport resumà"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Interventionsbericht",
                         "en": "Procedure report",
@@ -247,7 +247,7 @@
                         "it": "rapporto operatorio",
                         "rm": "rapport d'intervenziun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Behandlungsplan",
                         "en": "Care plan",
@@ -299,7 +299,7 @@
                         "it": "piano di cura",
                         "rm": "plan da tractament"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Verschreibung",
                         "en": "Prescription",
@@ -351,7 +351,7 @@
                         "it": "prescrizione medica",
                         "rm": "prescripziun"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 },
                 {
@@ -361,8 +361,8 @@
                         "fr": "ordonnance",
                         "rm": "recept"
                     },
-                    "title": "Designation",
-                    "type": "Synonym"
+                    "title": "Acceptable",
+                    "type": "Designation"
                 }
             ],
             "code": "440545006",
@@ -405,7 +405,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Patientendokumentation",
                         "en": "Patient documentation",
@@ -413,7 +413,7 @@
                         "it": "documentazione del paziente",
                         "rm": "documentaziun da lunga durada"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -457,7 +457,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Einverständniserklärung",
                         "en": "Consent",
@@ -465,7 +465,7 @@
                         "it": "consenso",
                         "rm": "consentiment"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -509,7 +509,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Patientenverfügung",
                         "en": "Advance directives",
@@ -517,7 +517,7 @@
                         "it": "direttive anticipate",
                         "rm": "disposiziun dal pazient"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -561,7 +561,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Rückverfolgung der EPD Zugriffe",
                         "en": "Record access",
@@ -569,7 +569,7 @@
                         "it": "calloutronologia degli accessi alla CIP",
                         "rm": "repersequitabladad da l'access al DEP"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -613,7 +613,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Notfallkarte",
                         "en": "Emergency ID card",
@@ -621,7 +621,7 @@
                         "it": "tessera di emergenza",
                         "rm": "attest d'urgenza"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -665,7 +665,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Organspendeausweis",
                         "en": "Organ donor card",
@@ -673,7 +673,7 @@
                         "it": "tessera di donatore di organi",
                         "rm": "attest da donatur d'organs"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -717,7 +717,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Administratives Dokument",
                         "en": "Administrative document",
@@ -725,7 +725,7 @@
                         "it": "documento amministrativo",
                         "rm": "document administrativ"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -769,7 +769,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Dokument zu gesundheitsrelevantem Ereignis",
                         "en": "Event report",
@@ -777,7 +777,7 @@
                         "it": "documento concernente un evento rilevante per la salute",
                         "rm": "document concernent  in eveniment relevant per la sanadad"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
@@ -821,7 +821,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Geburtsbericht",
                         "en": "Birth report",
@@ -829,7 +829,7 @@
                         "it": "rapporto del parto",
                         "rm": "rapport da gravidanza"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 },
                 {
@@ -841,8 +841,8 @@
                         "it": "rapporto di gravidanza",
                         "rm": "rapport da naschientscha"
                     },
-                    "title": "Designation",
-                    "type": "Synonym"
+                    "title": "Acceptable",
+                    "type": "Designation"
                 }
             ],
             "code": "2171000195109",
@@ -885,7 +885,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "900000000000549004",
+                    "identifier": "900000000000548007",
                     "text": {
                         "de": "Sonstige Dokumentation",
                         "en": "Other documentation",
@@ -893,7 +893,7 @@
                         "it": "altra documentazione",
                         "rm": "document betg designà pli precis"
                     },
-                    "title": "Designation",
+                    "title": "Preferred",
                     "type": "Designation"
                 }
             ],
