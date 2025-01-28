@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Arabisch",
                         "en": "Arabic",
@@ -39,8 +39,8 @@
                         "it": "Arabo",
                         "rm": "Arab"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ar",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Bengalisch",
                         "en": "Bengali",
@@ -91,8 +91,8 @@
                         "it": "Bengalese",
                         "rm": "Bengal"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "bn",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Tschechisch",
                         "en": "Czech",
@@ -143,8 +143,8 @@
                         "it": "Ceco",
                         "rm": "Tschec"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "cs",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Dänisch",
                         "en": "Danish",
@@ -195,8 +195,8 @@
                         "it": "Danese",
                         "rm": "Danais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "da",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Deutsch",
                         "en": "German",
@@ -247,8 +247,8 @@
                         "it": "Tedesco",
                         "rm": "Tudestg"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "de",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Deutsch (Österreich)",
                         "en": "German (Austria)",
@@ -299,8 +299,8 @@
                         "it": "Tedesco (Austria)",
                         "rm": "Tudestg (Austria)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "de-AT",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Deutsch (Schweiz)",
                         "en": "German (Switzerland)",
@@ -351,8 +351,8 @@
                         "it": "Tedesco (Svizzera)",
                         "rm": "Tudestg (Svizra)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "de-CH",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Deutsch (Deutschland)",
                         "en": "German (Germany)",
@@ -403,8 +403,8 @@
                         "it": "Tedesco (Germania)",
                         "rm": "Tudestg (Germania)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "de-DE",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Griechisch",
                         "en": "Greek",
@@ -455,8 +455,8 @@
                         "it": "Greco",
                         "rm": "Grec"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "el",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch",
                         "en": "English",
@@ -507,8 +507,8 @@
                         "it": "Inglese",
                         "rm": "Englais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Australien)",
                         "en": "English (Australia)",
@@ -559,8 +559,8 @@
                         "it": "Inglese (Australia)",
                         "rm": "Englais (Australia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-AU",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Kanada)",
                         "en": "English (Canada)",
@@ -611,8 +611,8 @@
                         "it": "Inglese (Canada)",
                         "rm": "Englais (Canada)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-CA",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Grossbritannien)",
                         "en": "English (Great Britain)",
@@ -663,8 +663,8 @@
                         "it": "Inglese (Gran Bretagna)",
                         "rm": "Englais (Gronda Britannia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-GB",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Indien)",
                         "en": "English (India)",
@@ -715,8 +715,8 @@
                         "it": "Inglese (India)",
                         "rm": "Englais (India)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-IN",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Neuseeland)",
                         "en": "English (New Zealand)",
@@ -767,8 +767,8 @@
                         "it": "Inglese (Nuova Zelanda)",
                         "rm": "Englais (Nova Zelanda)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-NZ",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (Singapur)",
                         "en": "English (Singapore)",
@@ -819,8 +819,8 @@
                         "it": "Inglese (Singapore)",
                         "rm": "Englais (Singapur)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-SG",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Englisch (USA)",
                         "en": "English (United States)",
@@ -871,8 +871,8 @@
                         "it": "Inglese (Stati Uniti)",
                         "rm": "Englais (USA)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "en-US",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spanisch",
                         "en": "Spanish",
@@ -923,8 +923,8 @@
                         "it": "Spagnolo",
                         "rm": "Spagnol"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "es",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spanisch (Argentinien)",
                         "en": "Spanish (Argentina)",
@@ -975,8 +975,8 @@
                         "it": "Spagnolo (Argentina)",
                         "rm": "Spagnol (Argentina)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "es-AR",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spanisch (Spanien)",
                         "en": "Spanish (Spain)",
@@ -1027,8 +1027,8 @@
                         "it": "Spagnolo (Spagna)",
                         "rm": "Spagnol (Spagna)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "es-ES",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spanisch (Uruguay)",
                         "en": "Spanish (Uruguay)",
@@ -1079,8 +1079,8 @@
                         "it": "Spagnolo (Uruguay)",
                         "rm": "Spagnol (Uruguai)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "es-UY",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Finnisch",
                         "en": "Finnish",
@@ -1131,8 +1131,8 @@
                         "it": "Finlandese",
                         "rm": "Finlandais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fi",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Französisch",
                         "en": "French",
@@ -1183,8 +1183,8 @@
                         "it": "Francese",
                         "rm": "Franzos"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fr",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Französisch (Belgien)",
                         "en": "French (Belgium)",
@@ -1235,8 +1235,8 @@
                         "it": "Francese (Belgio)",
                         "rm": "Franzos (Belgia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fr-BE",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Französisch (Schweiz)",
                         "en": "French (Switzerland)",
@@ -1287,8 +1287,8 @@
                         "it": "Francese (Svizzera)",
                         "rm": "Franzos (Svizra)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fr-CH",
@@ -1331,7 +1331,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Französisch (Frankreich)",
                         "en": "French (France)",
@@ -1339,8 +1339,8 @@
                         "it": "Francese (Francia)",
                         "rm": "Franzos (Frantscha)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fr-FR",
@@ -1383,7 +1383,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Friesisch",
                         "en": "Frysian",
@@ -1391,8 +1391,8 @@
                         "it": "Frisone",
                         "rm": "Fris"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fy",
@@ -1435,7 +1435,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Friesisch (Niederlande)",
                         "en": "Frysian (Netherlands)",
@@ -1443,8 +1443,8 @@
                         "it": "Frisone (Paesi Bassi)",
                         "rm": "Fris (Pajais Bass)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "fy-NL",
@@ -1487,7 +1487,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Hindi",
                         "en": "Hindi",
@@ -1495,8 +1495,8 @@
                         "it": "Hindi",
                         "rm": "Hindi"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "hi",
@@ -1539,7 +1539,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kroatisch",
                         "en": "Croatian",
@@ -1547,8 +1547,8 @@
                         "it": "Croato",
                         "rm": "Croat"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "hr",
@@ -1591,7 +1591,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Italienisch",
                         "en": "Italian",
@@ -1599,8 +1599,8 @@
                         "it": "Italiano",
                         "rm": "Talian"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "it",
@@ -1643,7 +1643,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Italienisch (Schweiz)",
                         "en": "Italian (Switzerland)",
@@ -1651,8 +1651,8 @@
                         "it": "Italiano (Svizzera)",
                         "rm": "Talian (Svizra)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "it-CH",
@@ -1695,7 +1695,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Italienisch (Italien)",
                         "en": "Italian (Italy)",
@@ -1703,8 +1703,8 @@
                         "it": "Italiano (Italia)",
                         "rm": "Talian (Italia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "it-IT",
@@ -1747,7 +1747,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Japanisch",
                         "en": "Japanese",
@@ -1755,8 +1755,8 @@
                         "it": "Giapponese",
                         "rm": "Giapunais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ja",
@@ -1799,7 +1799,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Koreanisch",
                         "en": "Korean",
@@ -1807,8 +1807,8 @@
                         "it": "Coreano",
                         "rm": "Corean"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ko",
@@ -1851,7 +1851,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Niederländisch",
                         "en": "Dutch",
@@ -1859,8 +1859,8 @@
                         "it": "Olandese",
                         "rm": "Ollandais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "nl",
@@ -1903,7 +1903,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Niederländisch (Belgien)",
                         "en": "Dutch (Belgium)",
@@ -1911,8 +1911,8 @@
                         "it": "Olandese (Belgio)",
                         "rm": "Ollandais (Belgia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "nl-BE",
@@ -1955,7 +1955,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Niederländisch (Niederlande)",
                         "en": "Dutch (Netherlands)",
@@ -1963,8 +1963,8 @@
                         "it": "Olandese (Paesi Bassi)",
                         "rm": "Ollandais (Pajais Bass)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "nl-NL",
@@ -2007,7 +2007,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Norwegisch",
                         "en": "Norwegian",
@@ -2015,8 +2015,8 @@
                         "it": "Norvegese",
                         "rm": "Norvegiais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "no",
@@ -2059,7 +2059,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Norwegisch (Norwegen)",
                         "en": "Norwegian (Norway)",
@@ -2067,8 +2067,8 @@
                         "it": "Norvegese (Norvegia)",
                         "rm": "Norvegiais (Norvegia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "no-NO",
@@ -2111,7 +2111,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Panjabi",
                         "en": "Punjabi",
@@ -2119,8 +2119,8 @@
                         "it": "Panjabi",
                         "rm": "Punjabi"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "pa",
@@ -2163,7 +2163,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Polnisch",
                         "en": "Polish",
@@ -2171,8 +2171,8 @@
                         "it": "Polacco",
                         "rm": "Polac"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "pl",
@@ -2215,7 +2215,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Portugiesisch",
                         "en": "Portuguese",
@@ -2223,8 +2223,8 @@
                         "it": "Portoghese",
                         "rm": "Portugais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "pt",
@@ -2267,7 +2267,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Portugiesisch (Brasilien)",
                         "en": "Portuguese (Brazil)",
@@ -2275,8 +2275,8 @@
                         "it": "Portoghese (Brasile)",
                         "rm": "Portugais (Brasilia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "pt-BR",
@@ -2319,7 +2319,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rätoromanisch",
                         "en": "Romansh",
@@ -2327,8 +2327,8 @@
                         "it": "Romancio",
                         "rm": "Rumantsch"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "rm",
@@ -2371,7 +2371,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Russisch",
                         "en": "Russian",
@@ -2379,8 +2379,8 @@
                         "it": "Russo",
                         "rm": "Russ"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ru",
@@ -2423,7 +2423,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Russisch (Russland)",
                         "en": "Russian (Russia)",
@@ -2431,8 +2431,8 @@
                         "it": "Russo (Russia)",
                         "rm": "Russ (Russia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ru-RU",
@@ -2475,7 +2475,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Serbisch",
                         "en": "Serbian",
@@ -2483,8 +2483,8 @@
                         "it": "Serbo",
                         "rm": "Serb"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "sr",
@@ -2527,7 +2527,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Serbisch (Serbien)",
                         "en": "Serbian (Serbia)",
@@ -2535,8 +2535,8 @@
                         "it": "Serbo (Serbia)",
                         "rm": "Serb (Serbia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "sr-RS",
@@ -2579,7 +2579,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Schwedisch",
                         "en": "Swedish",
@@ -2587,8 +2587,8 @@
                         "it": "Svedese",
                         "rm": "Svedais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "sv",
@@ -2631,7 +2631,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Schwedisch (Schweden)",
                         "en": "Swedish (Sweden)",
@@ -2639,8 +2639,8 @@
                         "it": "Svedese (Svezia)",
                         "rm": "Svedais (Svezia)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "sv-SE",
@@ -2683,7 +2683,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Telugu",
                         "en": "Telegu",
@@ -2691,8 +2691,8 @@
                         "it": "Telugu",
                         "rm": "Telugu"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "te",
@@ -2735,7 +2735,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chinesisch",
                         "en": "Chinese",
@@ -2743,8 +2743,8 @@
                         "it": "Cinese",
                         "rm": "Chinais"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "zh",
@@ -2787,7 +2787,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chinesisch (China)",
                         "en": "Chinese (China)",
@@ -2795,8 +2795,8 @@
                         "it": "Cinese (Cina)",
                         "rm": "Chinais (China)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "zh-CN",
@@ -2839,7 +2839,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chinesisch (Hong Kong)",
                         "en": "Chinese (Hong Kong)",
@@ -2847,8 +2847,8 @@
                         "it": "Cinese (Hong Kong)",
                         "rm": "Chinais (HongKong)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "zh-HK",
@@ -2891,7 +2891,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chinesisch (Singapur)",
                         "en": "Chinese (Singapore)",
@@ -2899,8 +2899,8 @@
                         "it": "Cinese (Singapore)",
                         "rm": "Chinais (Singapur)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "zh-SG",
@@ -2943,7 +2943,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chinesisch (Taiwan)",
                         "en": "Chinese (Taiwan)",
@@ -2951,8 +2951,8 @@
                         "it": "Cinese (Taiwan)",
                         "rm": "Chinais (Taiwan)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "zh-TW",
@@ -2995,7 +2995,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Andere Sprache",
                         "en": "Other language",
@@ -3003,8 +3003,8 @@
                         "it": "Altra lingua",
                         "rm": "Autras linguas"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OTHER",

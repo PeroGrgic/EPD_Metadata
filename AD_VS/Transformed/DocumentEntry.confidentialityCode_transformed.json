@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Normal",
                         "en": "Normal",
@@ -39,8 +39,8 @@
                         "it": "normale",
                         "rm": "normal"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "17621005",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Eingeschränkt",
                         "en": "Restricted",
@@ -91,8 +91,8 @@
                         "it": "limitato",
                         "rm": "restrenschida"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "263856008",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Geheim",
                         "en": "Secret",
@@ -143,8 +143,8 @@
                         "it": "segreto",
                         "rm": "secret"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1141000195107",

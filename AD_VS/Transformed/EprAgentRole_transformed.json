@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": null,
                         "en": null,
@@ -39,8 +39,8 @@
                         "it": null,
                         "rm": null
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "GRP",

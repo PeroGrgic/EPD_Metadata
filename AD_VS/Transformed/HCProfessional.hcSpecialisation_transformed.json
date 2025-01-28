@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Chirurgie",
                         "en": "Surgery",
@@ -39,8 +39,8 @@
                         "it": "Chirurgia",
                         "rm": "Chirurgia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1002",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gynäkologie und Geburtshilfe",
                         "en": "Gynaecology and obstetrics",
@@ -91,8 +91,8 @@
                         "it": "Ginecologia e ostetricia",
                         "rm": "Ginecologia ed assistenza al part"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1003",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Herz- und thorakale Gefässchirurgie",
                         "en": "Cardiac and thoracic vascular surgery",
@@ -143,8 +143,8 @@
                         "it": "Chirurgia del cuore e dei vasi toracici",
                         "rm": "Chirurgia dal cor e chirurgia vasculara dal torax"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1004",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kinder- und Jugendmedizin",
                         "en": "Paediatrics",
@@ -195,8 +195,8 @@
                         "it": "Pediatria",
                         "rm": "Pediatria"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1006",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ophthalmologie",
                         "en": "Ophthalmology",
@@ -247,8 +247,8 @@
                         "it": "Oftalmologia",
                         "rm": "Oftalmologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1007",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Oto-Rhino-Laryngologie",
                         "en": "Otorhinolaryngology",
@@ -299,8 +299,8 @@
                         "it": "Otorinolaringoiatria",
                         "rm": "Oto-rino-laringologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1008",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pathologie",
                         "en": "Pathology",
@@ -351,8 +351,8 @@
                         "it": "Patologia",
                         "rm": "Patologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1009",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kieferorthopädie",
                         "en": "Orthodontics",
@@ -403,8 +403,8 @@
                         "it": "Ortodonzia",
                         "rm": "Ortopedia da la missella"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1010",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Fachchiropraktik",
                         "en": "Chiropractic specialist",
@@ -455,8 +455,8 @@
                         "it": "Chiropratica specialistica",
                         "rm": "Chiropratica speziala"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1011",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Anästhesiologie",
                         "en": "Anaesthesiology",
@@ -507,8 +507,8 @@
                         "it": "Anestesiologia",
                         "rm": "Anestesiologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1012",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Neurochirurgie",
                         "en": "Neurosurgery",
@@ -559,8 +559,8 @@
                         "it": "Neurochirurgia",
                         "rm": "Neurochirurgia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1013",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Neurologie",
                         "en": "Neurology",
@@ -611,8 +611,8 @@
                         "it": "Neurologia",
                         "rm": "Neurologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1014",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Orthopädische Chirurgie und Traumatologie des Bewegungsapparates",
                         "en": "Orthopaedic surgery and traumatology of the locomotor apparatus",
@@ -663,8 +663,8 @@
                         "it": "Chirurgia ortopedica e traumatologia dell’apparato locomotore",
                         "rm": "Chirurgia ortopedica e traumatologia da l'apparat motoric"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1015",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pneumologie",
                         "en": "Pneumology",
@@ -715,8 +715,8 @@
                         "it": "Pneumologia",
                         "rm": "Pneumologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1016",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Psychiatrie und Psychotherapie",
                         "en": "Psychiatry and psychotherapy",
@@ -767,8 +767,8 @@
                         "it": "Psichiatria e psicoterapia",
                         "rm": "Psichiatria e psicoterapia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1017",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Urologie",
                         "en": "Urology",
@@ -819,8 +819,8 @@
                         "it": "Urologia",
                         "rm": "Urologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1018",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Allergologie und klinische Immunologie",
                         "en": "Allergology and clinical immunology",
@@ -871,8 +871,8 @@
                         "it": "Allergologia e immunologia clinica",
                         "rm": "Allergologia ed immunologia clinica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1019",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Arbeitsmedizin",
                         "en": "Occupational medicine",
@@ -923,8 +923,8 @@
                         "it": "Medicina del lavoro",
                         "rm": "Medischina da lavur"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1020",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Dermatologie und Venerologie",
                         "en": "Dermatology and venereology",
@@ -975,8 +975,8 @@
                         "it": "Dermatologia e venereologia",
                         "rm": "Dermatologia e venerologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1021",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Endokrinologie und Diabetologie",
                         "en": "Endocrinology and diabetology",
@@ -1027,8 +1027,8 @@
                         "it": "Endocrinologia e diabetologia",
                         "rm": "Endocrinologia e diabetologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1022",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gastroenterologie",
                         "en": "Gastroenterology",
@@ -1079,8 +1079,8 @@
                         "it": "Gastroenterologia",
                         "rm": "Gastroenterologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1023",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Hämatologie",
                         "en": "Haematology",
@@ -1131,8 +1131,8 @@
                         "it": "Ematologia",
                         "rm": "Hematologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1024",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kardiologie",
                         "en": "Cardiology",
@@ -1183,8 +1183,8 @@
                         "it": "Cardiologia",
                         "rm": "Cardiologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1025",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Mund-, Kiefer- und Gesichtschirurgie",
                         "en": "Oral and maxillofacial surgery",
@@ -1235,8 +1235,8 @@
                         "it": "Chirurgia oro-maxillo-facciale",
                         "rm": "Chirurgia da la bucca, da la missella e da la fatscha"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1026",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kinder- und Jugendpsychiatrie und -psychotherapie",
                         "en": "Child and adolescent psychiatry and psychotherapy",
@@ -1287,8 +1287,8 @@
                         "it": "Psichiatria e psicoterapia infantile e dell’adolescenza",
                         "rm": "Psichiatria e psicoterapia d'uffants e da giuvenils"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1027",
@@ -1331,7 +1331,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kinderchirurgie",
                         "en": "Paediatric surgery",
@@ -1339,8 +1339,8 @@
                         "it": "Chirurgia pediatrica",
                         "rm": "Chirurgia d'uffants"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1028",
@@ -1383,7 +1383,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Klinische Pharmakologie und Toxikologie",
                         "en": "Clinical pharmacology and toxicology",
@@ -1391,8 +1391,8 @@
                         "it": "Farmacologia e tossicologia cliniche",
                         "rm": "Farmacologia e toxicologia clinica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1029",
@@ -1435,7 +1435,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Radiologie",
                         "en": "Radiology",
@@ -1443,8 +1443,8 @@
                         "it": "Radiologia",
                         "rm": "Radiologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1030",
@@ -1487,7 +1487,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Nuklearmedizin",
                         "en": "Nuclear medicine",
@@ -1495,8 +1495,8 @@
                         "it": "Medicina nucleare",
                         "rm": "Medischina nucleara"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1031",
@@ -1539,7 +1539,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Radio-Onkologie/Strahlentherapie",
                         "en": "Radio-oncology/radiotherapy",
@@ -1547,8 +1547,8 @@
                         "it": "Radio-oncologia/radioterapia",
                         "rm": "Radio-oncologia/radioterapia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1032",
@@ -1591,7 +1591,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Nephrologie",
                         "en": "Nephrology",
@@ -1599,8 +1599,8 @@
                         "it": "Nefrologia",
                         "rm": "Nefrologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1033",
@@ -1643,7 +1643,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Physikalische Medizin und Rehabilitation",
                         "en": "Physical medicine and rehabilitation",
@@ -1651,8 +1651,8 @@
                         "it": "Medicina fisica e riabilitazione",
                         "rm": "Medischina fisicala e reabilitaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1034",
@@ -1695,7 +1695,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Plastische, Rekonstruktive und Ästhetische Chirurgie",
                         "en": "Plastic, reconstructive and aesthetic surgery",
@@ -1703,8 +1703,8 @@
                         "it": "Chirurgia plastica, ricostruttiva ed estetica",
                         "rm": "Chirurgia plastica, reconstructiva ed estetica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1035",
@@ -1747,7 +1747,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Prävention und Gesundheitswesen",
                         "en": "Prevention and public health",
@@ -1755,8 +1755,8 @@
                         "it": "Prevenzione e salute pubblica",
                         "rm": "Prevenziun e sanadad publica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1036",
@@ -1799,7 +1799,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rheumatologie",
                         "en": "Rheumatology",
@@ -1807,8 +1807,8 @@
                         "it": "Reumatologia",
                         "rm": "Reumatologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1037",
@@ -1851,7 +1851,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Tropen- und Reisemedizin",
                         "en": "Tropical and travel medicine",
@@ -1859,8 +1859,8 @@
                         "it": "Medicina tropicale e medicina di viaggio",
                         "rm": "Medischina da las tropas e da viadis"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1038",
@@ -1903,7 +1903,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Infektiologie",
                         "en": "Infectology",
@@ -1911,8 +1911,8 @@
                         "it": "Malattie infettive",
                         "rm": "Infecziologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1039",
@@ -1955,7 +1955,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Praktischer Arzt/Praktische Ärztin",
                         "en": "General medical practitioner",
@@ -1963,8 +1963,8 @@
                         "it": "Medico generico",
                         "rm": "Media generalista/medi generalist"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1040",
@@ -2007,7 +2007,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Angiologie",
                         "en": "Angiology",
@@ -2015,8 +2015,8 @@
                         "it": "Angiologia",
                         "rm": "Angiologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1041",
@@ -2059,7 +2059,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Intensivmedizin",
                         "en": "Intensive care medicine",
@@ -2067,8 +2067,8 @@
                         "it": "Medicina intensiva",
                         "rm": "Medischina intensiva"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1042",
@@ -2111,7 +2111,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Medizinische Genetik",
                         "en": "Medical genetics",
@@ -2119,8 +2119,8 @@
                         "it": "Genetica medica",
                         "rm": "Genetica medicinala"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1043",
@@ -2163,7 +2163,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Medizinische Onkologie",
                         "en": "Medical oncology",
@@ -2171,8 +2171,8 @@
                         "it": "Oncologia medica",
                         "rm": "Oncologia medicinala"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1044",
@@ -2215,7 +2215,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pharmazeutische Medizin",
                         "en": "Pharmaceutical medicine",
@@ -2223,8 +2223,8 @@
                         "it": "Medicina farmacologica",
                         "rm": "Medischina farmaceutica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1045",
@@ -2267,7 +2267,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rechtsmedizin",
                         "en": "Forensic medicine",
@@ -2275,8 +2275,8 @@
                         "it": "Medicina legale",
                         "rm": "Medischina forensica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1046",
@@ -2319,7 +2319,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Oralchirurgie",
                         "en": "Oral surgery",
@@ -2327,8 +2327,8 @@
                         "it": "Chirurgia orale",
                         "rm": "Chirurgia orala"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1047",
@@ -2371,7 +2371,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Parodontologie",
                         "en": "Paradontology",
@@ -2379,8 +2379,8 @@
                         "it": "Parodontologia",
                         "rm": "Parodontologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1048",
@@ -2423,7 +2423,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rekonstruktive Zahnmedizin",
                         "en": "Reconstructive dentistry",
@@ -2431,8 +2431,8 @@
                         "it": "Medicina dentaria riconstruttiva",
                         "rm": "Odontologia reconstructiva"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1049",
@@ -2475,7 +2475,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Andere",
                         "en": "Other",
@@ -2483,8 +2483,8 @@
                         "it": "Altre",
                         "rm": "Auter"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1050",
@@ -2527,7 +2527,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Allgemeine Innere Medizin",
                         "en": "General internal medicine",
@@ -2535,8 +2535,8 @@
                         "it": "Medicina interna generale",
                         "rm": "Medischina interna generala"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1051",
@@ -2579,7 +2579,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Offizinpharmazie",
                         "en": "Community pharmacy",
@@ -2587,8 +2587,8 @@
                         "it": "Farmacia d’officina",
                         "rm": "Farmazia d'ufficina"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1052",
@@ -2631,7 +2631,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spitalpharmazie",
                         "en": "Hospital pharmacy",
@@ -2639,8 +2639,8 @@
                         "it": "Farmacia d’ospedale",
                         "rm": "Farmazia d'ospital"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1053",
@@ -2683,7 +2683,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Psychotherapie",
                         "en": "Psychotherapy",
@@ -2691,8 +2691,8 @@
                         "it": "Psicoterapia",
                         "rm": "Psicoterapia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1054",
@@ -2735,7 +2735,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Kinder- und Jugendpsychologie",
                         "en": "Child and adolescent psychology",
@@ -2743,8 +2743,8 @@
                         "it": "Psicologia dell’età evolutiva",
                         "rm": "Psicologia d'uffants e da giuvenils"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1055",
@@ -2787,7 +2787,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Klinische Psychologie",
                         "en": "Clinical psychology",
@@ -2795,8 +2795,8 @@
                         "it": "Psicologia clinica",
                         "rm": "Psicologia clinica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1056",
@@ -2839,7 +2839,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Neuropsychologie",
                         "en": "Neuropsychology",
@@ -2847,8 +2847,8 @@
                         "it": "Neuropsicologia",
                         "rm": "Neuropsicologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1057",
@@ -2891,7 +2891,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gesundheitspsychologie",
                         "en": "Health psychology",
@@ -2899,8 +2899,8 @@
                         "it": "Psicologia della salute",
                         "rm": "Psicologia da sanadad"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1058",
@@ -2943,7 +2943,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Handchirurgie",
                         "en": "Hand surgery",
@@ -2951,8 +2951,8 @@
                         "it": "Chirurgia della mano",
                         "rm": "Chirurgia dal maun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1059",
@@ -2995,7 +2995,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gefässchirurgie",
                         "en": "Vascular surgery",
@@ -3003,8 +3003,8 @@
                         "it": "Chirurgia vascolare",
                         "rm": "Chirurgia vasculara"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1060",
@@ -3047,7 +3047,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Thoraxchirurgie",
                         "en": "Thoracic surgery",
@@ -3055,8 +3055,8 @@
                         "it": "Chirurgia toracica",
                         "rm": "Chirurgia dal torax"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1061",

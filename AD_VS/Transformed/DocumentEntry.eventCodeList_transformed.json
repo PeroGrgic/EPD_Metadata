@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ophthalmische Tomographie En Face",
                         "en": "Ophthalmic Tomography En Face",
@@ -39,8 +39,8 @@
                         "it": "Tomografia oftalmica En Face",
                         "rm": "Ophthalmische Tomographie En Face"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPTENF",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ophthalmologische Tomographie B-Scan Volumenanalyse",
                         "en": "Ophthalmic Tomography B-scan Volume Analysis",
@@ -91,8 +91,8 @@
                         "it": "Analisi del volume della scansione B della tomografia oftalmica",
                         "rm": "Ophthalmologische Tomographie B-Scan Volumenanalyse"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPTBSV",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gesichtsfeld der Augen",
                         "en": "Ophthalmic Visual Field",
@@ -143,8 +143,8 @@
                         "it": "Perimetria computerizzata",
                         "rm": "Gesichtsfeld der Augen"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPV",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Digitales Röntgen",
                         "en": "Digital Radiography",
@@ -195,8 +195,8 @@
                         "it": "Radiografia digitale",
                         "rm": "Digitales Röntgen"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "DX",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Augentomografie",
                         "en": "Ophthalmic Tomography",
@@ -247,8 +247,8 @@
                         "it": "Tomografia ottica computerizzata",
                         "rm": "Augentomografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPT",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Knochenmineraldensitometrie",
                         "en": "Bone Mineral Densitometry",
@@ -299,8 +299,8 @@
                         "it": "Mineralometria ossea computerizzata",
                         "rm": "Knochenmineraldensitometrie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "BMD",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Mammografie",
                         "en": "Mammography",
@@ -351,8 +351,8 @@
                         "it": "Mammografia",
                         "rm": "Mammografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "MG",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Objektträger Mikroskopie",
                         "en": "Slide Microscopy",
@@ -403,8 +403,8 @@
                         "it": "Microscopia a vetrini",
                         "rm": "Objektträger Mikroskopie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "SM",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ultraschall",
                         "en": "Ultrasound",
@@ -455,8 +455,8 @@
                         "it": "Ecografia",
                         "rm": "Ultraschall"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "US",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Augenfotografie",
                         "en": "Ophthalmic Photography",
@@ -507,8 +507,8 @@
                         "it": "Fotografia oftalmica",
                         "rm": "Augenfotografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OP",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Intravaskuläre optische Kohärenztomografie",
                         "en": "Intravascular Optical Coherence Tomography",
@@ -559,8 +559,8 @@
                         "it": "Tomografia intravascolare a coerenza ottica",
                         "rm": "Intravaskuläre optische Kohärenztomografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "IVOCT",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Magnetresonanz",
                         "en": "Magnetic Resonance",
@@ -611,8 +611,8 @@
                         "it": "Risonanza magnetica",
                         "rm": "Magnetresonanz"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "MR",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Elektrokardiografie",
                         "en": "Electrocardiography",
@@ -663,8 +663,8 @@
                         "it": "Elettrocardiografia",
                         "rm": "Elektrokardiografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ECG",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Allgemeine Mikroskopie",
                         "en": "General Microscopy",
@@ -715,8 +715,8 @@
                         "it": "Microscopia generale",
                         "rm": "Allgemeine Mikroskopie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "GM",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Intraorales Röntgen",
                         "en": "Intra-oral Radiography",
@@ -767,8 +767,8 @@
                         "it": "Radiografia intraorale",
                         "rm": "Intraorales Röntgen"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "IO",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Röntgen-Angiografie",
                         "en": "X-Ray Angiography",
@@ -819,8 +819,8 @@
                         "it": "Angiografia a raggi X",
                         "rm": "Röntgen-Angiografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "XA",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Fotografie mit externer Kamera",
                         "en": "External-camera Photography",
@@ -871,8 +871,8 @@
                         "it": "Fotografia con fotocamera esterna",
                         "rm": "Fotografie mit externer Kamera"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "XC",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Sehschärfe",
                         "en": "Visual Acuity",
@@ -923,8 +923,8 @@
                         "it": "Acutezza visiva",
                         "rm": "Sehschärfe"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "VA",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Intravaskulärer Ultraschall",
                         "en": "Intravascular Ultrasound",
@@ -975,8 +975,8 @@
                         "it": "Ecografia intravascolare",
                         "rm": "Intravaskulärer Ultraschall"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "IVUS",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Computerradiografie",
                         "en": "Computed Radiography",
@@ -1027,8 +1027,8 @@
                         "it": "Radiografia computerizzata",
                         "rm": "Computerradiografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "CR",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Endoskopie",
                         "en": "Endoscopy",
@@ -1079,8 +1079,8 @@
                         "it": "Endoscopia",
                         "rm": "Endoskopie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ES",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Autorefraktion",
                         "en": "Autorefraction",
@@ -1131,8 +1131,8 @@
                         "it": "Autorifrazione",
                         "rm": "Autorefraktion"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "AR",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Computertomografie",
                         "en": "Computed Tomography",
@@ -1183,8 +1183,8 @@
                         "it": "Tomografia computerizzata",
                         "rm": "Computertomografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "CT",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Optischer Oberflächenscanner",
                         "en": "Optical Surface Scanner",
@@ -1235,8 +1235,8 @@
                         "it": "Scanner ottico per superfici",
                         "rm": "Optischer Oberflächenscanner"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OSS",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Linsenmessung",
                         "en": "Lensometry",
@@ -1287,8 +1287,8 @@
                         "it": "Focometria",
                         "rm": "Linsenmessung"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "LEN",
@@ -1331,7 +1331,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Röntgenbildgebung",
                         "en": "Radiographic imaging",
@@ -1339,8 +1339,8 @@
                         "it": "Imaging radiografico",
                         "rm": "Röntgenbildgebung"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "RG",
@@ -1383,7 +1383,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Radio-Fluoroskopie",
                         "en": "Radiofluoroscopy",
@@ -1391,8 +1391,8 @@
                         "it": "Radiofluoroscopia",
                         "rm": "Radio-Fluoroskopie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "RF",
@@ -1435,7 +1435,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Keratometrie",
                         "en": "Keratometry",
@@ -1443,8 +1443,8 @@
                         "it": "Cheratometria",
                         "rm": "Keratometrie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "KER",
@@ -1487,7 +1487,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Hämodynamische Druckkurve",
                         "en": "Hemodynamic Waveform",
@@ -1495,8 +1495,8 @@
                         "it": "Monitoraggio emodinamico",
                         "rm": "Hämodynamische Druckkurve"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "HD",
@@ -1539,7 +1539,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Augenachsenmessungen",
                         "en": "Ophthalmic Axial Measurements",
@@ -1547,8 +1547,8 @@
                         "it": "Misurazioni oftalmiche assiali",
                         "rm": "Augenachsenmessungen"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OAM",
@@ -1591,7 +1591,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Nuklearmedizin",
                         "en": "Nuclear Medicine",
@@ -1599,8 +1599,8 @@
                         "it": "Medicina nucleare",
                         "rm": "Nuklearmedizin"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "NM",
@@ -1643,7 +1643,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Optische Kohärenztomografie",
                         "en": "Optical Coherence Tomography",
@@ -1651,8 +1651,8 @@
                         "it": "Tomografia a coerenza ottica",
                         "rm": "Optische Kohärenztomografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OCT",
@@ -1695,7 +1695,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ultraschall-Knochendichtemessung",
                         "en": "Ultrasound Bone Densitometry",
@@ -1703,8 +1703,8 @@
                         "it": "Densitometria ossea a ultrasuoni",
                         "rm": "Ultraschall-Knochendichtemessun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "BDUS",
@@ -1747,7 +1747,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Positronen-Emissions-Tomografie",
                         "en": "Positron emission tomography",
@@ -1755,8 +1755,8 @@
                         "it": "Tomografia a emissione di positroni",
                         "rm": "Positronen-Emissions-Tomografie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "PT",
@@ -1799,7 +1799,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Herz-Elektrophysiologie",
                         "en": "Cardiac Electrophysiology",
@@ -1807,8 +1807,8 @@
                         "it": "Elettrofisiologia cardiaca",
                         "rm": "Herz-Elektrophysiologie"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "EPS",
@@ -1851,7 +1851,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Panoramaröntgen",
                         "en": "Panoramic X-Ray",
@@ -1859,8 +1859,8 @@
                         "it": "Radiografia panoramica",
                         "rm": "Panoramaröntgen"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "PX",
@@ -1903,7 +1903,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Subjektive Refraktion",
                         "en": "Subjective Refraction",
@@ -1911,8 +1911,8 @@
                         "it": "Rifrazione soggettiva",
                         "rm": "Subjektive Refraktion"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "SRF",
@@ -1955,7 +1955,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Augenkartierung",
                         "en": "Ophthalmic Mapping",
@@ -1963,8 +1963,8 @@
                         "it": "Mappatura oftalmica",
                         "rm": "Augenkartierung"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPM",
@@ -2007,7 +2007,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Augenrefraktion",
                         "en": "Ophthalmic Refraction",
@@ -2015,8 +2015,8 @@
                         "it": "Rifrazione oggettiva",
                         "rm": "Augenrefraktion"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "OPR",

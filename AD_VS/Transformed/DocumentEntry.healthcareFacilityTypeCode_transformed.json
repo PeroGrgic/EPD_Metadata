@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Diagnostische Einrichtung",
                         "en": "Diagnostic institution",
@@ -39,8 +39,8 @@
                         "it": "istituto diagnostica",
                         "rm": "instituziun diagnostica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722171005",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Notfall- und Rettungsdienste",
                         "en": "Accident and Emergency department",
@@ -91,8 +91,8 @@
                         "it": "servizio di pronto soccorso e di salvataggio",
                         "rm": "servetsch d'urgenza e da salvament"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "225728007",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gesundheitsbehörde",
                         "en": "Health Authority",
@@ -143,8 +143,8 @@
                         "it": "autorità sanitaria",
                         "rm": "autoritad da sanadad"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "394747008",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Organisation für Pflege zu Hause",
                         "en": "Private home-based care",
@@ -195,8 +195,8 @@
                         "it": "servizio di assistenza e cura a domicilio",
                         "rm": "organisaziun per la tgira a chasa"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "66280005",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Spital",
                         "en": "Hospital",
@@ -247,8 +247,8 @@
                         "it": "ospedale",
                         "rm": "ospital"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "22232009",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Armeeärztliche Dienste",
                         "en": "Military health institution",
@@ -299,8 +299,8 @@
                         "it": "servizio di medicina militare",
                         "rm": "servetsch da medischina militara"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722172003",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gesundheitseinrichtung in der Haftanstalt",
                         "en": "Prison based care site",
@@ -351,8 +351,8 @@
                         "it": "struttura sanitaria in uno stabilimento carcerario",
                         "rm": "structura da sanadad en in stabiliment giudizial"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722173008",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pflegeheim",
                         "en": "Nursing home",
@@ -403,8 +403,8 @@
                         "it": "casa di cura",
                         "rm": "chasa da tgira"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "42665001",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Apotheke",
                         "en": "Pharmacy",
@@ -455,8 +455,8 @@
                         "it": "farmacia",
                         "rm": "apoteca"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "264372000",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ambulante Einrichtung",
                         "en": "Ambulatory care site",
@@ -507,8 +507,8 @@
                         "it": "struttura ambulatoriale",
                         "rm": "instituziun ambulanta"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "35971002",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Organisation für stationäre Rehabilitation",
                         "en": "Rehabilitation hospital",
@@ -559,8 +559,8 @@
                         "it": "istituto di riabilitazione stazionaria",
                         "rm": "institut da reabilitaziun staziunara"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "80522000",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Domizil des Patienten",
                         "en": "Client's or patient's home",
@@ -611,8 +611,8 @@
                         "it": "domicilio del paziente",
                         "rm": "domicil dal pazient"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "394778007",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Telemedizinische Einrichtung",
                         "en": "Telemedicine institution",
@@ -663,8 +663,8 @@
                         "it": "centro di telemedicina",
                         "rm": "instituziun da telemedischina"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "288565001",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Arztpraxis",
                         "en": "General practice premises",
@@ -715,8 +715,8 @@
                         "it": "studio medico",
                         "rm": "pratica da medi"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "264358009",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Behandlungsort",
                         "en": "Site of care",
@@ -767,18 +767,18 @@
                         "it": "luogo di trattamento",
                         "rm": "autras organisaziuns dals fatgs da tgira"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 },
                 {
-                    "identifier": "AS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Andere Gesundheitsorganisation",
                         "en": "Other site of care",
                         "fr": "autres prestataires de soins",
                         "it": "altre organizzazioni sanitarie"
                     },
-                    "title": "Acceptable Synonym",
+                    "title": "Designation",
                     "type": "Synonym"
                 }
             ],
@@ -822,7 +822,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Geburtshaus",
                         "en": "Birthing center",
@@ -830,8 +830,8 @@
                         "it": "casa di nascita",
                         "rm": "chasa da parturir"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "91154008",
@@ -874,7 +874,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Zahnarztpraxis",
                         "en": "Dental practice",
@@ -882,8 +882,8 @@
                         "it": "studio dentistico",
                         "rm": "pratica da dentist"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "22201008",

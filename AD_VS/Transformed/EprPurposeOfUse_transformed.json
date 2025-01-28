@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Automatisches Hochladen von radiologischen Inhalten",
                         "en": "Automatic upload of radiological contents",
@@ -39,8 +39,8 @@
                         "it": "Caricamento automatico del contenuto radiologico",
                         "rm": "Chargia automatica dal cuntegn radiologic"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "DICOM_AUTO",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Notfallzugriff",
                         "en": "Emergency Access",
@@ -91,8 +91,8 @@
                         "it": "Accesso di emergenza",
                         "rm": "Access d'urgenza"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "EMER",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Normaler Zugriff",
                         "en": "Normal Access",
@@ -143,8 +143,8 @@
                         "it": "Accesso normale",
                         "rm": "Access normal"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "NORM",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Automatisches Hochladen",
                         "en": "Automatic Upload",
@@ -195,8 +195,8 @@
                         "it": "Caricamento automatico",
                         "rm": "Chargia automatica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "AUTO",

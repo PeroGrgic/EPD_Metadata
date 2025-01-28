@@ -180,16 +180,16 @@ class Period():
 
 class Synonym():
     def __init__(self, title):
-        self.Title = title
+        self.Title = "Designation"
         self.Text_DE = None
         self.Text_FR = None
         self.Text_IT = None
         self.Text_EN = None
         self.Text_RM = None
-        if title == "Preferred Synonym":
-            self.identifier = "PS"
+        if title == "preferred":
+            self.identifier = "900000000000548007"
         else :
-            self.identifier = "AS"
+            self.identifier = "900000000000549004"
         self.URI = None
 
     def set_text_DE(self, text_DE):
@@ -298,7 +298,7 @@ def create_json_output(codeListEntries):
                     "rm": synonymPS.Text_RM
                 },
                 "title": synonymPS.Title,
-                "type": "Synonym"
+                "type": "Designation"
             }
         ]
           # Add synonymAS to annotations if it exists
@@ -335,7 +335,7 @@ def create_json_output(codeListEntries):
         }
         output.append(json_entry)
     
-    return {"codeListEntries": output}
+    return {"data": output}
 
 if __name__ == "__main__":
     

@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Patient",
                         "en": "Patient",
@@ -39,8 +39,8 @@
                         "it": "Paziente",
                         "rm": "Pazient"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "PAT",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Gesundheitsfachperson",
                         "en": "Healthcare professional",
@@ -91,8 +91,8 @@
                         "it": "Professionista della salute",
                         "rm": "Persuna spezialisada dal sectur da sanadad"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "HCP",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Hilfsperson",
                         "en": "Assistant",
@@ -143,8 +143,8 @@
                         "it": "Persona ausiliara",
                         "rm": "Persuna d'agid"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "ASS",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Stellvertretung",
                         "en": "Representative",
@@ -195,8 +195,8 @@
                         "it": "Rappresentante",
                         "rm": "Substituziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "REP",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Technischer Benutzer",
                         "en": "Technical user",
@@ -247,8 +247,8 @@
                         "it": "Utente tecnico",
                         "rm": "Utilisader tecnic"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "TCU",

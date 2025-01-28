@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Konsultationsbericht",
                         "en": "Report of clinical encounter",
@@ -39,8 +39,8 @@
                         "it": "rapporto di visita medica",
                         "rm": "rapport da consultaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371531000",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Zuweisungsschreiben",
                         "en": "Referral note",
@@ -91,8 +91,8 @@
                         "it": "lettera d'invio",
                         "rm": "brev d'assegnaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "721927009",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Untersuchungsauftrag",
                         "en": "Order",
@@ -143,8 +143,8 @@
                         "it": "richiesta di esami",
                         "rm": "incumbensa da consultaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "721963009",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Zusammenfassung",
                         "en": "Summary",
@@ -195,8 +195,8 @@
                         "it": "riepilogo",
                         "rm": "rapport resumà"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "422735006",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Interventionsbericht",
                         "en": "Procedure report",
@@ -247,8 +247,8 @@
                         "it": "rapporto operatorio",
                         "rm": "rapport d'intervenziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371525003",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Behandlungsplan",
                         "en": "Care plan",
@@ -299,8 +299,8 @@
                         "it": "piano di cura",
                         "rm": "plan da tractament"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "734163000",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Verschreibung",
                         "en": "Prescription",
@@ -351,17 +351,17 @@
                         "it": "prescrizione medica",
                         "rm": "prescripziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 },
                 {
-                    "identifier": "AS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rezept",
                         "fr": "ordonnance",
                         "rm": "recept"
                     },
-                    "title": "Acceptable Synonym",
+                    "title": "Designation",
                     "type": "Synonym"
                 }
             ],
@@ -405,7 +405,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Patientendokumentation",
                         "en": "Patient documentation",
@@ -413,8 +413,8 @@
                         "it": "documentazione del paziente",
                         "rm": "documentaziun da lunga durada"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "184216000",
@@ -457,7 +457,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Einverständniserklärung",
                         "en": "Consent",
@@ -465,8 +465,8 @@
                         "it": "consenso",
                         "rm": "consentiment"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371537001",
@@ -509,7 +509,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Patientenverfügung",
                         "en": "Advance directives",
@@ -517,8 +517,8 @@
                         "it": "direttive anticipate",
                         "rm": "disposiziun dal pazient"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371538006",
@@ -561,7 +561,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rückverfolgung der EPD Zugriffe",
                         "en": "Record access",
@@ -569,8 +569,8 @@
                         "it": "calloutronologia degli accessi alla CIP",
                         "rm": "repersequitabladad da l'access al DEP"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722160009",
@@ -613,7 +613,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Notfallkarte",
                         "en": "Emergency ID card",
@@ -621,8 +621,8 @@
                         "it": "tessera di emergenza",
                         "rm": "attest d'urgenza"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722216001",
@@ -665,7 +665,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Organspendeausweis",
                         "en": "Organ donor card",
@@ -673,8 +673,8 @@
                         "it": "tessera di donatore di organi",
                         "rm": "attest da donatur d'organs"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "772790007",
@@ -717,7 +717,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Administratives Dokument",
                         "en": "Administrative document",
@@ -725,8 +725,8 @@
                         "it": "documento amministrativo",
                         "rm": "document administrativ"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "405624007",
@@ -769,7 +769,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Dokument zu gesundheitsrelevantem Ereignis",
                         "en": "Event report",
@@ -777,8 +777,8 @@
                         "it": "documento concernente un evento rilevante per la salute",
                         "rm": "document concernent  in eveniment relevant per la sanadad"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "417319006",
@@ -821,7 +821,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Geburtsbericht",
                         "en": "Birth report",
@@ -829,11 +829,11 @@
                         "it": "rapporto del parto",
                         "rm": "rapport da gravidanza"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 },
                 {
-                    "identifier": "AS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Schwangerschaftsbericht",
                         "en": "Pregnancy report",
@@ -841,7 +841,7 @@
                         "it": "rapporto di gravidanza",
                         "rm": "rapport da naschientscha"
                     },
-                    "title": "Acceptable Synonym",
+                    "title": "Designation",
                     "type": "Synonym"
                 }
             ],
@@ -885,7 +885,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Sonstige Dokumentation",
                         "en": "Other documentation",
@@ -893,8 +893,8 @@
                         "it": "altra documentazione",
                         "rm": "document betg designà pli precis"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "419891008",
@@ -905,6 +905,6 @@
                 "it": "altra documentazione",
                 "rm": "document betg designà pli precis"
             }
-        },
+        }
     ]
 }

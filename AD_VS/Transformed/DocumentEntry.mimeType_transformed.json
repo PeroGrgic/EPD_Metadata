@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "DICOM",
                         "en": "DICOM",
@@ -39,8 +39,8 @@
                         "it": "DICOM",
                         "rm": "DICOM"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "application/dicom",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "FHIR (JSON)",
                         "en": "FHIR (JSON)",
@@ -91,8 +91,8 @@
                         "it": "FHIR (JSON)",
                         "rm": "FHIR (JSON)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "application/fhir+json",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "FHIR (XML)",
                         "en": "FHIR (XML)",
@@ -143,8 +143,8 @@
                         "it": "FHIR (XML)",
                         "rm": "FHIR (XML)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "application/fhir+xml",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "PDF",
                         "en": "PDF",
@@ -195,8 +195,8 @@
                         "it": "PDF",
                         "rm": "PDF"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "application/pdf",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "MP4 Audio",
                         "en": "MP4 Audio",
@@ -247,8 +247,8 @@
                         "it": "MP4 Audio",
                         "rm": "MP4 Audio"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "audio/mp4",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "MPEG audio layer 3",
                         "en": "MPEG audio layer 3",
@@ -299,8 +299,8 @@
                         "it": "MPEG audio layer 3",
                         "rm": "MPEG audio layer 3"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "audio/mpeg",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "GIF Graphics Interchange Format",
                         "en": "GIF Graphics Interchange Format",
@@ -351,8 +351,8 @@
                         "it": "GIF Graphics Interchange Format",
                         "rm": "GIF Graphics Interchange Format"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/gif",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "JPEG 2000 Core Image File",
                         "en": "JPEG 2000 Core Image File",
@@ -403,8 +403,8 @@
                         "it": "JPEG 2000 Core Image File",
                         "rm": "JPEG 2000 Core Image File"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/jp2",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "JPEG Image",
                         "en": "JPEG Image",
@@ -455,8 +455,8 @@
                         "it": "JPEG Image",
                         "rm": "JPEG Image"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/jpeg",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "JPEG 2000 Compound Image File",
                         "en": "JPEG 2000 Compound Image File",
@@ -507,8 +507,8 @@
                         "it": "JPEG 2000 Compound Image File",
                         "rm": "JPEG 2000 Compound Image File"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/jpm",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "JPEG 2000 Image File",
                         "en": "JPEG 2000 Image File",
@@ -559,8 +559,8 @@
                         "it": "JPEG 2000 Image File",
                         "rm": "JPEG 2000 Image File"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/jpx",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "PNG Portable Network Graphics",
                         "en": "PNG Portable Network Graphics",
@@ -611,8 +611,8 @@
                         "it": "PNG Portable Network Graphics",
                         "rm": "PNG Portable Network Graphics"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/png",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "TIFF Image",
                         "en": "TIFF Image",
@@ -663,8 +663,8 @@
                         "it": "TIFF Image",
                         "rm": "TIFF Image"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "image/tiff",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Virtual Reality Modeling Language",
                         "en": "Virtual Reality Modeling Language",
@@ -715,8 +715,8 @@
                         "it": "Virtual Reality Modeling Language",
                         "rm": "Virtual Reality Modeling Language"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "model/vrml",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Extensible 3D Graphics (XML)",
                         "en": "Extensible 3D Graphics (XML)",
@@ -767,8 +767,8 @@
                         "it": "Extensible 3D Graphics (XML)",
                         "rm": "Extensible 3D Graphics (XML)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "model/x3d+xml",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Extensible 3D Graphics (VRML)",
                         "en": "Extensible 3D Graphics (VRML)",
@@ -819,8 +819,8 @@
                         "it": "Extensible 3D Graphics (VRML)",
                         "rm": "Extensible 3D Graphics (VRML)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "model/x3d-vrml",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Multilingual Multipart",
                         "en": "Multilingual Multipart",
@@ -871,8 +871,8 @@
                         "it": "Multilingual Multipart",
                         "rm": "Multilingual Multipart"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "multipart/multilingual",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Signed Multipart",
                         "en": "Signed Multipart",
@@ -923,8 +923,8 @@
                         "it": "Signed Multipart",
                         "rm": "Signed Multipart"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "multipart/signed",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CDA Level 1 Multipart",
                         "en": "CDA Level 1 Multipart",
@@ -975,8 +975,8 @@
                         "it": "CDA Level 1 Multipart",
                         "rm": "CDA Level 1 Multipart"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "multipart/x-hl7-cda-level1",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CSV Comma-separated Values",
                         "en": "CSV Comma-separated Values",
@@ -1027,8 +1027,8 @@
                         "it": "CSV Comma-separated Values",
                         "rm": "CSV Comma-separated Values"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "text/csv",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Plain Text",
                         "en": "Plain Text",
@@ -1079,8 +1079,8 @@
                         "it": "Plain Text",
                         "rm": "Plain Text"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "text/plain",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "XML-Text",
                         "en": "XML-Text",
@@ -1131,8 +1131,8 @@
                         "it": "XML-Text",
                         "rm": "XML-Text"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "text/xml",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Motion JPEG 2000",
                         "en": "Motion JPEG 2000",
@@ -1183,8 +1183,8 @@
                         "it": "Motion JPEG 2000",
                         "rm": "Motion JPEG 2000"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "video/mj2",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "MPEG-4 Part 14",
                         "en": "MPEG-4 Part 14",
@@ -1235,8 +1235,8 @@
                         "it": "MPEG-4 Part 14",
                         "rm": "MPEG-4 Part 14"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "video/mp4",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "MPEG Video",
                         "en": "MPEG Video",
@@ -1287,8 +1287,8 @@
                         "it": "MPEG Video",
                         "rm": "MPEG Video"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "video/mpeg",

@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Anamnese",
                         "en": "History and physical report",
@@ -39,8 +39,8 @@
                         "it": "anamnesi",
                         "rm": "anamnesa"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371529009",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Sonstige Dokumentation",
                         "en": "Record artifact",
@@ -91,8 +91,8 @@
                         "it": "altra documentazione",
                         "rm": "autra documentaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "419891008",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Laborauftrag",
                         "en": "Laboratory Order",
@@ -143,8 +143,8 @@
                         "it": "richiesta di laboratorio",
                         "rm": "incumbensa da labor"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "721965002",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pathologieauftrag",
                         "en": "Pathology order",
@@ -195,8 +195,8 @@
                         "it": "richiesta di patologia",
                         "rm": "incumbensa da patologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "721966001",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Bildgebungsauftrag",
                         "en": "Imaging Order",
@@ -247,8 +247,8 @@
                         "it": "richiesta di immaginografia",
                         "rm": "incumbensa da far in maletg"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "2161000195103",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Bericht zur Bildgebung",
                         "en": "Imaging report",
@@ -299,8 +299,8 @@
                         "it": "referto di immaginografia",
                         "rm": "rapport dals maletgs"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "4201000179104",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ärztlicher behandlungsplan",
                         "en": "Medical care plan",
@@ -351,8 +351,8 @@
                         "it": "piano di cure mediche",
                         "rm": "plan da tractament medical"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "737427001",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Nicht-Arzneimittel-Verschreibung",
                         "en": "Non-drug prescription",
@@ -403,8 +403,8 @@
                         "it": "prescrizione non di medicamenti",
                         "rm": "prescripziun senza medischinas"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "765492005",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pflegeplan",
                         "en": "Nursing care plan",
@@ -455,8 +455,8 @@
                         "it": "piano di cure infermieristiche",
                         "rm": "plan da tgira"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "773130005",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Rehabilitationsplan",
                         "en": "Rehabilitation care plan",
@@ -507,8 +507,8 @@
                         "it": "piano di riabilitazione",
                         "rm": "plan da reabilitaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "736055001",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Arzneimittelrezept",
                         "en": "Medical Prescription record",
@@ -559,8 +559,8 @@
                         "it": "prescrizione di medicamenti",
                         "rm": "recept da medicaments"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "761938008",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Allergieausweis",
                         "en": "Allergy record",
@@ -611,8 +611,8 @@
                         "it": "passaporto delle allergie",
                         "rm": "attest d'allergia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "722446000",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Ärztliches Attest",
                         "en": "Medical certificate",
@@ -663,8 +663,8 @@
                         "it": "certificato medico",
                         "rm": "attest medical"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "772786005",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Austrittsbericht",
                         "en": "Discharge summary",
@@ -715,8 +715,8 @@
                         "it": "rapporto di dimissione",
                         "rm": "rapport d'extrada"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "373942005",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Überweisungsbericht",
                         "en": "Transfer summary report",
@@ -767,8 +767,8 @@
                         "it": "rapporto di trasferimento",
                         "rm": "rapport d'assegnaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371535009",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Notfallbericht",
                         "en": "Emergency report",
@@ -819,8 +819,8 @@
                         "it": "rapporto d'urgenza",
                         "rm": "rapport davart in cas d'urgenza"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "445300006",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Nichtmedizinischer Bericht",
                         "en": "Non-medical report",
@@ -871,8 +871,8 @@
                         "it": "rapporto non medico",
                         "rm": "rapport nunmedical"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "445418005",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Konsultationsbericht",
                         "en": "Consultation report",
@@ -923,8 +923,8 @@
                         "it": "rapporto di consultazione",
                         "rm": "rapport da la consultaziun clinica"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371530004",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Laborbericht",
                         "en": "Laboratory report",
@@ -975,8 +975,8 @@
                         "it": "referto di laboratorio",
                         "rm": "rapport da labor"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "4241000179101",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Operationsbericht",
                         "en": "Operative report",
@@ -1027,8 +1027,8 @@
                         "it": "rapporto operatorio",
                         "rm": "rapport d'operaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371526002",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Verlaufsbericht",
                         "en": "Progress note",
@@ -1079,8 +1079,8 @@
                         "it": "referto sul decorso",
                         "rm": "rapport da l'andament"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371532007",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Bild",
                         "en": "Image",
@@ -1131,8 +1131,8 @@
                         "it": "immagine",
                         "rm": "maletg"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "900000000000471006",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Impfdokument",
                         "en": "Immunization record",
@@ -1183,8 +1183,8 @@
                         "it": "documento di vaccinazione",
                         "rm": "document da vaccinaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "41000179103",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Pathologiebericht",
                         "en": "Pathology report",
@@ -1235,8 +1235,8 @@
                         "it": "rapporto di patologia",
                         "rm": "rapport da la patologia"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "371528001",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Medikationsliste",
                         "en": "Medication list",
@@ -1287,8 +1287,8 @@
                         "it": "elenco dei medicamenti",
                         "rm": "glista da medicaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "721912009",
@@ -1331,7 +1331,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Medikationsplan",
                         "en": "Medication Card document",
@@ -1339,8 +1339,8 @@
                         "it": "piano dei medicamenti",
                         "rm": "plan da mediaziun"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "736378000",
@@ -1383,7 +1383,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Medikamentenabgabe",
                         "en": "Medication dispense",
@@ -1391,8 +1391,8 @@
                         "it": "dispensazione di medicamenti",
                         "rm": "dispensaziun da medicaments"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "82291000195104",
@@ -1435,7 +1435,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Therapieentscheid Medikation",
                         "en": "Medication treatment plan",
@@ -1443,8 +1443,8 @@
                         "it": "decisione di terapia medicament",
                         "rm": "plan da tractament da medicaments"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "761931002",
@@ -1487,7 +1487,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Bild/Video/Audio",
                         "en": "Picture/Video/Audio",
@@ -1495,8 +1495,8 @@
                         "it": "immagine/video/audio",
                         "rm": "maletg/video/audio"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "787148009",

@@ -1,5 +1,5 @@
 {
-    "codeListEntries": [
+    "data": [
         {
             "annotations": [
                 {
@@ -31,7 +31,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Unstrukturiertes EPD Dokument",
                         "en": "Unstructured EPR document",
@@ -39,8 +39,8 @@
                         "it": "Documento CIP non strutturato",
                         "rm": "Document DEP betg structurà"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:EPR_Unstructured_Document",
@@ -83,7 +83,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "KOS Dokument",
                         "en": "IHE KOS document",
@@ -91,8 +91,8 @@
                         "it": "Documento KOS ",
                         "rm": "Document KOS"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "1.2.840.10008.5.1.4.1.1.88.59",
@@ -135,7 +135,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CDA Wrapped Text Report",
                         "en": "CDA Wrapped Text Report",
@@ -143,8 +143,8 @@
                         "it": "CDA Wrapped Text Report",
                         "rm": "CDA Wrapped Text Report"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:rad:TEXT",
@@ -187,7 +187,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "PDF Radiology Report",
                         "en": "PDF Radiology Report",
@@ -195,8 +195,8 @@
                         "it": "PDF Radiology Report",
                         "rm": "PDF Radiology Report"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:rad:PDF",
@@ -239,7 +239,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CDA Imaging Report with Structured Headings",
                         "en": "CDA Imaging Report with Structured Headings",
@@ -247,8 +247,8 @@
                         "it": "CDA Imaging Report with Structured Headings",
                         "rm": "CDA Imaging Report with Structured Headings"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013",
@@ -291,7 +291,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "PDF embedded in CDA per XDS-SD profile",
                         "en": "PDF embedded in CDA per XDS-SD profile",
@@ -299,8 +299,8 @@
                         "it": "PDF embedded in CDA per XDS-SD profile",
                         "rm": "PDF embedded in CDA per XDS-SD profile"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:iti:xds-sd:pdf:2008",
@@ -343,7 +343,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Text embedded in CDA per XDS-SD profile",
                         "en": "Text embedded in CDA per XDS-SD profile",
@@ -351,8 +351,8 @@
                         "it": "Text embedded in CDA per XDS-SD profile",
                         "rm": "Text embedded in CDA per XDS-SD profile"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:iti:xds-sd:text:2008",
@@ -395,7 +395,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Community Medication List",
                         "en": "Community Medication List",
@@ -403,8 +403,8 @@
                         "it": "Community Medication List",
                         "rm": "Community Medication List"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pharm:pml:2013",
@@ -447,7 +447,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Community Prescription",
                         "en": "Community Prescription",
@@ -455,8 +455,8 @@
                         "it": "Community Prescription",
                         "rm": "Community Prescription"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pharm:pre:2010",
@@ -499,7 +499,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Community Dispense",
                         "en": "Community Dispense",
@@ -507,8 +507,8 @@
                         "it": "Community Dispense",
                         "rm": "Community Dispense"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pharm:dis:2010",
@@ -551,7 +551,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Community Medication Treatment Plan",
                         "en": "Community Medication Treatment Plan",
@@ -559,8 +559,8 @@
                         "it": "Community Medication Treatment Plan",
                         "rm": "Community Medication Treatment Plan"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pharm:mtp:2015",
@@ -603,7 +603,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Community Pharmaceutical Advice",
                         "en": "Community Pharmaceutical Advice",
@@ -611,8 +611,8 @@
                         "it": "Community Pharmaceutical Advice",
                         "rm": "Community Pharmaceutical Advice"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pharm:padv:2010",
@@ -655,7 +655,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CDA Laboratory Report",
                         "en": "CDA Laboratory Report",
@@ -663,8 +663,8 @@
                         "it": "CDA Laboratory Report",
                         "rm": "CDA Laboratory Report"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:lab:xd-lab:2008",
@@ -707,7 +707,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Immunization Content (IC)",
                         "en": "Immunization Content (IC)",
@@ -715,8 +715,8 @@
                         "it": "Immunization Content (IC)",
                         "rm": "Immunization Content (IC)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pcc:ic:2009",
@@ -759,7 +759,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "MimeType sufficient",
                         "en": "MimeType sufficient",
@@ -767,8 +767,8 @@
                         "it": "MimeType sufficient",
                         "rm": "MimeType sufficient"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
@@ -811,7 +811,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH VACD Immunization Administration",
                         "en": "CH VACD Immunization Administration",
@@ -819,8 +819,8 @@
                         "it": "CH VACD Immunization Administration",
                         "rm": "CH VACD Immunization Administration"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-vacd:immunization-administration:2022",
@@ -863,7 +863,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH VACD Vaccination Record",
                         "en": "CH VACD Vaccination Record",
@@ -871,8 +871,8 @@
                         "it": "CH VACD Vaccination Record",
                         "rm": "CH VACD Vaccination Record"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-vacd:vaccination-record:2022",
@@ -915,7 +915,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Medication Card document",
                         "en": "CH EMED Medication Card document",
@@ -923,8 +923,8 @@
                         "it": "CH EMED Medication Card document",
                         "rm": "CH EMED Medication Card document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:medication-card:2023",
@@ -967,7 +967,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Medication Treatment Plan document",
                         "en": "CH EMED Medication Treatment Plan document",
@@ -975,8 +975,8 @@
                         "it": "CH EMED Medication Treatment Plan document",
                         "rm": "CH EMED Medication Treatment Plan document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:mtp:2024",
@@ -1019,7 +1019,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Medication Prescription document",
                         "en": "CH EMED Medication Prescription document",
@@ -1027,8 +1027,8 @@
                         "it": "CH EMED Medication Prescription document",
                         "rm": "CH EMED Medication Prescription document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:pre:2024",
@@ -1071,7 +1071,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Medication Dispense document",
                         "en": "CH EMED Medication Dispense document",
@@ -1079,8 +1079,8 @@
                         "it": "CH EMED Medication Dispense document",
                         "rm": "CH EMED Medication Dispense document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:dis:2024",
@@ -1123,7 +1123,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Pharmaceutical Advice document",
                         "en": "CH EMED Pharmaceutical Advice document",
@@ -1131,8 +1131,8 @@
                         "it": "CH EMED Pharmaceutical Advice document",
                         "rm": "CH EMED Pharmaceutical Advice document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:padv:2024",
@@ -1175,7 +1175,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH EMED Medication List document",
                         "en": "CH EMED Medication List document",
@@ -1183,8 +1183,8 @@
                         "it": "CH EMED Medication List document",
                         "rm": "CH EMED Medication List document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-emed:pml:2024",
@@ -1227,7 +1227,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "Immunization Registry Content (IRC)",
                         "en": "",
@@ -1235,8 +1235,8 @@
                         "it": "Immunization Registry Content (IRC)",
                         "rm": "Immunization Registry Content (IRC)"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:ihe:pcc:ic:2008",
@@ -1279,7 +1279,7 @@
                     "type": "Period"
                 },
                 {
-                    "identifier": "PS",
+                    "identifier": "900000000000549004",
                     "text": {
                         "de": "CH AllergyIntolerance document",
                         "en": "CH AllergyIntolerance document",
@@ -1287,8 +1287,8 @@
                         "it": "CH AllergyIntolerance document",
                         "rm": "CH AllergyIntolerance document"
                     },
-                    "title": "Preferred Synonym",
-                    "type": "Synonym"
+                    "title": "Designation",
+                    "type": "Designation"
                 }
             ],
             "code": "urn:che:epr:ch-allergyintolerance:2024",
