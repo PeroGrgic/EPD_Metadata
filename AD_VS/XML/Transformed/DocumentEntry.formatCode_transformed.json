@@ -1,0 +1,1354 @@
+{
+    "data": {
+        "codeListEntries": [
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Unstrukturiertes EPD Dokument",
+                            "en": "Unstructured EPR document",
+                            "fr": "Document DEP non structuré",
+                            "it": "Documento CIP non strutturato",
+                            "rm": "Document DEP betg structurà"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:EPR_Unstructured_Document",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.2.840.10008.2.6.1",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "DICOM UID",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "KOS Dokument",
+                            "en": "IHE KOS document",
+                            "fr": "Document KOS",
+                            "it": "Documento KOS ",
+                            "rm": "Document KOS"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "1.2.840.10008.5.1.4.1.1.88.59",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CDA Wrapped Text Report",
+                            "en": "CDA Wrapped Text Report",
+                            "fr": "CDA Wrapped Text Report",
+                            "it": "CDA Wrapped Text Report",
+                            "rm": "CDA Wrapped Text Report"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:rad:TEXT",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "PDF Radiology Report",
+                            "en": "PDF Radiology Report",
+                            "fr": "PDF Radiology Report",
+                            "it": "PDF Radiology Report",
+                            "rm": "PDF Radiology Report"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:rad:PDF",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CDA Imaging Report with Structured Headings",
+                            "en": "CDA Imaging Report with Structured Headings",
+                            "fr": "CDA Imaging Report with Structured Headings",
+                            "it": "CDA Imaging Report with Structured Headings",
+                            "rm": "CDA Imaging Report with Structured Headings"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "PDF embedded in CDA per XDS-SD profile",
+                            "en": "PDF embedded in CDA per XDS-SD profile",
+                            "fr": "PDF embedded in CDA per XDS-SD profile",
+                            "it": "PDF embedded in CDA per XDS-SD profile",
+                            "rm": "PDF embedded in CDA per XDS-SD profile"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:iti:xds-sd:pdf:2008",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Text embedded in CDA per XDS-SD profile",
+                            "en": "Text embedded in CDA per XDS-SD profile",
+                            "fr": "Text embedded in CDA per XDS-SD profile",
+                            "it": "Text embedded in CDA per XDS-SD profile",
+                            "rm": "Text embedded in CDA per XDS-SD profile"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:iti:xds-sd:text:2008",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Community Medication List",
+                            "en": "Community Medication List",
+                            "fr": "Community Medication List",
+                            "it": "Community Medication List",
+                            "rm": "Community Medication List"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pharm:pml:2013",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Community Prescription",
+                            "en": "Community Prescription",
+                            "fr": "Community Prescription",
+                            "it": "Community Prescription",
+                            "rm": "Community Prescription"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pharm:pre:2010",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Community Dispense",
+                            "en": "Community Dispense",
+                            "fr": "Community Dispense",
+                            "it": "Community Dispense",
+                            "rm": "Community Dispense"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pharm:dis:2010",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Community Medication Treatment Plan",
+                            "en": "Community Medication Treatment Plan",
+                            "fr": "Community Medication Treatment Plan",
+                            "it": "Community Medication Treatment Plan",
+                            "rm": "Community Medication Treatment Plan"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pharm:mtp:2015",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Community Pharmaceutical Advice",
+                            "en": "Community Pharmaceutical Advice",
+                            "fr": "Community Pharmaceutical Advice",
+                            "it": "Community Pharmaceutical Advice",
+                            "rm": "Community Pharmaceutical Advice"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pharm:padv:2010",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CDA Laboratory Report",
+                            "en": "CDA Laboratory Report",
+                            "fr": "CDA Laboratory Report",
+                            "it": "CDA Laboratory Report",
+                            "rm": "CDA Laboratory Report"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:lab:xd-lab:2008",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Immunization Content (IC)",
+                            "en": "Immunization Content (IC)",
+                            "fr": "Immunization Content (IC)",
+                            "it": "Immunization Content (IC)",
+                            "rm": "Immunization Content (IC)"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pcc:ic:2009",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "MimeType sufficient",
+                            "en": "MimeType sufficient",
+                            "fr": "MimeType sufficient",
+                            "it": "MimeType sufficient",
+                            "rm": "MimeType sufficient"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH VACD Immunization Administration",
+                            "en": "CH VACD Immunization Administration",
+                            "fr": "CH VACD Immunization Administration",
+                            "it": "CH VACD Immunization Administration",
+                            "rm": "CH VACD Immunization Administration"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-vacd:immunization-administration:2022",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH VACD Vaccination Record",
+                            "en": "CH VACD Vaccination Record",
+                            "fr": "CH VACD Vaccination Record",
+                            "it": "CH VACD Vaccination Record",
+                            "rm": "CH VACD Vaccination Record"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-vacd:vaccination-record:2022",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Medication Card document",
+                            "en": "CH EMED Medication Card document",
+                            "fr": "CH EMED Medication Card document",
+                            "it": "CH EMED Medication Card document",
+                            "rm": "CH EMED Medication Card document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:medication-card:2023",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Medication Treatment Plan document",
+                            "en": "CH EMED Medication Treatment Plan document",
+                            "fr": "CH EMED Medication Treatment Plan document",
+                            "it": "CH EMED Medication Treatment Plan document",
+                            "rm": "CH EMED Medication Treatment Plan document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:mtp:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Medication Prescription document",
+                            "en": "CH EMED Medication Prescription document",
+                            "fr": "CH EMED Medication Prescription document",
+                            "it": "CH EMED Medication Prescription document",
+                            "rm": "CH EMED Medication Prescription document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:pre:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Medication Dispense document",
+                            "en": "CH EMED Medication Dispense document",
+                            "fr": "CH EMED Medication Dispense document",
+                            "it": "CH EMED Medication Dispense document",
+                            "rm": "CH EMED Medication Dispense document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:dis:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Pharmaceutical Advice document",
+                            "en": "CH EMED Pharmaceutical Advice document",
+                            "fr": "CH EMED Pharmaceutical Advice document",
+                            "it": "CH EMED Pharmaceutical Advice document",
+                            "rm": "CH EMED Pharmaceutical Advice document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:padv:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH EMED Medication List document",
+                            "en": "CH EMED Medication List document",
+                            "fr": "CH EMED Medication List document",
+                            "it": "CH EMED Medication List document",
+                            "rm": "CH EMED Medication List document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-emed:pml:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "1.3.6.1.4.1.19376.1.2.3",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "IHE.FormatCode.cs",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Immunization Registry Content (IRC)",
+                            "en": null,
+                            "fr": "Immunization Registry Content (IRC)",
+                            "it": "Immunization Registry Content (IRC)",
+                            "rm": "Immunization Registry Content (IRC)"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:ihe:pcc:ic:2008",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.10.10",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "ch-ehealth-codesystem-format",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "CH AllergyIntolerance document",
+                            "en": "CH AllergyIntolerance document",
+                            "fr": "CH AllergyIntolerance document",
+                            "it": "CH AllergyIntolerance document",
+                            "rm": "CH AllergyIntolerance document"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "urn:che:epr:ch-allergyintolerance:2024",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            }
+        ],
+        "codeListEntryValueMaxLength": 13,
+        "codeListEntryValueType": "Numeric",
+        "conceptType": "CodeList",
+        "conformsTo": [],
+        "description": {
+            "de": "Format des Dokumentes gemäss Anhang 3 EPDV-EDI. Dieser eindeutige Code definiert das Format des XDS Dokumentes. Zusammen mit dem mimeType, sollte es dem potentiellen Konsumenten genügend Informationen liefern, ob er in der Lage ist, das Dokument zu verarbeiten.",
+            "en": "Document format as per Annex; EPRO-FDHA. This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document.",
+            "fr": "Format du document selon l'annexe 3 ODEP-DFI. Ce code univoque définit le format du document XDS. Combiné au mimeType, il doit fournir à l'utilisateur suffisamment d'informations pour savoir s'il est en mesure de traiter le document.",
+            "it": "Formato del documento secondo l'allegato 3 OCIP-DFI. Questo codice univoco definisce il formato del documento XDS. Insieme al tipo MIME, intende fornire al potenziale consumatore sufficienti informazioni per capire se è in grado o meno di elaborare il documento."
+        },
+        "id": "08dd3ac8-2381-0ee1-a776-b33cd44de513",
+        "identifier": "2.16.756.5.30.1.127.3.10.1.9",
+        "isLocked": false,
+        "keywords": [],
+        "name": {
+            "de": "DocumentEntry.formatCode",
+            "en": "DocumentEntry.formatCode",
+            "fr": "DocumentEntry.formatCode",
+            "it": "DocumentEntry.formatCode"
+        },
+        "publicationLevel": "Internal",
+        "publisher": {
+            "identifier": "CH_eHealth",
+            "name": {
+                "de": "eHealth Suisse",
+                "en": "eHealth Suisse",
+                "fr": "eHealth Suisse",
+                "it": "eHealth Suisse"
+            }
+        },
+        "registrationStatus": "Incomplete",
+        "responsibleDeputy": {
+            "id": "08db7190-7358-9c21-8114-9743e9051aa2",
+            "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
+            "name": "Neuenschwander Stefanie eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "responsiblePerson": {
+            "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
+            "identifier": "pero.grgic@e-health-suisse.ch",
+            "name": "Grgic Pero eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "themes": [],
+        "validFrom": "2024-05-31T22:00:00+00:00",
+        "version": "2.0.0"
+    }
+}

@@ -48,7 +48,7 @@ class i14y_api_calls():
             logging.error(f"An error occurred: {err}")
         return None
 
-    def fetch_data(self):
+    def fetch_data(self): #TODO: verbinden mit save_data_to_file
         headers = {
             'accept': '*/*',
             'Authorization': f'Bearer {self.AUTH_TOKEN}'
@@ -186,4 +186,4 @@ if __name__ == "__main__":
     api_handler.post_all_valuesets(directory_path)
     logging.info("Script execution completed.")
 
-#TODO: Erstellen neuer Version eines VS implementeiren
+#TODO: Erstellen neuer Version eines VS implementieren

@@ -1,0 +1,960 @@
+{
+    "data": {
+        "codeListEntries": [
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Konsultationsbericht",
+                            "en": "Report of clinical encounter",
+                            "fr": "rapport de consultation",
+                            "it": "rapporto di visita medica",
+                            "rm": "rapport da consultaziun"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371531000",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Zuweisungsschreiben",
+                            "en": "Referral note",
+                            "fr": "lettre de référence",
+                            "it": "lettera d'invio",
+                            "rm": "brev d'assegnaziun"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721927009",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Untersuchungsauftrag",
+                            "en": "Order",
+                            "fr": "demande d'examen",
+                            "it": "richiesta di esami",
+                            "rm": "incumbensa da consultaziun"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721963009",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Zusammenfassung",
+                            "en": "Summary",
+                            "fr": "résumé",
+                            "it": "riepilogo",
+                            "rm": "rapport resumà"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "422735006",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Interventionsbericht",
+                            "en": "Procedure report",
+                            "fr": "rapport d'intervention",
+                            "it": "rapporto operatorio",
+                            "rm": "rapport d'intervenziun"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371525003",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Behandlungsplan",
+                            "en": "Care plan",
+                            "fr": "plans de soins",
+                            "it": "piano di cura",
+                            "rm": "plan da tractament"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "734163000",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Verschreibung",
+                            "en": "Prescription",
+                            "fr": "prescription",
+                            "it": "prescrizione medica",
+                            "rm": "prescripziun"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    },
+                    {
+                        "identifier": "900000000000549004",
+                        "text": {
+                            "de": "Rezept",
+                            "fr": "ordonnance",
+                            "rm": "recept"
+                        },
+                        "title": "Acceptable",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "440545006",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Patientendokumentation",
+                            "en": "Patient documentation",
+                            "fr": "documentation du patient",
+                            "it": "documentazione del paziente",
+                            "rm": "documentaziun da lunga durada"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "184216000",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Einverständniserklärung",
+                            "en": "Consent",
+                            "fr": "consentement",
+                            "it": "consenso",
+                            "rm": "consentiment"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371537001",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Patientenverfügung",
+                            "en": "Advance directives",
+                            "fr": "directives anticipées",
+                            "it": "direttive anticipate",
+                            "rm": "disposiziun dal pazient"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371538006",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Rückverfolgung der EPD Zugriffe",
+                            "en": "Record access",
+                            "fr": "traçabilité des accès aux DEP",
+                            "it": "calloutronologia degli accessi alla CIP",
+                            "rm": "repersequitabladad da l'access al DEP"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "722160009",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Notfallkarte",
+                            "en": "Emergency ID card",
+                            "fr": "carte d'urgence",
+                            "it": "tessera di emergenza",
+                            "rm": "attest d'urgenza"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "722216001",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Organspendeausweis",
+                            "en": "Organ donor card",
+                            "fr": "carte de donneur d'organes",
+                            "it": "tessera di donatore di organi",
+                            "rm": "attest da donatur d'organs"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "772790007",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Administratives Dokument",
+                            "en": "Administrative document",
+                            "fr": "document administratif",
+                            "it": "documento amministrativo",
+                            "rm": "document administrativ"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "405624007",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Dokument zu gesundheitsrelevantem Ereignis",
+                            "en": "Event report",
+                            "fr": "document sur l'événement sanitaire",
+                            "it": "documento concernente un evento rilevante per la salute",
+                            "rm": "document concernent in eveniment relevant per la sanadad"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "417319006",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.4",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms Swiss Extension",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Geburtsbericht",
+                            "en": "Birth report",
+                            "fr": "rapport de naissance",
+                            "it": "rapporto del parto",
+                            "rm": "rapport da gravidanza"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    },
+                    {
+                        "identifier": "900000000000549004",
+                        "text": {
+                            "de": "Schwangerschaftsbericht",
+                            "en": "Pregnancy report",
+                            "fr": "rapport de grossesse",
+                            "it": "rapporto di gravidanza",
+                            "rm": "rapport da naschientscha"
+                        },
+                        "title": "Acceptable",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "2171000195109",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": null,
+                            "en": null,
+                            "fr": null,
+                            "it": null,
+                            "rm": null
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "Sonstige Dokumentation",
+                            "en": "Other documentation",
+                            "fr": "autre documentation",
+                            "it": "altra documentazione",
+                            "rm": "document betg designà pli precis"
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": null,
+                    "en": null,
+                    "fr": null,
+                    "it": null,
+                    "rm": null
+                }
+            }
+        ],
+        "codeListEntryValueMaxLength": 13,
+        "codeListEntryValueType": "Numeric",
+        "conceptType": "CodeList",
+        "conformsTo": [],
+        "description": {
+            "de": "Dokumentenklasse gemäss EPDV-EDI Anhang 3",
+            "en": "Document class as per EPRO-FDHA Annex 3",
+            "fr": "Classification du document selon l'annexe 3 ODEP-DFI",
+            "it": "Classe del documento secondo l'allegato 3 OCIP-DFI"
+        },
+        "id": "08dd3a24-ed88-0a70-9837-bd77662abde7",
+        "identifier": "2.16.756.5.30.1.127.3.10.1.3",
+        "isLocked": false,
+        "keywords": [],
+        "name": {
+            "de": "DocumentEntry.classCode",
+            "en": "DocumentEntry.classCode",
+            "fr": "DocumentEntry.classCode",
+            "it": "DocumentEntry.classCode"
+        },
+        "publicationLevel": "Internal",
+        "publisher": {
+            "identifier": "CH_eHealth",
+            "name": {
+                "de": "eHealth Suisse",
+                "en": "eHealth Suisse",
+                "fr": "eHealth Suisse",
+                "it": "eHealth Suisse"
+            }
+        },
+        "registrationStatus": "Incomplete",
+        "responsibleDeputy": {
+            "id": "08db7190-7358-9c21-8114-9743e9051aa2",
+            "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
+            "name": "Neuenschwander Stefanie eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "responsiblePerson": {
+            "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
+            "identifier": "pero.grgic@e-health-suisse.ch",
+            "name": "Grgic Pero eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "themes": [],
+        "validFrom": "2024-05-31T22:00:00+00:00",
+        "version": "2.0.0"
+    }
+}
