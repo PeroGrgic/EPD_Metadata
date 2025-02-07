@@ -8,13 +8,18 @@ import enum
 
 class AD_csv_to_i14y_json():
     
-    def __init__(self, file_path, output_file_path, file_name):
+    def __init__(self, file_path, output_file_path, file_name, responsible_key, deputy_key, validFrom, new_concept):
         self.file_path = file_path
         self.json_output_file_path = output_file_path
         self.codeListEntries = []
         self.fileExtension = None
         self.concept = concept()
         self.fileName = file_name
+        self.publisher_persons = publisherPersons()
+        self.responsible_person = self.publisher_persons.get_person(key=responsible_key)
+        self.deputy_person = self.publisher_persons.get_person(key=deputy_key)
+        self.new_concept = new_concept
+        self.validFrom = validFrom
 
     def process_csv(self):
         self.fileExtension ="csv"
@@ -95,9 +100,9 @@ class AD_csv_to_i14y_json():
                     synonymAS.set_text_RM(row[indexRMas])
 
                 periodStart = Period("start")
-                periodStart.set_Date("01.06.2024")
+                periodStart.set_Date("2024-06-01")
                 periodEnd = Period("end")
-                periodEnd.set_Date("01.06.2100")
+                periodEnd.set_Date("2100-06-01")
 
                 self.codeListEntries.append([code, codeSystem, periodStart, periodEnd, synonymPS, synonymAS])
 
@@ -111,6 +116,7 @@ class AD_csv_to_i14y_json():
         concept_instance.set_name(value_set.get('name'))
         concept_instance.set_identifier(value_set.get('id'))
         concept_instance.set_id(self.get_codelist_id(self.fileName))
+        concept_instance.set_validFrom(self.validFrom)
 
 
         # Create mapping of codeSystem ids to their names
@@ -198,20 +204,18 @@ class AD_csv_to_i14y_json():
                 codeSystem.set_Identifier(code_system_id)
             
                 periodStart = Period("start")
-                periodStart.set_Date("01.06.2024")
+                periodStart.set_Date("2024-06-01")
                 periodEnd = Period("end")
-                periodEnd.set_Date("01.06.2100")
+                periodEnd.set_Date("2100-06-01")
             
                 self.codeListEntries.append([code, codeSystem, periodStart, periodEnd, synonymPS, synonymAS])
                 self.concept = concept_instance
 
     def create_concept_output(self):
-        codeListEntries_output = self.create_codeListEntries_output(self.codeListEntries)        
         output = {
             "data": {
-                "codeListEntries": codeListEntries_output["data"],
-                "codeListEntryValueMaxLength": 13, # Adjust the value as needed
-                "codeListEntryValueType": "Numeric", # Adjust the value as needed
+                "codeListEntryValueMaxLength": 30, # Adjust the value as needed
+                "codeListEntryValueType": "String", # Adjust the value as needed
                 "conceptType": "CodeList",
                 "conformsTo": [],
                 "description": {
@@ -220,9 +224,7 @@ class AD_csv_to_i14y_json():
                     "fr": self.concept.get_descriptionFR(),
                     "it": self.concept.get_descriptionIT()
                 },
-                "id": self.concept.get_id(),
                 "identifier": self.concept.get_identifier(),
-                "isLocked": False,
                 "keywords": [],
                 "name": {
                     "de": self.concept.get_name(),
@@ -230,7 +232,6 @@ class AD_csv_to_i14y_json():
                     "fr": self.concept.get_name(),
                     "it": self.concept.get_name()
                 },
-                "publicationLevel": "Internal",
                 "publisher": {
                     "identifier": "CH_eHealth",
                     "name": {
@@ -240,29 +241,15 @@ class AD_csv_to_i14y_json():
                         "it": "eHealth Suisse"
                     }
                 },
-                "registrationStatus": "Incomplete",
-                "responsibleDeputy": {
-                    "id": "08db7190-7358-9c21-8114-9743e9051aa2",
-                    "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
-                    "name": "Neuenschwander Stefanie eHealth Suisse",
-                    "firstName": "",
-                    "lastName": ""
-                },
-                "responsiblePerson": {
-                    "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
-                    "identifier": "pero.grgic@e-health-suisse.ch",
-                    "name": "Grgic Pero eHealth Suisse",
-                    "firstName": "",
-                    "lastName": ""
-                },
+                "responsibleDeputy": self.responsible_person,
+                "responsiblePerson": self.deputy_person,
                 "themes": [],
-                "validFrom": "2024-05-31T22:00:00+00:00",
+                "validFrom": self.concept.get_validFrom(),
                 "version": "2.0.0"
             }
-        }
-        
+        }    
         return output
-
+    
     def create_codeListEntries_output(self, codeListEntries):
         output = []
         
@@ -587,6 +574,9 @@ class concept():
      
      def get_id(self):
         return self.id
+     
+     def get_validFrom(self):
+        return self.validFrom
 
 class codeListsId(enum.Enum):
     #Id of codelists version 2.0.0
@@ -611,40 +601,38 @@ class codeListsId(enum.Enum):
 
 class publisherPersons():
     def __init__(self):
-        self.PGR = {
-            "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
-            "identifier": "pero.grgic@e-health-suisse.ch",
-            "name": "Grgic Pero eHealth Suisse",
-            "firstName": "",
-            "lastName": ""
-        }
-        self.SNE = {
-            "id": "08db7190-7358-9c21-8114-9743e9051aa2",
-            "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
-            "name": "Neuenschwander Stefanie eHealth Suisse",
-            "firstName": "",
-            "lastName": ""
+        self.persons = {
+            "PGR": {
+                "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
+                "identifier": "pero.grgic@e-health-suisse.ch",
+                "name": "Grgic Pero eHealth Suisse"
+            },
+            "SNE": {
+                "id": "08db7190-7358-9c21-8114-9743e9051aa2",
+                "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
+                "name": "Neuenschwander Stefanie eHealth Suisse"
+            }
         }
 
-    def get_PGR(self):
-        return {
-            "PGR": self.PGR,
-        }
-    def get_SNE(self):
-        return {
-            "SNE": self.SNE,
-        }
+    def get_person(self, key):
+        """Returns the person dictionary based on a given key (e.g., 'PGR' or 'SNE')."""
+        return self.persons.get(key, {})
 
-   
-if __name__ == "__main__":
-    args = sys.argv[1:]
-    if len(args) != 2:
-        print("Usage: python AD_I14Y_transformator.py <input_folder_path> <output_folder_path>")
+def main():
+    if len(sys.argv) < 5:
+        print("Usage: python script_name.py <responsible_key> <deputy_key> <input_folder_path> <output_folder_path> <Date_Valid_From> [-n]")
+        print("  <Date_Valid_From>   → date from which the concept is valid. needs to be in 'YYYY-MM-DD' format")
+        print("  -n   → create new concept otherwise it will create a new version of existing concept")
         sys.exit(1)
-        
-    input_folder = args[0]
-    output_folder = args[1]
-    
+
+    responsible_key = sys.argv[1]  # First argument (e.g., PGR)
+    deputy_key = sys.argv[2]  # Second argument (e.g., SNE)
+    input_folder = sys.argv[3]  # Third argument (pass your concept object)
+    output_folder = sys.argv[4]  # Fourth argument (pass your codeListEntries object)
+    date_valid_from = sys.argv[5]  # Fifth argument (date from which the concept is valid)
+    new = len(sys.argv) > 6 and sys.argv[6] == "-n"  # Will be True if -n is present, False otherwise
+
+
     os.makedirs(output_folder, exist_ok=True)
     
     print("Starting transformation of files... \n ---------------------------------------------------------------")
@@ -653,7 +641,7 @@ if __name__ == "__main__":
             input_file = os.path.join(input_folder, filename)
             
             # Extract text between "VS " and "("
-            match = re.search(r'VS (.*?)\(', filename)
+            match = re.search(r'VS_(.*?)_\(', filename)
             if match:
                 new_filename = match.group(1).strip() + '_transformed.json'
             else:
@@ -662,8 +650,8 @@ if __name__ == "__main__":
             output_file = os.path.join(output_folder, new_filename)
             
             print(f"Processing {filename}...")
-            file_name = re.search(r'VS (.*?)\(', filename).group(1).strip()
-            transformer = AD_csv_to_i14y_json(input_file, output_file, file_name)
+            file_name = re.search(r'VS_(.*?)_\(', filename).group(1).strip()
+            transformer = AD_csv_to_i14y_json(input_file, output_file, file_name, responsible_key, deputy_key, date_valid_from, new)
             
             if filename.endswith('.csv'):
                 transformer.process_csv()
@@ -675,5 +663,97 @@ if __name__ == "__main__":
     
     print(f"All transformations complete. Output files written to: {output_folder}")
 
-#TODO: Implementieren Responsible person & deputy person dynamisch angeben --> nur kürzel angeben
-#TODO: Agrs anpassen um alles notwendige beim ausführen anzugeben. [1] input folder, [2] output folder, [3]Angeben ob neue version von VS oder nur Inhalt. [4] wenn neue version: responnsible person & deputy person --> nur kürzel angeben [5] start date & end date
+if __name__ == "__main__":
+    main()
+
+#TODO: ValidFrom auf Codeebene ist nicht dynamisch.
+"""
+Syntaktisch ist es ein Korrekes JSON der I14Y. Es soll aber keine Code ListEntries enthalten.
+def create_concept_output(self):
+        codeListEntries_output = self.create_codeListEntries_output(self.codeListEntries)             
+        if self.new_concept:
+            output = {
+                "data": {
+                    "codeListEntries": codeListEntries_output["data"],
+                    "codeListEntryValueMaxLength": 13, # Adjust the value as needed
+                    "codeListEntryValueType": "Numeric", # Adjust the value as needed
+                    "conceptType": "CodeList",
+                    "conformsTo": [],
+                    "description": {
+                        "de": self.concept.get_descriptionDE(),
+                        "en": self.concept.get_descriptionEN(),
+                        "fr": self.concept.get_descriptionFR(),
+                        "it": self.concept.get_descriptionIT()
+                    },
+                    "identifier": self.concept.get_identifier(),
+                    "isLocked": False,
+                    "keywords": [],
+                    "name": {
+                        "de": self.concept.get_name(),
+                        "en": self.concept.get_name(),
+                        "fr": self.concept.get_name(),
+                        "it": self.concept.get_name()
+                    },
+                    "publicationLevel": "Internal",
+                    "publisher": {
+                        "identifier": "CH_eHealth",
+                        "name": {
+                            "de": "eHealth Suisse",
+                            "en": "eHealth Suisse",
+                            "fr": "eHealth Suisse",
+                            "it": "eHealth Suisse"
+                        }
+                    },
+                    "registrationStatus": "Incomplete",
+                    "responsibleDeputy": self.responsible_person,
+                    "responsiblePerson": self.deputy_person,
+                    "themes": [],
+                    "validFrom": self.concept.get_validFrom(),
+                    "version": "2.0.0"
+                }
+        }
+        else:
+             output = {
+                "data": {
+                    "codeListEntries": codeListEntries_output["data"],
+                    "codeListEntryValueMaxLength": 13, # Adjust the value as needed
+                    "codeListEntryValueType": "Numeric", # Adjust the value as needed
+                    "conceptType": "CodeList",
+                    "conformsTo": [],
+                    "description": {
+                        "de": self.concept.get_descriptionDE(),
+                        "en": self.concept.get_descriptionEN(),
+                        "fr": self.concept.get_descriptionFR(),
+                        "it": self.concept.get_descriptionIT()
+                    },
+                    "id": self.concept.get_id(),
+                    "identifier": self.concept.get_identifier(),
+                    "isLocked": False,
+                    "keywords": [],
+                    "name": {
+                        "de": self.concept.get_name(),
+                        "en": self.concept.get_name(),
+                        "fr": self.concept.get_name(),
+                        "it": self.concept.get_name()
+                    },
+                    "publicationLevel": "Internal",
+                    "publisher": {
+                        "identifier": "CH_eHealth",
+                        "name": {
+                            "de": "eHealth Suisse",
+                            "en": "eHealth Suisse",
+                            "fr": "eHealth Suisse",
+                            "it": "eHealth Suisse"
+                        }
+                    },
+                    "registrationStatus": "Incomplete",
+                    "responsibleDeputy": self.responsible_person,
+                    "responsiblePerson": self.deputy_person,
+                    "themes": [],
+                    "validFrom": self.concept.get_validFrom(),
+                    "version": "2.0.0"
+            }
+        }
+        
+        return output
+"""

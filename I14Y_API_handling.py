@@ -15,7 +15,7 @@ class i14y_api_calls():
         self.AUTH_TOKEN = auth_token
         self.DIRECTORY_PATH = directory_path
     
-    def post_file(self, file_path, concept_id):
+    def post_CodelistEntries(self, file_path, concept_id):
         headers = {
             'Authorization': f'Bearer {self.AUTH_TOKEN}',
             'accept': '*/*'
@@ -48,7 +48,7 @@ class i14y_api_calls():
             logging.error(f"An error occurred: {err}")
         return None
 
-    def fetch_data(self): #TODO: verbinden mit save_data_to_file
+    def get_CodelistEntry(self): #TODO: verbinden mit save_data_to_file, updaten so wie es jetzt ist, funktioniert nicht
         headers = {
             'accept': '*/*',
             'Authorization': f'Bearer {self.AUTH_TOKEN}'
@@ -72,7 +72,7 @@ class i14y_api_calls():
             logging.error(f"An error occurred: {err}")
         return None
     
-    def delete_codelist_entries(self, concept_id):
+    def delete_CodelistEntries(self, concept_id):
         headers = {
             'accept': '*/*',
             'Authorization': f'Bearer {self.AUTH_TOKEN}'
@@ -95,7 +95,7 @@ class i14y_api_calls():
             logging.error(f"An error occurred: {err}")
         return None
     
-    def save_data_to_file(data, file_path):
+    def save_ResponseToFile(data, file_path):
         try:
             with open(file_path, 'w') as file:
                 json.dump(data, file, indent=4)
@@ -103,11 +103,11 @@ class i14y_api_calls():
         except Exception as e:
             logging.error(f"Failed to write data to file: {e}")
 
-    def update_codelist_entries (self, file_path, concept_id):
-        self.delete_codelist_entries(concept_id)
-        self.post_file(file_path, concept_id)
+    def update_CodelistEntries (self, file_path, concept_id):
+        self.delete_CodelistEntries(concept_id)
+        self.post_CodelistEntries(file_path, concept_id)
     
-    def post_all_valuesets(self, directory_path):
+    def post_MultipleNewConceptVersion(self, directory_path):
         # Find all JSON files in the directory
         json_files = glob.glob(os.path.join(directory_path, "*_transformed.json"))
  
@@ -120,7 +120,7 @@ class i14y_api_calls():
 
             if codelist_id:
                 print(f"Posting {json_file} with codelist ID: {codelist_id.value}")
-                self.update_codelist_entries(json_file, codelist_id.value)
+                self.update_CodelistEntries(json_file, codelist_id.value)
             else:
                 print(f"No matching codelist ID found for {json_file}")
 
@@ -149,6 +149,47 @@ class i14y_api_calls():
         base_filename = os.path.splitext(os.path.basename(filename))[0]
         # Return corresponding enum value or None if not found
         return mapping.get(base_filename)
+    
+    def post_NewConcept(self, file_path):
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': f'Bearer {self.AUTH_TOKEN}',
+        }
+        
+        POST_URL = 'https://api.i14y.admin.ch/api/partner/v1/concepts'
+
+            
+        # Check if the file exists before making the request
+        if not os.path.isfile(file_path):
+            logging.error(f"File not found: {file_path}")
+            return
+
+        # Prepare the file to be sent in the request
+        files = {'file': (os.path.basename(file_path), open(file_path, 'rb'), 'application/json')}
+        
+        try:
+            logging.info(f"Posting file to URL: {POST_URL}")
+            response = requests.post(POST_URL, headers=headers, files=files, verify = False)
+            response.raise_for_status()  # Raise an error for bad status codes
+            logging.info("File posted successfully")
+            return response.json()
+        except requests.exceptions.HTTPError as http_err:
+            logging.error(f"HTTP error occurred: {http_err}")
+        except requests.exceptions.ConnectionError as conn_err:
+            logging.error(f"Connection error occurred: {conn_err}")
+        except requests.exceptions.Timeout as timeout_err:
+            logging.error(f"Timeout error occurred: {timeout_err}")
+        except Exception as err:
+            logging.error(f"An error occurred: {err}")
+        return None
+    
+    def post_MultipleConcepts(self, directory_path):
+        # Find all JSON files in the directory
+        json_files = glob.glob(os.path.join(directory_path, "*.json"))
+        print(f"Found {len(json_files)} files to process")
+        for json_file in json_files:
+            print(f"Posting file: {json_file}")
+            self.post_NewConcept(json_file)
 
 class codeListsId(enum.Enum):
     #Id of codelists version 2.0.0
@@ -172,19 +213,101 @@ class codeListsId(enum.Enum):
     EprPurposeOfUse = '08dd3acc-eee9-b32e-ba19-4bb6f87f502b'
 
 # Main execution
+def main():
+    logging.basicConfig(level=logging.INFO)
+
+    if len(sys.argv) < 3:
+        print("Usage: python I14_API_handling.py  <I14Y_user_token> <method> [file_path] [concept_id]")
+        print("Methods:")
+        print("  -pc   → post_NewConcept(file_path)")
+        print("  -pmc  → post_MultipleNewConcepts(directory_path)")
+        print("  -pcl  → post_CodelistEntries(file_path, concept_id)")
+        print("  -pmcl → update_CodelistEntries(file_path, concept_id)")
+        print("  -dcl  → delete_CodelistEntries(concept_id)")
+        logging.error("Missing arguments.")
+        sys.exit(1)
+
+    # Extract arguments
+    method = sys.argv[2]
+    i14y_user_token = sys.argv[1]  # Last argument is the auth_token
+
+
+    # Initialize API handler (directory_path is only required for -pmc)
+    if method == "-pmc":
+        if len(sys.argv) < 4:
+            logging.error("Fehlendes Argument: directory_path für -pmc.")
+            sys.exit(1)
+        directory_path = sys.argv[3]
+        api_handler = i14y_api_calls(i14y_user_token, directory_path=directory_path)
+        api_handler.post_MultipleConcepts(directory_path)
+
+    else:
+        api_handler = i14y_api_calls(i14y_user_token)
+
+        if method == "-pc":
+            if len(sys.argv) < 4:
+                logging.error("Fehlendes Argument: file_path für -pc.")
+                sys.exit(1)
+            file_path = sys.argv[3]
+            api_handler.post_NewConcept(file_path)
+
+        elif method == "-pcl":
+            if len(sys.argv) < 5:
+                logging.error("Fehlende Argumente: file_path und concept_id für -pcl.")
+                sys.exit(1)
+            file_path, concept_id = sys.argv[3:4]
+            api_handler.post_CodelistEntries(file_path, concept_id)
+
+        elif method == "-pmcl":
+            if len(sys.argv) < 5:
+                logging.error("Fehlende Argumente: file_path und concept_id für -pmcl.")
+                sys.exit(1)
+            file_path, concept_id = sys.argv[3:]
+            api_handler.update_CodelistEntries(file_path, concept_id)
+
+        elif method == "-dcl":
+            if len(sys.argv) < 4:
+                logging.error("Fehlendes Argument: concept_id für -dcl.")
+                sys.exit(1)
+            concept_id = sys.argv[3]
+            api_handler.delete_CodelistEntries(concept_id)
+
+        else:
+            logging.error(f"Ungültiges Argument: {method}. Erlaubt sind: -pc, -pmc, -pcl, -pmcl, -dcl.")
+            sys.exit(1)
+
+    logging.info("Script execution completed.")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python I14_API_handling.py <directory_path> <I14Y_user_token>")
+    main()
+
+"""
+if __name__ == "__main__":
+    valid_args = {
+        "-pc": pc,
+        "-pmc": pmc,
+        "-pcl": pcl,
+        "-pmcl": pmcl,
+        "-dcl": dcl
+    }
+    
+    if len(sys.argv) != 4:
+        print("Usage: python I14_API_handling.py <directory_path> <I14Y_user_token> <method>= -pc, -pmc, -pcl, -pmcl, -dcl")
         sys.exit(1)
 
     directory_path = sys.argv[1]
     i14y_user_tokern = sys.argv[2]
+    method = sys.argv[3]
+
+    if method in valid_args:
+        valid_args[method]()  # Rufe die entsprechende Methode auf
+    else:
+        print(f"Ungültiges Argument: {method}. Erlaubt sind: {', '.join(valid_args.keys())}")
     
     #auth_token = sys.argv[2]
     api_handler = i14y_api_calls(i14y_user_tokern, directory_path=directory_path,)
-    api_handler.post_all_valuesets(directory_path)
+    api_handler.post_MultipleNewConceptVersion(directory_path)
     logging.info("Script execution completed.")
-
-#TODO: Erstellen neuer Version eines VS implementieren
+"""
+    
 #TODO: Agrs anpassen um alles notwendige beim ausführen anzugeben. [1] dir path [2] auth token [3] welche operation ausgeführt werden soll (upload (new VS oder CodeListEntries), download, delete)

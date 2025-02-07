@@ -5,18 +5,18 @@
         "conceptType": "CodeList",
         "conformsTo": [],
         "description": {
-            "de": "Dokumentenklasse gemäss EPDV-EDI Anhang 3",
-            "en": "Document class as per EPRO-FDHA Annex 3",
-            "fr": "Classification du document selon l'annexe 3 ODEP-DFI",
-            "it": "Classe del documento secondo l'allegato 3 OCIP-DFI"
+            "de": "Sprache des Dokumentes gemäss Anhang 3 EPDV-EDI. Definiert die Sprache in welcher das Dokument verfasst wurde.",
+            "en": "Document language as per Annex 3 EPRO-FDHA. Defines the language in which the document was written.",
+            "fr": "Langue du document selon l'annexe 3 ODEP-DFI. Définit la langue dans laquelle est rédigé le document.",
+            "it": "Lingua del documento secondo l'allegato 3 OCIP-DFI. Definisce la lingua nella quale è stato redatto il documento."
         },
-        "identifier": "2.16.756.5.30.1.127.3.10.1.3",
+        "identifier": "2.16.756.5.30.1.127.3.10.1.13",
         "keywords": [],
         "name": {
-            "de": "DocumentEntry.classCode",
-            "en": "DocumentEntry.classCode",
-            "fr": "DocumentEntry.classCode",
-            "it": "DocumentEntry.classCode"
+            "de": "DocumentEntry.languageCode",
+            "en": "DocumentEntry.languageCode",
+            "fr": "DocumentEntry.languageCode",
+            "it": "DocumentEntry.languageCode"
         },
         "publisher": {
             "identifier": "CH_eHealth",

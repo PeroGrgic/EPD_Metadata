@@ -5,18 +5,18 @@
         "conceptType": "CodeList",
         "conformsTo": [],
         "description": {
-            "de": "Dokumentenklasse gemäss EPDV-EDI Anhang 3",
-            "en": "Document class as per EPRO-FDHA Annex 3",
-            "fr": "Classification du document selon l'annexe 3 ODEP-DFI",
-            "it": "Classe del documento secondo l'allegato 3 OCIP-DFI"
+            "de": "MIME Typ des Dokumentes gemäss Anhang 3 EPDG.",
+            "en": "MIME type of the document as per Annex; EPRO-FDHA.",
+            "fr": "MIME Type du document selon l'annexe 3 ODEP-DFI.",
+            "it": "Tipo MIME del documento secondo l'allegato 3 OCIP-DFI."
         },
-        "identifier": "2.16.756.5.30.1.127.3.10.1.3",
+        "identifier": "2.16.756.5.30.1.127.3.10.1.16",
         "keywords": [],
         "name": {
-            "de": "DocumentEntry.classCode",
-            "en": "DocumentEntry.classCode",
-            "fr": "DocumentEntry.classCode",
-            "it": "DocumentEntry.classCode"
+            "de": "DocumentEntry.mimeType",
+            "en": "DocumentEntry.mimeType",
+            "fr": "DocumentEntry.mimeType",
+            "it": "DocumentEntry.mimeType"
         },
         "publisher": {
             "identifier": "CH_eHealth",
