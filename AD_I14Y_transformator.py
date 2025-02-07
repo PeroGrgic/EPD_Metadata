@@ -6,7 +6,6 @@ import re
 import xml.etree.ElementTree as ET
 import enum
 
-
 class AD_csv_to_i14y_json():
     
     def __init__(self, file_path, output_file_path, file_name):
@@ -16,9 +15,6 @@ class AD_csv_to_i14y_json():
         self.fileExtension = None
         self.concept = concept()
         self.fileName = file_name
-
-    def start(self):
-        print("Starting to read CSV file on path: " + self.file_path)
 
     def process_csv(self):
         self.fileExtension ="csv"
@@ -114,9 +110,8 @@ class AD_csv_to_i14y_json():
         concept_instance = concept()
         concept_instance.set_name(value_set.get('name'))
         concept_instance.set_identifier(value_set.get('id'))
-        print(self.get_codelist_id(self.fileName))
-
         concept_instance.set_id(self.get_codelist_id(self.fileName))
+
 
         # Create mapping of codeSystem ids to their names
         code_system_mapping = {}
@@ -138,64 +133,85 @@ class AD_csv_to_i14y_json():
                 concept_instance.set_descriptionFR(text)
             elif lang == 'it-CH':
                 concept_instance.set_descriptionIT(text)
-
+        
+        
+        self.isParent = None
         for concept_elem in value_set.findall('.//concept'):
-            code = Code()
-            code.set_code(concept_elem.get('code'))
-        
-            # Create synonyms
-            synonymPS = Synonym("Preferred")
-            synonymAS = Synonym("Acceptable")
-        
-            # Process designations based on type
-            for designation in concept_elem.findall('designation'):
-                lang = designation.get('language')
-                text = designation.get('displayName')
-                desig_type = designation.get('type')
+                code = Code()
+                code.set_code(concept_elem.get('code'))
+                code.set_DisplayNameDE(concept_elem.get('displayName'))
+                code.set_DisplayNameEN(concept_elem.get('displayName'))
+                code.set_DisplayNameFR(concept_elem.get('displayName'))
+                code.set_DisplayNameIT(concept_elem.get('displayName'))
+                code.set_DisplayNameRM(concept_elem.get('displayName'))
+
+                if concept_elem.get('level') == '0':
+                    self.isParent = concept_elem.get('code')
+                else:
+                    code.set_parentCode(self.isParent)
             
-                if desig_type == 'preferred':
-                    if lang == 'de-CH':
-                        synonymPS.set_text_DE(text)
-                    elif lang == 'en-US':
-                        synonymPS.set_text_EN(text)
-                    elif lang == 'fr-CH':
-                        synonymPS.set_text_FR(text)
-                    elif lang == 'it-CH':
-                        synonymPS.set_text_IT(text)
-                    elif lang == 'rm-CH':
-                        synonymPS.set_text_RM(text)
-                elif desig_type == 'synonym':
-                    if lang == 'de-CH':
-                        synonymAS.set_text_DE(text)
-                    elif lang == 'en-US':
-                        synonymAS.set_text_EN(text)
-                    elif lang == 'fr-CH':
-                        synonymAS.set_text_FR(text)
-                    elif lang == 'it-CH':
-                        synonymAS.set_text_IT(text)
-                    elif lang == 'rm-CH':
-                        synonymAS.set_text_RM(text)
-                    
-            codeSystem = CodeSystem()
-            code_system_id = concept_elem.get('codeSystem')
-            codeSystem.set_Title(code_system_mapping.get(code_system_id))
-            codeSystem.set_Identifier(code_system_id)
-        
-            periodStart = Period("start")
-            periodStart.set_Date("01.06.2024")
-            periodEnd = Period("end")
-            periodEnd.set_Date("01.06.2100")
-        
-            self.codeListEntries.append([code, codeSystem, periodStart, periodEnd, synonymPS, synonymAS])
-            self.concept = concept_instance
+                # Create synonyms
+                synonymPS = Synonym("Preferred")
+                synonymAS = Synonym("Acceptable")
+            
+                # Process designations based on type
+                for designation in concept_elem.findall('designation'):
+                    lang = designation.get('language')
+                    text = designation.get('displayName')
+                    desig_type = designation.get('type')
+                
+                    if desig_type == 'preferred':
+                        if lang == 'de-CH':
+                            synonymPS.set_text_DE(text)
+                            code.set_DisplayNameDE(text)
+                        elif lang == 'en-US':
+                            synonymPS.set_text_EN(text)
+                        elif lang == 'fr-CH':
+                            synonymPS.set_text_FR(text)
+                            code.set_DisplayNameFR(text)
+                        elif lang == 'it-CH':
+                            synonymPS.set_text_IT(text)
+                            code.set_DisplayNameIT(text)
+                        elif lang == 'rm-CH':
+                            synonymPS.set_text_RM(text)
+                            code.set_DisplayNameRM(text)
+                    elif desig_type == 'synonym':
+                        if lang == 'de-CH':
+                            synonymAS.set_text_DE(text)
+                        elif lang == 'en-US':
+                            synonymAS.set_text_EN(text)
+                        elif lang == 'fr-CH':
+                            synonymAS.set_text_FR(text)
+                        elif lang == 'it-CH':
+                            synonymAS.set_text_IT(text)
+                        elif lang == 'rm-CH':
+                            synonymAS.set_text_RM(text)
+                        
+                codeSystem = CodeSystem()
+                code_system_id = concept_elem.get('codeSystem')
+                codeSystem.set_Title(code_system_mapping.get(code_system_id))
+                codeSystem.set_Text_EN(code_system_mapping.get(code_system_id))
+                codeSystem.set_Text_DE(code_system_mapping.get(code_system_id))
+                codeSystem.set_Text_FR(code_system_mapping.get(code_system_id))
+                codeSystem.set_Text_IT(code_system_mapping.get(code_system_id))
+                codeSystem.set_Text_RM(code_system_mapping.get(code_system_id))
+                codeSystem.set_Identifier(code_system_id)
+            
+                periodStart = Period("start")
+                periodStart.set_Date("01.06.2024")
+                periodEnd = Period("end")
+                periodEnd.set_Date("01.06.2100")
+            
+                self.codeListEntries.append([code, codeSystem, periodStart, periodEnd, synonymPS, synonymAS])
+                self.concept = concept_instance
 
     def create_concept_output(self):
-        codeListEntries_output = create_codeListEntries_output(self.codeListEntries)        
+        codeListEntries_output = self.create_codeListEntries_output(self.codeListEntries)        
         output = {
             "data": {
                 "codeListEntries": codeListEntries_output["data"],
-                "codeListEntryValueMaxLength": 13,
-                "codeListEntryValueType": "Numeric",
+                "codeListEntryValueMaxLength": 13, # Adjust the value as needed
+                "codeListEntryValueType": "Numeric", # Adjust the value as needed
                 "conceptType": "CodeList",
                 "conformsTo": [],
                 "description": {
@@ -247,12 +263,105 @@ class AD_csv_to_i14y_json():
         
         return output
 
-#TODO: Beim Output für XML wird der Name des Codes nicht übernommen. Zudem fehlen auch die Acceptable Synonyms.
+    def create_codeListEntries_output(self, codeListEntries):
+        output = []
+        
+        for entry_list in codeListEntries:
+            code = entry_list[0]  # Code object
+            codeSystem = entry_list[1]  # CodeSystem object
+            periodStart = entry_list[2]  # Period object
+            periodEnd = entry_list[3]  # Period object
+            synonymPS = entry_list[4]  # Synonym object
+            synonymAS = entry_list[5] if len(entry_list) > 5 else None  # Synonym object (optional)
+            
+            # Create base annotations list
+            annotations = [
+                {
+                    "identifier": codeSystem.Identifier,
+                    "text": {
+                        "de": codeSystem.Text_DE,
+                        "en": codeSystem.Text_EN,
+                        "fr": codeSystem.Text_FR,
+                        "it": codeSystem.Text_IT,
+                        "rm": codeSystem.Text_RM
+                    },
+                    "title": codeSystem.Title,
+                    "type": "CodeSystem"
+                },
+                {
+                    "identifier": periodEnd.Identifier,
+                    "text": {
+                        "en": periodEnd.Date
+                    },
+                    "title": periodEnd.Title,
+                    "type": "Period"
+                },
+                {
+                    "identifier": periodStart.Identifier,
+                    "text": {
+                        "en": periodStart.Date
+                    },
+                    "title": periodStart.Title,
+                    "type": "Period"
+                },
+                {
+                    "identifier": synonymPS.identifier,
+                    "text": {
+                        "de": synonymPS.Text_DE,
+                        "en": synonymPS.Text_EN,
+                        "fr": synonymPS.Text_FR,
+                        "it": synonymPS.Text_IT,
+                        "rm": synonymPS.Text_RM
+                    },
+                    "title": synonymPS.Title,
+                    "type": "Designation"
+                }
+            ]
+            # Add synonymAS to annotations if it exists
+            if synonymAS is not None:
+                text_dict = {}
+                if synonymAS.Text_DE and synonymAS.Text_DE.strip():
+                    text_dict["de"] = synonymAS.Text_DE
+                if synonymAS.Text_EN and synonymAS.Text_EN.strip():
+                    text_dict["en"] = synonymAS.Text_EN
+                if synonymAS.Text_FR and synonymAS.Text_FR.strip():
+                    text_dict["fr"] = synonymAS.Text_FR
+                if synonymAS.Text_IT and synonymAS.Text_IT.strip():
+                    text_dict["it"] = synonymAS.Text_IT
+                if synonymAS.Text_RM and synonymAS.Text_RM.strip():
+                    text_dict["rm"] = synonymAS.Text_RM
+            
+                if text_dict:  # Only add if there are non-empty text entries
+                    annotations.append({
+                        "identifier": synonymAS.identifier,
+                        "text": text_dict,
+                        "title": synonymAS.Title,
+                        "type": "Designation"
+                    })
+            json_entry = {
+                "annotations": annotations,
+                "code": code.Code,
+                "name": {
+                    "de": code.DisplayNameDE,
+                    "en": code.DisplayNameEN,
+                    "fr": code.DisplayNameFR,
+                    "it": code.DisplayNameIT,
+                    "rm": code.DisplayNameRM
+                }
+            }
+            if code.parentCode:
+                json_entry["parentCode"] = code.parentCode
+            
+            output.append(json_entry)
+        
+        return {"data": output}
+
     def write_to_json(self):
         if self.fileExtension == "csv":
-            output = create_codeListEntries_output(self.codeListEntries)
+            output = self.create_codeListEntries_output(self.codeListEntries)
         elif self.fileExtension == "xml":
             output = self.create_concept_output()
+            #output = self.create_codeListEntries_output(self.codeListEntries)
         
         with open(self.json_output_file_path, 'w', encoding="utf-8") as json_file:
             json.dump(output, json_file, indent=4, ensure_ascii=False)
@@ -284,12 +393,13 @@ class AD_csv_to_i14y_json():
 
 class Code():
     def __init__(self):
-        self.Code = None
-        self.DisplayNameEN = None
-        self.DisplayNameDE = None
-        self.DisplayNameFR = None
-        self.DisplayNameIT = None
-        self.DisplayNameRM = None
+        self.Code = ""
+        self.DisplayNameEN = ""
+        self.DisplayNameDE = ""
+        self.DisplayNameFR = ""
+        self.DisplayNameIT = ""
+        self.DisplayNameRM = ""
+        self.parentCode = None
     def set_code(self, code):
         self.Code = code
     def set_DisplayNameEN(self, displayNameEN):
@@ -302,6 +412,8 @@ class Code():
         self.DisplayNameIT = displayNameIT
     def set_DisplayNameRM(self, displayNameRM):
         self.DisplayNameRM = displayNameRM
+    def set_parentCode(self, parentCode):
+        self.parentCode = parentCode
     def get_code(self):
         return self.Code
     def get_DisplayNameEN(self):
@@ -370,11 +482,11 @@ class Period():
 class Synonym():
     def __init__(self, title):
         self.Title = title
-        self.Text_DE = None
-        self.Text_FR = None
-        self.Text_IT = None
-        self.Text_EN = None
-        self.Text_RM = None
+        self.Text_DE = ""
+        self.Text_FR = ""
+        self.Text_IT = ""
+        self.Text_EN = ""
+        self.Text_RM = ""
         if title == "Preferred":
             self.identifier = "900000000000548007"
         else :
@@ -476,99 +588,6 @@ class concept():
      def get_id(self):
         return self.id
 
-        
-def create_codeListEntries_output(codeListEntries):
-    output = []
-    
-    for entry_list in codeListEntries:
-        code = entry_list[0]  # Code object
-        codeSystem = entry_list[1]  # CodeSystem object
-        periodStart = entry_list[2]  # Period object
-        periodEnd = entry_list[3]  # Period object
-        synonymPS = entry_list[4]  # Synonym object
-        synonymAS = entry_list[5] if len(entry_list) > 5 else None  # Synonym object (optional)
-        
-        # Create base annotations list
-        annotations = [
-            {
-                "identifier": codeSystem.Identifier,
-                "text": {
-                    "de": codeSystem.Text_DE,
-                    "en": codeSystem.Text_EN,
-                    "fr": codeSystem.Text_FR,
-                    "it": codeSystem.Text_IT,
-                    "rm": codeSystem.Text_RM
-                },
-                "title": codeSystem.Title,
-                "type": "CodeSystem"
-            },
-            {
-                "identifier": periodEnd.Identifier,
-                "text": {
-                    "en": periodEnd.Date
-                },
-                "title": periodEnd.Title,
-                "type": "Period"
-            },
-            {
-                "identifier": periodStart.Identifier,
-                "text": {
-                    "en": periodStart.Date
-                },
-                "title": periodStart.Title,
-                "type": "Period"
-            },
-            {
-                "identifier": synonymPS.identifier,
-                "text": {
-                    "de": synonymPS.Text_DE,
-                    "en": synonymPS.Text_EN,
-                    "fr": synonymPS.Text_FR,
-                    "it": synonymPS.Text_IT,
-                    "rm": synonymPS.Text_RM
-                },
-                "title": synonymPS.Title,
-                "type": "Designation"
-            }
-        ]
-          # Add synonymAS to annotations if it exists
-        if synonymAS is not None:
-            text_dict = {}
-            if synonymAS.Text_DE and synonymAS.Text_DE.strip():
-                text_dict["de"] = synonymAS.Text_DE
-            if synonymAS.Text_EN and synonymAS.Text_EN.strip():
-                text_dict["en"] = synonymAS.Text_EN
-            if synonymAS.Text_FR and synonymAS.Text_FR.strip():
-                text_dict["fr"] = synonymAS.Text_FR
-            if synonymAS.Text_IT and synonymAS.Text_IT.strip():
-                text_dict["it"] = synonymAS.Text_IT
-            if synonymAS.Text_RM and synonymAS.Text_RM.strip():
-                text_dict["rm"] = synonymAS.Text_RM
-        
-            if text_dict:  # Only add if there are non-empty text entries
-                annotations.append({
-                    "identifier": synonymAS.identifier,
-                    "text": text_dict,
-                    "title": synonymAS.Title,
-                    "type": "Designation"
-                })
-        json_entry = {
-            "annotations": annotations,
-            "code": code.Code,
-            "name": {
-                "de": code.DisplayNameDE,
-                "en": code.DisplayNameEN,
-                "fr": code.DisplayNameFR,
-                "it": code.DisplayNameIT,
-                "rm": code.DisplayNameRM
-            }
-        }
-        output.append(json_entry)
-    
-    return {"data": output}
-
-
-
 class codeListsId(enum.Enum):
     #Id of codelists version 2.0.0
     SubmissionSet_contentTypeCode = '08dd3ac4-5400-26c2-9c23-aa5161d6f1ee'
@@ -589,7 +608,6 @@ class codeListsId(enum.Enum):
     EprDeletionStatus = '08dd3acc-4897-11b5-ab2f-20a123bbc17c'
     DocumentEntry_languageCode = '08dd3acc-c0f2-6dcf-8612-d87241707c19'
     EprPurposeOfUse = '08dd3acc-eee9-b32e-ba19-4bb6f87f502b'
-
 
 class publisherPersons():
     def __init__(self):
@@ -617,7 +635,7 @@ class publisherPersons():
             "SNE": self.SNE,
         }
 
-    
+   
 if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) != 2:
@@ -629,7 +647,7 @@ if __name__ == "__main__":
     
     os.makedirs(output_folder, exist_ok=True)
     
-    print("Starting transformation of files...")
+    print("Starting transformation of files... \n ---------------------------------------------------------------")
     for filename in os.listdir(input_folder):
         if filename.endswith(('.csv', '.xml')):
             input_file = os.path.join(input_folder, filename)
@@ -653,11 +671,9 @@ if __name__ == "__main__":
                 transformer.process_xml()
                 
             transformer.write_to_json()
-            print(f"Transformed {filename} -> {new_filename}")
+            print(f"Transformed {filename} -> {new_filename} \n ---------------------------------------------------------------")
     
     print(f"All transformations complete. Output files written to: {output_folder}")
 
-
-#TODO: Mapping handling ergänzen
-#TODO: Schrieben von ganzen ValueSet implementieren
-
+#TODO: Implementieren Responsible person & deputy person dynamisch angeben --> nur kürzel angeben
+#TODO: Agrs anpassen um alles notwendige beim ausführen anzugeben. [1] input folder, [2] output folder, [3]Angeben ob neue version von VS oder nur Inhalt. [4] wenn neue version: responnsible person & deputy person --> nur kürzel angeben [5] start date & end date

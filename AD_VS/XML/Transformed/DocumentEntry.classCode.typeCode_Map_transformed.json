@@ -1,0 +1,3323 @@
+{
+    "data": {
+        "codeListEntries": [
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371531000",
+                "name": {
+                    "de": "Report of clinical encounter (record artifact)",
+                    "en": "Report of clinical encounter (record artifact)",
+                    "fr": "Report of clinical encounter (record artifact)",
+                    "it": "Report of clinical encounter (record artifact)",
+                    "rm": "Report of clinical encounter (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371530004",
+                "name": {
+                    "de": "Clinical consultation report (record artifact)",
+                    "en": "Clinical consultation report (record artifact)",
+                    "fr": "Clinical consultation report (record artifact)",
+                    "it": "Clinical consultation report (record artifact)",
+                    "rm": "Clinical consultation report (record artifact)"
+                },
+                "parentCode": "371531000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371529009",
+                "name": {
+                    "de": "History and physical report (record artifact)",
+                    "en": "History and physical report (record artifact)",
+                    "fr": "History and physical report (record artifact)",
+                    "it": "History and physical report (record artifact)",
+                    "rm": "History and physical report (record artifact)"
+                },
+                "parentCode": "371531000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371532007",
+                "name": {
+                    "de": "Progress report (record artifact)",
+                    "en": "Progress report (record artifact)",
+                    "fr": "Progress report (record artifact)",
+                    "it": "Progress report (record artifact)",
+                    "rm": "Progress report (record artifact)"
+                },
+                "parentCode": "371531000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "371531000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721927009",
+                "name": {
+                    "de": "Referral note (record artifact)",
+                    "en": "Referral note (record artifact)",
+                    "fr": "Referral note (record artifact)",
+                    "it": "Referral note (record artifact)",
+                    "rm": "Referral note (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "721927009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721963009",
+                "name": {
+                    "de": "Order (record artifact)",
+                    "en": "Order (record artifact)",
+                    "fr": "Order (record artifact)",
+                    "it": "Order (record artifact)",
+                    "rm": "Order (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721965002",
+                "name": {
+                    "de": "Laboratory order (record artifact)",
+                    "en": "Laboratory order (record artifact)",
+                    "fr": "Laboratory order (record artifact)",
+                    "it": "Laboratory order (record artifact)",
+                    "rm": "Laboratory order (record artifact)"
+                },
+                "parentCode": "721963009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721966001",
+                "name": {
+                    "de": "Pathology order (record artifact)",
+                    "en": "Pathology order (record artifact)",
+                    "fr": "Pathology order (record artifact)",
+                    "it": "Pathology order (record artifact)",
+                    "rm": "Pathology order (record artifact)"
+                },
+                "parentCode": "721963009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "2161000195103",
+                "name": {
+                    "de": "Imaging order (record artifact)",
+                    "en": "Imaging order (record artifact)",
+                    "fr": "Imaging order (record artifact)",
+                    "it": "Imaging order (record artifact)",
+                    "rm": "Imaging order (record artifact)"
+                },
+                "parentCode": "721963009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "721963009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "422735006",
+                "name": {
+                    "de": "Summary clinical document (record artifact)",
+                    "en": "Summary clinical document (record artifact)",
+                    "fr": "Summary clinical document (record artifact)",
+                    "it": "Summary clinical document (record artifact)",
+                    "rm": "Summary clinical document (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "373942005",
+                "name": {
+                    "de": "Discharge summary (record artifact)",
+                    "en": "Discharge summary (record artifact)",
+                    "fr": "Discharge summary (record artifact)",
+                    "it": "Discharge summary (record artifact)",
+                    "rm": "Discharge summary (record artifact)"
+                },
+                "parentCode": "422735006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371535009",
+                "name": {
+                    "de": "Transfer summary report (record artifact)",
+                    "en": "Transfer summary report (record artifact)",
+                    "fr": "Transfer summary report (record artifact)",
+                    "it": "Transfer summary report (record artifact)",
+                    "rm": "Transfer summary report (record artifact)"
+                },
+                "parentCode": "422735006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "721912009",
+                "name": {
+                    "de": "Medication summary document (record artifact)",
+                    "en": "Medication summary document (record artifact)",
+                    "fr": "Medication summary document (record artifact)",
+                    "it": "Medication summary document (record artifact)",
+                    "rm": "Medication summary document (record artifact)"
+                },
+                "parentCode": "422735006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "736378000",
+                "name": {
+                    "de": "Medication management plan (record artifact)",
+                    "en": "Medication management plan (record artifact)",
+                    "fr": "Medication management plan (record artifact)",
+                    "it": "Medication management plan (record artifact)",
+                    "rm": "Medication management plan (record artifact)"
+                },
+                "parentCode": "422735006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "422735006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371525003",
+                "name": {
+                    "de": "Clinical procedure report (record artifact)",
+                    "en": "Clinical procedure report (record artifact)",
+                    "fr": "Clinical procedure report (record artifact)",
+                    "it": "Clinical procedure report (record artifact)",
+                    "rm": "Clinical procedure report (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371526002",
+                "name": {
+                    "de": "Operative report (record artifact)",
+                    "en": "Operative report (record artifact)",
+                    "fr": "Operative report (record artifact)",
+                    "it": "Operative report (record artifact)",
+                    "rm": "Operative report (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "4241000179101",
+                "name": {
+                    "de": "Laboratory report (record artifact)",
+                    "en": "Laboratory report (record artifact)",
+                    "fr": "Laboratory report (record artifact)",
+                    "it": "Laboratory report (record artifact)",
+                    "rm": "Laboratory report (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371528001",
+                "name": {
+                    "de": "Pathology report (record artifact)",
+                    "en": "Pathology report (record artifact)",
+                    "fr": "Pathology report (record artifact)",
+                    "it": "Pathology report (record artifact)",
+                    "rm": "Pathology report (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "4201000179104",
+                "name": {
+                    "de": "Imaging report (record artifact)",
+                    "en": "Imaging report (record artifact)",
+                    "fr": "Imaging report (record artifact)",
+                    "it": "Imaging report (record artifact)",
+                    "rm": "Imaging report (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "900000000000471006",
+                "name": {
+                    "de": "Image reference (foundation metadata concept)",
+                    "en": "Image reference (foundation metadata concept)",
+                    "fr": "Image reference (foundation metadata concept)",
+                    "it": "Image reference (foundation metadata concept)",
+                    "rm": "Image reference (foundation metadata concept)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "787148009",
+                "name": {
+                    "de": "Digital representation of specimen (record artifact)",
+                    "en": "Digital representation of specimen (record artifact)",
+                    "fr": "Digital representation of specimen (record artifact)",
+                    "it": "Digital representation of specimen (record artifact)",
+                    "rm": "Digital representation of specimen (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "371525003"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "734163000",
+                "name": {
+                    "de": "Care plan (record artifact)",
+                    "en": "Care plan (record artifact)",
+                    "fr": "Care plan (record artifact)",
+                    "it": "Care plan (record artifact)",
+                    "rm": "Care plan (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "737427001",
+                "name": {
+                    "de": "Clinical management plan (record artifact)",
+                    "en": "Clinical management plan (record artifact)",
+                    "fr": "Clinical management plan (record artifact)",
+                    "it": "Clinical management plan (record artifact)",
+                    "rm": "Clinical management plan (record artifact)"
+                },
+                "parentCode": "734163000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "773130005",
+                "name": {
+                    "de": "Nursing care plan (record artifact)",
+                    "en": "Nursing care plan (record artifact)",
+                    "fr": "Nursing care plan (record artifact)",
+                    "it": "Nursing care plan (record artifact)",
+                    "rm": "Nursing care plan (record artifact)"
+                },
+                "parentCode": "734163000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "736055001",
+                "name": {
+                    "de": "Rehabilitation care plan (record artifact)",
+                    "en": "Rehabilitation care plan (record artifact)",
+                    "fr": "Rehabilitation care plan (record artifact)",
+                    "it": "Rehabilitation care plan (record artifact)",
+                    "rm": "Rehabilitation care plan (record artifact)"
+                },
+                "parentCode": "734163000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "761931002",
+                "name": {
+                    "de": "Medication treatment plan report (record artifact)",
+                    "en": "Medication treatment plan report (record artifact)",
+                    "fr": "Medication treatment plan report (record artifact)",
+                    "it": "Medication treatment plan report (record artifact)",
+                    "rm": "Medication treatment plan report (record artifact)"
+                },
+                "parentCode": "734163000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "734163000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "440545006",
+                "name": {
+                    "de": "Prescription record (record artifact)",
+                    "en": "Prescription record (record artifact)",
+                    "fr": "Prescription record (record artifact)",
+                    "it": "Prescription record (record artifact)",
+                    "rm": "Prescription record (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "761938008",
+                "name": {
+                    "de": "Medicinal prescription record (record artifact)",
+                    "en": "Medicinal prescription record (record artifact)",
+                    "fr": "Medicinal prescription record (record artifact)",
+                    "it": "Medicinal prescription record (record artifact)",
+                    "rm": "Medicinal prescription record (record artifact)"
+                },
+                "parentCode": "440545006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "765492005",
+                "name": {
+                    "de": "Non-drug prescription record (record artifact)",
+                    "en": "Non-drug prescription record (record artifact)",
+                    "fr": "Non-drug prescription record (record artifact)",
+                    "it": "Non-drug prescription record (record artifact)",
+                    "rm": "Non-drug prescription record (record artifact)"
+                },
+                "parentCode": "440545006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "440545006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "184216000",
+                "name": {
+                    "de": "Patient record type (record artifact)",
+                    "en": "Patient record type (record artifact)",
+                    "fr": "Patient record type (record artifact)",
+                    "it": "Patient record type (record artifact)",
+                    "rm": "Patient record type (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "722446000",
+                "name": {
+                    "de": "Allergy record (record artifact)",
+                    "en": "Allergy record (record artifact)",
+                    "fr": "Allergy record (record artifact)",
+                    "it": "Allergy record (record artifact)",
+                    "rm": "Allergy record (record artifact)"
+                },
+                "parentCode": "184216000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "41000179103",
+                "name": {
+                    "de": "Immunization record (record artifact)",
+                    "en": "Immunization record (record artifact)",
+                    "fr": "Immunization record (record artifact)",
+                    "it": "Immunization record (record artifact)",
+                    "rm": "Immunization record (record artifact)"
+                },
+                "parentCode": "184216000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "184216000"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371537001",
+                "name": {
+                    "de": "Consent report (record artifact)",
+                    "en": "Consent report (record artifact)",
+                    "fr": "Consent report (record artifact)",
+                    "it": "Consent report (record artifact)",
+                    "rm": "Consent report (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "371537001"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "371538006",
+                "name": {
+                    "de": "Advance directive report (record artifact)",
+                    "en": "Advance directive report (record artifact)",
+                    "fr": "Advance directive report (record artifact)",
+                    "it": "Advance directive report (record artifact)",
+                    "rm": "Advance directive report (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "371538006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "722160009",
+                "name": {
+                    "de": "Audit trail report (record artifact)",
+                    "en": "Audit trail report (record artifact)",
+                    "fr": "Audit trail report (record artifact)",
+                    "it": "Audit trail report (record artifact)",
+                    "rm": "Audit trail report (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "722160009"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "722216001",
+                "name": {
+                    "de": "Emergency medical identification record (record artifact)",
+                    "en": "Emergency medical identification record (record artifact)",
+                    "fr": "Emergency medical identification record (record artifact)",
+                    "it": "Emergency medical identification record (record artifact)",
+                    "rm": "Emergency medical identification record (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "722216001"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "772790007",
+                "name": {
+                    "de": "Organ donor card (record artifact)",
+                    "en": "Organ donor card (record artifact)",
+                    "fr": "Organ donor card (record artifact)",
+                    "it": "Organ donor card (record artifact)",
+                    "rm": "Organ donor card (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "772790007"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "405624007",
+                "name": {
+                    "de": "Administrative documentation (record artifact)",
+                    "en": "Administrative documentation (record artifact)",
+                    "fr": "Administrative documentation (record artifact)",
+                    "it": "Administrative documentation (record artifact)",
+                    "rm": "Administrative documentation (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "772786005",
+                "name": {
+                    "de": "Medical certificate (record artifact)",
+                    "en": "Medical certificate (record artifact)",
+                    "fr": "Medical certificate (record artifact)",
+                    "it": "Medical certificate (record artifact)",
+                    "rm": "Medical certificate (record artifact)"
+                },
+                "parentCode": "405624007"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "405624007"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "417319006",
+                "name": {
+                    "de": "Record of health event (record artifact)",
+                    "en": "Record of health event (record artifact)",
+                    "fr": "Record of health event (record artifact)",
+                    "it": "Record of health event (record artifact)",
+                    "rm": "Record of health event (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "445300006",
+                "name": {
+                    "de": "Emergency department record (record artifact)",
+                    "en": "Emergency department record (record artifact)",
+                    "fr": "Emergency department record (record artifact)",
+                    "it": "Emergency department record (record artifact)",
+                    "rm": "Emergency department record (record artifact)"
+                },
+                "parentCode": "417319006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "445418005",
+                "name": {
+                    "de": "Professional allied to medicine clinical report (record artifact)",
+                    "en": "Professional allied to medicine clinical report (record artifact)",
+                    "fr": "Professional allied to medicine clinical report (record artifact)",
+                    "it": "Professional allied to medicine clinical report (record artifact)",
+                    "rm": "Professional allied to medicine clinical report (record artifact)"
+                },
+                "parentCode": "417319006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.4",
+                        "text": {
+                            "de": "SNOMED Clinical Terms Swiss Extension",
+                            "en": "SNOMED Clinical Terms Swiss Extension",
+                            "fr": "SNOMED Clinical Terms Swiss Extension",
+                            "it": "SNOMED Clinical Terms Swiss Extension",
+                            "rm": "SNOMED Clinical Terms Swiss Extension"
+                        },
+                        "title": "SNOMED Clinical Terms Swiss Extension",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "82291000195104",
+                "name": {
+                    "de": "Medication dispense document (record artifact)",
+                    "en": "Medication dispense document (record artifact)",
+                    "fr": "Medication dispense document (record artifact)",
+                    "it": "Medication dispense document (record artifact)",
+                    "rm": "Medication dispense document (record artifact)"
+                },
+                "parentCode": "417319006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "417319006"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.756.5.30.1.127.3.4",
+                        "text": {
+                            "de": "SNOMED Clinical Terms Swiss Extension",
+                            "en": "SNOMED Clinical Terms Swiss Extension",
+                            "fr": "SNOMED Clinical Terms Swiss Extension",
+                            "it": "SNOMED Clinical Terms Swiss Extension",
+                            "rm": "SNOMED Clinical Terms Swiss Extension"
+                        },
+                        "title": "SNOMED Clinical Terms Swiss Extension",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "2171000195109",
+                "name": {
+                    "de": "Obstetrical record (record artifact)",
+                    "en": "Obstetrical record (record artifact)",
+                    "fr": "Obstetrical record (record artifact)",
+                    "it": "Obstetrical record (record artifact)",
+                    "rm": "Obstetrical record (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "2171000195109"
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                }
+            },
+            {
+                "annotations": [
+                    {
+                        "identifier": "2.16.840.1.113883.6.96",
+                        "text": {
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
+                        },
+                        "title": "SNOMED Clinical Terms",
+                        "type": "CodeSystem"
+                    },
+                    {
+                        "identifier": "end",
+                        "text": {
+                            "en": "01.06.2100"
+                        },
+                        "title": "end",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "start",
+                        "text": {
+                            "en": "01.06.2024"
+                        },
+                        "title": "start",
+                        "type": "Period"
+                    },
+                    {
+                        "identifier": "900000000000548007",
+                        "text": {
+                            "de": "",
+                            "en": "",
+                            "fr": "",
+                            "it": "",
+                            "rm": ""
+                        },
+                        "title": "Preferred",
+                        "type": "Designation"
+                    }
+                ],
+                "code": "419891008",
+                "name": {
+                    "de": "Record artifact (record artifact)",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "Record artifact (record artifact)",
+                    "it": "Record artifact (record artifact)",
+                    "rm": "Record artifact (record artifact)"
+                },
+                "parentCode": "419891008"
+            }
+        ],
+        "codeListEntryValueMaxLength": 13,
+        "codeListEntryValueType": "Numeric",
+        "conceptType": "CodeList",
+        "conformsTo": [],
+        "description": {
+            "de": "Das folgende Valueset zeigt das Mapping zwischen den Dokumentklassen und Dokumenttypen (gemäss Kapitel 2.11 Anhang 3 EPDV). Das Valueset dient als Hilfestellung bei der Implementierung. Für die konkreten Werte in documentTypeCode und documentClassCode dienen weiterhin die beiden definierten Valuesets (",
+            "en": null,
+            "fr": null,
+            "it": null
+        },
+        "id": null,
+        "identifier": "2.16.756.5.30.1.127.3.10.1.30",
+        "isLocked": false,
+        "keywords": [],
+        "name": {
+            "de": "DocumentEntry.classCode_DocumentEntry.typeCode_mapping",
+            "en": "DocumentEntry.classCode_DocumentEntry.typeCode_mapping",
+            "fr": "DocumentEntry.classCode_DocumentEntry.typeCode_mapping",
+            "it": "DocumentEntry.classCode_DocumentEntry.typeCode_mapping"
+        },
+        "publicationLevel": "Internal",
+        "publisher": {
+            "identifier": "CH_eHealth",
+            "name": {
+                "de": "eHealth Suisse",
+                "en": "eHealth Suisse",
+                "fr": "eHealth Suisse",
+                "it": "eHealth Suisse"
+            }
+        },
+        "registrationStatus": "Incomplete",
+        "responsibleDeputy": {
+            "id": "08db7190-7358-9c21-8114-9743e9051aa2",
+            "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
+            "name": "Neuenschwander Stefanie eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "responsiblePerson": {
+            "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
+            "identifier": "pero.grgic@e-health-suisse.ch",
+            "name": "Grgic Pero eHealth Suisse",
+            "firstName": "",
+            "lastName": ""
+        },
+        "themes": [],
+        "validFrom": "2024-05-31T22:00:00+00:00",
+        "version": "2.0.0"
+    }
+}

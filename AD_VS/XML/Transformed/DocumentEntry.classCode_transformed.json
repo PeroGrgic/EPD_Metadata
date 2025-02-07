@@ -6,11 +6,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -46,11 +46,11 @@
                 ],
                 "code": "371531000",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Konsultationsbericht",
+                    "en": "Report of clinical encounter (record artifact)",
+                    "fr": "rapport de consultation",
+                    "it": "rapporto di visita medica",
+                    "rm": "rapport da consultaziun"
                 }
             },
             {
@@ -58,11 +58,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -98,11 +98,11 @@
                 ],
                 "code": "721927009",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Zuweisungsschreiben",
+                    "en": "Referral note (record artifact)",
+                    "fr": "lettre de référence",
+                    "it": "lettera d'invio",
+                    "rm": "brev d'assegnaziun"
                 }
             },
             {
@@ -110,11 +110,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -150,11 +150,11 @@
                 ],
                 "code": "721963009",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Untersuchungsauftrag",
+                    "en": "Order (record artifact)",
+                    "fr": "demande d'examen",
+                    "it": "richiesta di esami",
+                    "rm": "incumbensa da consultaziun"
                 }
             },
             {
@@ -162,11 +162,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -202,11 +202,11 @@
                 ],
                 "code": "422735006",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Zusammenfassung",
+                    "en": "Summary clinical document (record artifact)",
+                    "fr": "résumé",
+                    "it": "riepilogo",
+                    "rm": "rapport resumà"
                 }
             },
             {
@@ -214,11 +214,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -254,11 +254,11 @@
                 ],
                 "code": "371525003",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Interventionsbericht",
+                    "en": "Clinical procedure report (record artifact)",
+                    "fr": "rapport d'intervention",
+                    "it": "rapporto operatorio",
+                    "rm": "rapport d'intervenziun"
                 }
             },
             {
@@ -266,11 +266,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -306,11 +306,11 @@
                 ],
                 "code": "734163000",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Behandlungsplan",
+                    "en": "Care plan (record artifact)",
+                    "fr": "plans de soins",
+                    "it": "piano di cura",
+                    "rm": "plan da tractament"
                 }
             },
             {
@@ -318,11 +318,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -368,11 +368,11 @@
                 ],
                 "code": "440545006",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Verschreibung",
+                    "en": "Prescription record (record artifact)",
+                    "fr": "prescription",
+                    "it": "prescrizione medica",
+                    "rm": "prescripziun"
                 }
             },
             {
@@ -380,11 +380,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -420,11 +420,11 @@
                 ],
                 "code": "184216000",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Patientendokumentation",
+                    "en": "Patient record type (record artifact)",
+                    "fr": "documentation du patient",
+                    "it": "documentazione del paziente",
+                    "rm": "documentaziun da lunga durada"
                 }
             },
             {
@@ -432,11 +432,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -472,11 +472,11 @@
                 ],
                 "code": "371537001",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Einverständniserklärung",
+                    "en": "Consent report (record artifact)",
+                    "fr": "consentement",
+                    "it": "consenso",
+                    "rm": "consentiment"
                 }
             },
             {
@@ -484,11 +484,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -524,11 +524,11 @@
                 ],
                 "code": "371538006",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Patientenverfügung",
+                    "en": "Advance directive report (record artifact)",
+                    "fr": "directives anticipées",
+                    "it": "direttive anticipate",
+                    "rm": "disposiziun dal pazient"
                 }
             },
             {
@@ -536,11 +536,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -576,11 +576,11 @@
                 ],
                 "code": "722160009",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Rückverfolgung der EPD Zugriffe",
+                    "en": "Audit trail report (record artifact)",
+                    "fr": "traçabilité des accès aux DEP",
+                    "it": "calloutronologia degli accessi alla CIP",
+                    "rm": "repersequitabladad da l'access al DEP"
                 }
             },
             {
@@ -588,11 +588,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -628,11 +628,11 @@
                 ],
                 "code": "722216001",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Notfallkarte",
+                    "en": "Emergency medical identification record (record artifact)",
+                    "fr": "carte d'urgence",
+                    "it": "tessera di emergenza",
+                    "rm": "attest d'urgenza"
                 }
             },
             {
@@ -640,11 +640,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -680,11 +680,11 @@
                 ],
                 "code": "772790007",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Organspendeausweis",
+                    "en": "Organ donor card (record artifact)",
+                    "fr": "carte de donneur d'organes",
+                    "it": "tessera di donatore di organi",
+                    "rm": "attest da donatur d'organs"
                 }
             },
             {
@@ -692,11 +692,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -732,11 +732,11 @@
                 ],
                 "code": "405624007",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Administratives Dokument",
+                    "en": "Administrative documentation (record artifact)",
+                    "fr": "document administratif",
+                    "it": "documento amministrativo",
+                    "rm": "document administrativ"
                 }
             },
             {
@@ -744,11 +744,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -784,11 +784,11 @@
                 ],
                 "code": "417319006",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Dokument zu gesundheitsrelevantem Ereignis",
+                    "en": "Record of health event (record artifact)",
+                    "fr": "document sur l'événement sanitaire",
+                    "it": "documento concernente un evento rilevante per la salute",
+                    "rm": "document concernent in eveniment relevant per la sanadad"
                 }
             },
             {
@@ -796,11 +796,11 @@
                     {
                         "identifier": "2.16.756.5.30.1.127.3.4",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms Swiss Extension",
+                            "en": "SNOMED Clinical Terms Swiss Extension",
+                            "fr": "SNOMED Clinical Terms Swiss Extension",
+                            "it": "SNOMED Clinical Terms Swiss Extension",
+                            "rm": "SNOMED Clinical Terms Swiss Extension"
                         },
                         "title": "SNOMED Clinical Terms Swiss Extension",
                         "type": "CodeSystem"
@@ -848,11 +848,11 @@
                 ],
                 "code": "2171000195109",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Geburtsbericht",
+                    "en": "Obstetrical record (record artifact)",
+                    "fr": "rapport de naissance",
+                    "it": "rapporto del parto",
+                    "rm": "rapport da gravidanza"
                 }
             },
             {
@@ -860,11 +860,11 @@
                     {
                         "identifier": "2.16.840.1.113883.6.96",
                         "text": {
-                            "de": null,
-                            "en": null,
-                            "fr": null,
-                            "it": null,
-                            "rm": null
+                            "de": "SNOMED Clinical Terms",
+                            "en": "SNOMED Clinical Terms",
+                            "fr": "SNOMED Clinical Terms",
+                            "it": "SNOMED Clinical Terms",
+                            "rm": "SNOMED Clinical Terms"
                         },
                         "title": "SNOMED Clinical Terms",
                         "type": "CodeSystem"
@@ -900,11 +900,11 @@
                 ],
                 "code": "419891008",
                 "name": {
-                    "de": null,
-                    "en": null,
-                    "fr": null,
-                    "it": null,
-                    "rm": null
+                    "de": "Sonstige Dokumentation",
+                    "en": "Record artifact (record artifact)",
+                    "fr": "autre documentation",
+                    "it": "altra documentazione",
+                    "rm": "document betg designà pli precis"
                 }
             }
         ],

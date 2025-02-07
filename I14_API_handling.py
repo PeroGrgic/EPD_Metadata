@@ -187,3 +187,4 @@ if __name__ == "__main__":
     logging.info("Script execution completed.")
 
 #TODO: Erstellen neuer Version eines VS implementieren
+#TODO: Agrs anpassen um alles notwendige beim ausführen anzugeben. [1] dir path [2] auth token [3] welche operation ausgeführt werden soll (upload (new VS oder CodeListEntries), download, delete)
