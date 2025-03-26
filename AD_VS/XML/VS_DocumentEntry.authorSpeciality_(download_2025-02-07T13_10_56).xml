@@ -1,0 +1,593 @@
+<valueSets>
+	<project ident="ch-epr-">
+		<valueSet id="2.16.756.5.30.1.127.3.10.1.1.4" name="DocumentEntry.authorSpeciality" displayName="DocumentEntry.author.authorSpecialty" statusCode="final" versionLabel="202306.0-stable" lastModifiedDate="2023-05-31T20:59:13" effectiveDate="2022-06-24T11:01:29">
+			<desc language="en-US">Speciality of the author as per Annex 3.</desc>
+			<desc language="de-CH">Spezialisierung des Autors gemäss Anhang 3.</desc>
+			<desc language="fr-CH">Spécialisation de l'auteur selon l'annexe 3.</desc>
+			<desc language="it-CH">Specializzazione dell'autore secondo l' Allegato 3.</desc>
+			<sourceCodeSystem id="2.16.756.5.30.1.127.3.6" identifierName="ch-ehealth-codesystem-nareg" canonicalUri="urn:oid:2.16.756.5.30.1.127.3.6" canonicalUriDSTU2="urn:oid:2.16.756.5.30.1.127.3.6" canonicalUriSTU3="urn:oid:2.16.756.5.30.1.127.3.6" canonicalUriR4="urn:oid:2.16.756.5.30.1.127.3.6" canonicalUriR4B="urn:oid:2.16.756.5.30.1.127.3.6" canonicalUriR5="urn:oid:2.16.756.5.30.1.127.3.6"/>
+			<sourceCodeSystem id="2.16.756.5.30.1.127.3.5" identifierName="ch-ehealth-codesystem-medreg" canonicalUri="urn:oid:2.16.756.5.30.1.127.3.5" canonicalUriDSTU2="urn:oid:2.16.756.5.30.1.127.3.5" canonicalUriSTU3="urn:oid:2.16.756.5.30.1.127.3.5" canonicalUriR4="urn:oid:2.16.756.5.30.1.127.3.5" canonicalUriR4B="urn:oid:2.16.756.5.30.1.127.3.5" canonicalUriR5="urn:oid:2.16.756.5.30.1.127.3.5"/>
+			<publishingAuthority name="eHealth Suisse" inherited="project">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="1002" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Chirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia"/>
+					<designation language="en-US" type="preferred" displayName="Surgery"/>
+				</concept>
+				<concept code="1003" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Gynaecology and obstetrics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Gynäkologie und Geburtshilfe"/>
+					<designation language="rm-CH" type="preferred" displayName="Ginecologia ed assistenza al part"/>
+					<designation language="fr-CH" type="preferred" displayName="Gynécologie et obstétrique"/>
+					<designation language="it-CH" type="preferred" displayName="Ginecologia e ostetricia"/>
+					<designation language="en-US" type="preferred" displayName="Gynaecology and obstetrics"/>
+				</concept>
+				<concept code="1004" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Cardiac and thoracic vascular surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Herz- und thorakale Gefässchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia dal cor e chirurgia vasculara dal torax"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie cardiaque et vasculaire thoracique"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia del cuore e dei vasi toracici"/>
+					<designation language="en-US" type="preferred" displayName="Cardiac and thoracic vascular surgery"/>
+				</concept>
+				<concept code="1006" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Paediatrics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kinder- und Jugendmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Pediatria"/>
+					<designation language="fr-CH" type="preferred" displayName="Pédiatrie"/>
+					<designation language="it-CH" type="preferred" displayName="Pediatria"/>
+					<designation language="en-US" type="preferred" displayName="Paediatrics"/>
+				</concept>
+				<concept code="1007" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Ophthalmology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Ophthalmologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Oftalmologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Ophtalmologie"/>
+					<designation language="it-CH" type="preferred" displayName="Oftalmologia"/>
+					<designation language="en-US" type="preferred" displayName="Ophthalmology"/>
+				</concept>
+				<concept code="1008" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Otorhinolaryngology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Oto-Rhino-Laryngologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Oto-rino-laringologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Oto-rhino-laryngologie"/>
+					<designation language="it-CH" type="preferred" displayName="Otorinolaringoiatria"/>
+					<designation language="en-US" type="preferred" displayName="Otorhinolaryngology"/>
+				</concept>
+				<concept code="1009" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Pathology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Pathologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Patologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Pathologie"/>
+					<designation language="it-CH" type="preferred" displayName="Patologia"/>
+					<designation language="en-US" type="preferred" displayName="Pathology"/>
+				</concept>
+				<concept code="1010" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Orthodontics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kieferorthopädie"/>
+					<designation language="rm-CH" type="preferred" displayName="Ortopedia da la missella"/>
+					<designation language="fr-CH" type="preferred" displayName="Orthodontie"/>
+					<designation language="it-CH" type="preferred" displayName="Ortodonzia"/>
+					<designation language="en-US" type="preferred" displayName="Orthodontics"/>
+				</concept>
+				<concept code="1011" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Chiropractic specialist" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Fachchiropraktik"/>
+					<designation language="rm-CH" type="preferred" displayName="Chiropratica speziala"/>
+					<designation language="fr-CH" type="preferred" displayName="Chiropratique spécialisée"/>
+					<designation language="it-CH" type="preferred" displayName="Chiropratica specialistica"/>
+					<designation language="en-US" type="preferred" displayName="Chiropractic specialist"/>
+				</concept>
+				<concept code="1012" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Anaesthesiology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Anästhesiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Anestesiologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Anesthésiologie"/>
+					<designation language="it-CH" type="preferred" displayName="Anestesiologia"/>
+					<designation language="en-US" type="preferred" displayName="Anaesthesiology"/>
+				</concept>
+				<concept code="1013" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Neurosurgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Neurochirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Neurochirurgia"/>
+					<designation language="fr-CH" type="preferred" displayName="Neurochirurgie"/>
+					<designation language="it-CH" type="preferred" displayName="Neurochirurgia"/>
+					<designation language="en-US" type="preferred" displayName="Neurosurgery"/>
+				</concept>
+				<concept code="1014" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Neurology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Neurologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Neurologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Neurologie"/>
+					<designation language="it-CH" type="preferred" displayName="Neurologia"/>
+					<designation language="en-US" type="preferred" displayName="Neurology"/>
+				</concept>
+				<concept code="1015" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Orthopaedic surgery and traumatology of the locomotor apparatus" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Orthopädische Chirurgie und Traumatologie des Bewegungsapparates"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia ortopedica e traumatologia da l'apparat motoric"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie orthopédique et traumatologie de l’appareil locomoteur"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia ortopedica e traumatologia dell'apparato locomotore"/>
+					<designation language="en-US" type="preferred" displayName="Orthopaedic surgery and traumatology of the locomotor apparatus"/>
+				</concept>
+				<concept code="1016" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Pneumology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Pneumologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Pneumologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Pneumologie"/>
+					<designation language="it-CH" type="preferred" displayName="Pneumologia"/>
+					<designation language="en-US" type="preferred" displayName="Pneumology"/>
+				</concept>
+				<concept code="1017" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Psychiatry and psychotherapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Psychiatrie und Psychotherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psichiatria e psicoterapia"/>
+					<designation language="fr-CH" type="preferred" displayName="Psychiatrie et psychothérapie"/>
+					<designation language="it-CH" type="preferred" displayName="Psichiatria e psicoterapia"/>
+					<designation language="en-US" type="preferred" displayName="Psychiatry and psychotherapy"/>
+				</concept>
+				<concept code="1018" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Urology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Urologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Urologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Urologie"/>
+					<designation language="it-CH" type="preferred" displayName="Urologia"/>
+					<designation language="en-US" type="preferred" displayName="Urology"/>
+				</concept>
+				<concept code="1019" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Allergology and clinical immunology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Allergologie und klinische Immunologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Allergologia ed immunologia clinica"/>
+					<designation language="fr-CH" type="preferred" displayName="Allergologie et immunologie clinique"/>
+					<designation language="it-CH" type="preferred" displayName="Allergologia e immunologia clinica"/>
+					<designation language="en-US" type="preferred" displayName="Allergology and clinical immunology"/>
+				</concept>
+				<concept code="1020" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Occupational medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Arbeitsmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina da lavur"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine du travail"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina del lavoro"/>
+					<designation language="en-US" type="preferred" displayName="Occupational medicine"/>
+				</concept>
+				<concept code="1021" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Dermatology and venereology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Dermatologie und Venerologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Dermatologia e venerologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Dermatologie et vénéréologie"/>
+					<designation language="it-CH" type="preferred" displayName="Dermatologia e venereologia"/>
+					<designation language="en-US" type="preferred" displayName="Dermatology and venereology"/>
+				</concept>
+				<concept code="1022" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Endocrinology – Diabetology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Endokrinologie und Diabetologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Endocrinologia e diabetologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Endocrinologie et diabétologie"/>
+					<designation language="it-CH" type="preferred" displayName="Endocrinologia e diabetologia"/>
+					<designation language="en-US" type="preferred" displayName="Endocrinology and diabetology"/>
+				</concept>
+				<concept code="1023" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Gastroenterology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Gastroenterologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Gastroenterologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Gastroentérologie"/>
+					<designation language="it-CH" type="preferred" displayName="Gastroenterologia"/>
+					<designation language="en-US" type="preferred" displayName="Gastroenterology"/>
+				</concept>
+				<concept code="1024" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Haematology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Hämatologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Hematologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Hématologie"/>
+					<designation language="it-CH" type="preferred" displayName="Ematologia"/>
+					<designation language="en-US" type="preferred" displayName="Haematology"/>
+				</concept>
+				<concept code="1025" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Cardiology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kardiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Cardiologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Cardiologie"/>
+					<designation language="it-CH" type="preferred" displayName="Cardiologia"/>
+					<designation language="en-US" type="preferred" displayName="Cardiology"/>
+				</concept>
+				<concept code="1026" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Oral and maxillofacial surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Mund-, Kiefer- und Gesichtschirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia da la bucca, da la missella e da la fatscha"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie orale et maxillo-faciale"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia oro-maxillo-facciale"/>
+					<designation language="en-US" type="preferred" displayName="Oral and maxillofacial surgery"/>
+				</concept>
+				<concept code="1027" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Child and adolescent psychiatry and psychotherapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kinder- und Jugendpsychiatrie und -psychotherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psichiatria e psicoterapia d'uffants e da giuvenils"/>
+					<designation language="fr-CH" type="preferred" displayName="Psychiatrie et psychothérapie d'enfants et d’adolescents"/>
+					<designation language="it-CH" type="preferred" displayName="Psichiatria e psicoterapia infantile e dell'adolescenza"/>
+					<designation language="en-US" type="preferred" displayName="Child and adolescent psychiatry and psychotherapy"/>
+				</concept>
+				<concept code="1028" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Paediatric surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kinderchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia d'uffants"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie pédiatrique"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia pediatrica"/>
+					<designation language="en-US" type="preferred" displayName="Paediatric surgery"/>
+				</concept>
+				<concept code="1029" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Clinical pharmacology and toxicology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Klinische Pharmakologie und Toxikologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Farmacologia e toxicologia clinica"/>
+					<designation language="fr-CH" type="preferred" displayName="Pharmacologie et toxicologie cliniques"/>
+					<designation language="it-CH" type="preferred" displayName="Farmacologia e tossicologia cliniche"/>
+					<designation language="en-US" type="preferred" displayName="Clinical pharmacology and toxicology"/>
+				</concept>
+				<concept code="1030" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Radiology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Radiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Radiologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Radiologie"/>
+					<designation language="it-CH" type="preferred" displayName="Radiologia"/>
+					<designation language="en-US" type="preferred" displayName="Radiology"/>
+				</concept>
+				<concept code="1031" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Nuclear medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Nuklearmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina nucleara"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine nucléaire"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina nucleare"/>
+					<designation language="en-US" type="preferred" displayName="Nuclear medicine"/>
+				</concept>
+				<concept code="1032" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Radio-oncology / radiotherapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Radio-Onkologie/Strahlentherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Radio-oncologia/radioterapia"/>
+					<designation language="fr-CH" type="preferred" displayName="Radio-oncologie/radiothérapie"/>
+					<designation language="it-CH" type="preferred" displayName="Radio-oncologia/radioterapia"/>
+					<designation language="en-US" type="preferred" displayName="Radio-oncology/radiotherapy"/>
+				</concept>
+				<concept code="1033" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Nephrology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Nephrologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Nefrologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Néphrologie"/>
+					<designation language="it-CH" type="preferred" displayName="Nefrologia"/>
+					<designation language="en-US" type="preferred" displayName="Nephrology"/>
+				</concept>
+				<concept code="1034" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Physical medicine and rehabilitation" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Physikalische Medizin und Rehabilitation"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina fisicala e reabilitaziun"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine physique et réadaptation"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina fisica e riabilitazione"/>
+					<designation language="en-US" type="preferred" displayName="Physical medicine and rehabilitation"/>
+				</concept>
+				<concept code="1035" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Plastic, reconstructive and aesthetic surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Plastische, Rekonstruktive und Ästhetische Chirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia plastica, reconstructiva ed estetica"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie plastique, reconstructive et esthétique"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia plastica, ricostruttiva ed estetica"/>
+					<designation language="en-US" type="preferred" displayName="Plastic, reconstructive and aesthetic surgery"/>
+				</concept>
+				<concept code="1036" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Prevention and public health" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Prävention und Gesundheitswesen"/>
+					<designation language="rm-CH" type="preferred" displayName="Prevenziun e sanadad publica"/>
+					<designation language="fr-CH" type="preferred" displayName="Prévention et santé publique"/>
+					<designation language="it-CH" type="preferred" displayName="Prevenzione e salute pubblica"/>
+					<designation language="en-US" type="preferred" displayName="Prevention and public health"/>
+				</concept>
+				<concept code="1037" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Rheumatology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Rheumatologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Reumatologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Rhumatologie"/>
+					<designation language="it-CH" type="preferred" displayName="Reumatologia"/>
+					<designation language="en-US" type="preferred" displayName="Rheumatology"/>
+				</concept>
+				<concept code="1038" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Tropical and travel medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Tropen- und Reisemedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina da las tropas e da viadis"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine tropicale et médecine des voyages"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina tropicale e medicina di viaggio"/>
+					<designation language="en-US" type="preferred" displayName="Tropical and travel medicine"/>
+				</concept>
+				<concept code="1039" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Infectology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Infektiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Infecziologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Infectiologie"/>
+					<designation language="it-CH" type="preferred" displayName="Malattie infettive"/>
+					<designation language="en-US" type="preferred" displayName="Infectology"/>
+				</concept>
+				<concept code="1040" codeSystem="2.16.756.5.30.1.127.3.5" displayName="General medical practitioner" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Praktischer Arzt/Praktische Ärztin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medi generalist/media generalista"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecin praticien"/>
+					<designation language="it-CH" type="preferred" displayName="Medico generico"/>
+					<designation language="en-US" type="preferred" displayName="General medical practitioner"/>
+				</concept>
+				<concept code="1041" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Angiology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Angiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Angiologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Angiologie"/>
+					<designation language="it-CH" type="preferred" displayName="Angiologia"/>
+					<designation language="en-US" type="preferred" displayName="Angiology"/>
+				</concept>
+				<concept code="1042" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Intensive care medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Intensivmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina intensiva"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine intensive"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina intensiva"/>
+					<designation language="en-US" type="preferred" displayName="Intensive care medicine"/>
+				</concept>
+				<concept code="1043" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Medical genetics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Medizinische Genetik"/>
+					<designation language="rm-CH" type="preferred" displayName="Genetica medicinala"/>
+					<designation language="fr-CH" type="preferred" displayName="Génétique médicale"/>
+					<designation language="it-CH" type="preferred" displayName="Genetica medica"/>
+					<designation language="en-US" type="preferred" displayName="Medical genetics"/>
+				</concept>
+				<concept code="1044" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Medical oncology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Medizinische Onkologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Oncologia medicinala"/>
+					<designation language="fr-CH" type="preferred" displayName="Oncologie médicale"/>
+					<designation language="it-CH" type="preferred" displayName="Oncologia medica"/>
+					<designation language="en-US" type="preferred" displayName="Medical oncology"/>
+				</concept>
+				<concept code="1045" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Pharmaceutical medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Pharmazeutische Medizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina farmaceutica"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine pharmaceutique"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina farmacologica"/>
+					<designation language="en-US" type="preferred" displayName="Pharmaceutical medicine"/>
+				</concept>
+				<concept code="1046" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Forensic medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Rechtsmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina forensica"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine légale"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina legale"/>
+					<designation language="en-US" type="preferred" displayName="Forensic medicine"/>
+				</concept>
+				<concept code="1047" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Oral surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Oralchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia orala"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie orale"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia orale"/>
+					<designation language="en-US" type="preferred" displayName="Oral surgery"/>
+				</concept>
+				<concept code="1048" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Paradontology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Parodontologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Parodontologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Parodontologie"/>
+					<designation language="it-CH" type="preferred" displayName="Parodontologia"/>
+					<designation language="en-US" type="preferred" displayName="Paradontology"/>
+				</concept>
+				<concept code="1049" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Reconstructive dentistry" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Rekonstruktive Zahnmedizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Odontologia reconstructiva"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine dentaire reconstructive"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina dentaria riconstruttiva"/>
+					<designation language="en-US" type="preferred" displayName="Reconstructive dentistry"/>
+				</concept>
+				<concept code="1050" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Other" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Andere"/>
+					<designation language="rm-CH" type="preferred" displayName="Auter"/>
+					<designation language="fr-CH" type="preferred" displayName="Autre"/>
+					<designation language="it-CH" type="preferred" displayName="Altre"/>
+					<designation language="en-US" type="preferred" displayName="Other"/>
+				</concept>
+				<concept code="1051" codeSystem="2.16.756.5.30.1.127.3.5" displayName="General Internal medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Allgemeine Innere Medizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Medischina interna generala"/>
+					<designation language="fr-CH" type="preferred" displayName="Médecine interne générale"/>
+					<designation language="it-CH" type="preferred" displayName="Medicina interna generale"/>
+					<designation language="en-US" type="preferred" displayName="General internal medicine"/>
+				</concept>
+				<concept code="1052" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Community pharmacy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Offizinpharmazie"/>
+					<designation language="rm-CH" type="preferred" displayName="Farmazia d'ufficina"/>
+					<designation language="fr-CH" type="preferred" displayName="Pharmacie d'officine"/>
+					<designation language="it-CH" type="preferred" displayName="Farmacia d'officina"/>
+					<designation language="en-US" type="preferred" displayName="Community pharmacy"/>
+				</concept>
+				<concept code="1053" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Hospital pharmacy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Spitalpharmazie"/>
+					<designation language="rm-CH" type="preferred" displayName="Farmazia d'ospital"/>
+					<designation language="fr-CH" type="preferred" displayName="Pharmacie hospitalière"/>
+					<designation language="it-CH" type="preferred" displayName="Farmacia d'ospedale"/>
+					<designation language="en-US" type="preferred" displayName="Hospital pharmacy"/>
+				</concept>
+				<concept code="1054" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Psychotherapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Psychotherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psicoterapia"/>
+					<designation language="fr-CH" type="preferred" displayName="Psychothérapie"/>
+					<designation language="it-CH" type="preferred" displayName="Psicoterapia"/>
+					<designation language="en-US" type="preferred" displayName="Psychotherapy"/>
+				</concept>
+				<concept code="1055" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Child and adolescent psychology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Kinder- und Jugendpsychologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psicologia d'uffants e da giuvenils"/>
+					<designation language="fr-CH" type="preferred" displayName="psychologie des enfants et des adolescents"/>
+					<designation language="it-CH" type="preferred" displayName="psicologia dell'età evolutiva"/>
+					<designation language="en-US" type="preferred" displayName="Child and adolescent psychology"/>
+				</concept>
+				<concept code="1056" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Clinical psychology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Klinische Psychologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psicologia clinica"/>
+					<designation language="fr-CH" type="preferred" displayName="psychologie clinique"/>
+					<designation language="it-CH" type="preferred" displayName="psicologia clinica"/>
+					<designation language="en-US" type="preferred" displayName="Clinical psychology"/>
+				</concept>
+				<concept code="1057" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Neuropsychology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Neuropsychologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Neuropsicologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Neuropsychologie"/>
+					<designation language="it-CH" type="preferred" displayName="Neuropsicologia"/>
+					<designation language="en-US" type="preferred" displayName="Neuropsychology"/>
+				</concept>
+				<concept code="1058" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Health psychology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Gesundheitspsychologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Psicologia da sanadad"/>
+					<designation language="fr-CH" type="preferred" displayName="Psychologie de la santé"/>
+					<designation language="it-CH" type="preferred" displayName="Psicologia della salute"/>
+					<designation language="en-US" type="preferred" displayName="Health psychology"/>
+				</concept>
+				<concept code="1059" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Hand surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Handchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia dal maun"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie de la main"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia della mano"/>
+					<designation language="en-US" type="preferred" displayName="Hand surgery"/>
+				</concept>
+				<concept code="1060" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Vascular surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Gefässchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia vasculara"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie vasculaire"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia vascolare"/>
+					<designation language="en-US" type="preferred" displayName="Vascular surgery"/>
+				</concept>
+				<concept code="1061" codeSystem="2.16.756.5.30.1.127.3.5" displayName="Thoracic surgery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Thoraxchirurgie"/>
+					<designation language="rm-CH" type="preferred" displayName="Chirurgia dal torax"/>
+					<designation language="fr-CH" type="preferred" displayName="Chirurgie thoracique"/>
+					<designation language="it-CH" type="preferred" displayName="Chirurgia toracica"/>
+					<designation language="en-US" type="preferred" displayName="Thoracic surgery"/>
+				</concept>
+				<concept code="5001" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Optics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Augenoptik"/>
+					<designation language="rm-CH" type="preferred" displayName="Optica"/>
+					<designation language="fr-CH" type="preferred" displayName="Optique"/>
+					<designation language="it-CH" type="preferred" displayName="Ottica"/>
+					<designation language="en-US" type="preferred" displayName="Optics"/>
+				</concept>
+				<concept code="5002" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Activation" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Aktivierung"/>
+					<designation language="rm-CH" type="preferred" displayName="Activaziun"/>
+					<designation language="fr-CH" type="preferred" displayName="Activation"/>
+					<designation language="it-CH" type="preferred" displayName="Attivazione"/>
+					<designation language="en-US" type="preferred" displayName="Activation"/>
+				</concept>
+				<concept code="5003" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Biomedical analysis" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Biomedizinische Analytik"/>
+					<designation language="rm-CH" type="preferred" displayName="Analitica biomedicinala"/>
+					<designation language="fr-CH" type="preferred" displayName="Analyses biomédicales"/>
+					<designation language="it-CH" type="preferred" displayName="Analisi biomediche"/>
+					<designation language="en-US" type="preferred" displayName="Biomedical analysis"/>
+				</concept>
+				<concept code="5004" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Dental hygiene" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Dentalhygiene"/>
+					<designation language="rm-CH" type="preferred" displayName="Igienica dentala"/>
+					<designation language="fr-CH" type="preferred" displayName="Hygiène dentaire"/>
+					<designation language="it-CH" type="preferred" displayName="Igiene dentale"/>
+					<designation language="en-US" type="preferred" displayName="Dental hygiene"/>
+				</concept>
+				<concept code="5005" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Pharmaceutical" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Drogist/Drogistin"/>
+					<designation language="rm-CH" type="preferred" displayName="Droghista/droghist"/>
+					<designation language="fr-CH" type="preferred" displayName="Droguiste"/>
+					<designation language="it-CH" type="preferred" displayName="Droghiere/Droghiera"/>
+					<designation language="en-US" type="preferred" displayName="Pharmaceutical"/>
+				</concept>
+				<concept code="5006" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Occupational Therapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Ergotherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Ergoterapia"/>
+					<designation language="fr-CH" type="preferred" displayName="Ergothérapie"/>
+					<designation language="it-CH" type="preferred" displayName="Ergoterapia"/>
+					<designation language="en-US" type="preferred" displayName="Occupational therapy"/>
+				</concept>
+				<concept code="5007" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Nutrition and Dietetics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Ernährungsberatung"/>
+					<designation language="rm-CH" type="preferred" displayName="Cussegliaziun da nutriment"/>
+					<designation language="fr-CH" type="preferred" displayName="Diététique"/>
+					<designation language="it-CH" type="preferred" displayName="Consulenza alimentare"/>
+					<designation language="en-US" type="preferred" displayName="Nutrition and dietetics"/>
+				</concept>
+				<concept code="5008" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Radiologic Technology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Medizinisch-technische Radiologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Tecnica da radiologia (medicinala)"/>
+					<designation language="fr-CH" type="preferred" displayName="Technique en radiologie médicale"/>
+					<designation language="it-CH" type="preferred" displayName="Tecniche di radiologia medica"/>
+					<designation language="en-US" type="preferred" displayName="Radiologic technology"/>
+				</concept>
+				<concept code="5009" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Surgical Technology" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Operationstechnik"/>
+					<designation language="rm-CH" type="preferred" displayName="Tecnica d'operaziun"/>
+					<designation language="fr-CH" type="preferred" displayName="Technique opératoire"/>
+					<designation language="it-CH" type="preferred" displayName="Tecnica operatoria"/>
+					<designation language="en-US" type="preferred" displayName="Surgical technology"/>
+				</concept>
+				<concept code="5010" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Midwifery" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Geburtshilfe"/>
+					<designation language="rm-CH" type="preferred" displayName="Assistenza al part – spendrera"/>
+					<designation language="fr-CH" type="preferred" displayName="Obstétrique"/>
+					<designation language="it-CH" type="preferred" displayName="Ostetricia"/>
+					<designation language="en-US" type="preferred" displayName="Midwifery"/>
+				</concept>
+				<concept code="5011" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Speech and Language Therapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Logopädie"/>
+					<designation language="rm-CH" type="preferred" displayName="Logopedia"/>
+					<designation language="fr-CH" type="preferred" displayName="Logopédie"/>
+					<designation language="it-CH" type="preferred" displayName="Logopedia"/>
+					<designation language="en-US" type="preferred" displayName="Speech and language therapy"/>
+				</concept>
+				<concept code="5012" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Massage Therapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Medizinische Massage"/>
+					<designation language="rm-CH" type="preferred" displayName="Massascha medicinala"/>
+					<designation language="fr-CH" type="preferred" displayName="Massage médical"/>
+					<designation language="it-CH" type="preferred" displayName="Massaggio medico"/>
+					<designation language="en-US" type="preferred" displayName="Massage Therapy"/>
+				</concept>
+				<concept code="5013" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Orthoptics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Orthoptik"/>
+					<designation language="rm-CH" type="preferred" displayName="Ortoptica"/>
+					<designation language="fr-CH" type="preferred" displayName="Orthoptique"/>
+					<designation language="it-CH" type="preferred" displayName="Ortottica"/>
+					<designation language="en-US" type="preferred" displayName="Orthoptics"/>
+				</concept>
+				<concept code="5014" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Osteopathy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Osteopathie"/>
+					<designation language="rm-CH" type="preferred" displayName="Osteopatia"/>
+					<designation language="fr-CH" type="preferred" displayName="Ostéopathie"/>
+					<designation language="it-CH" type="preferred" displayName="Osteopatia"/>
+					<designation language="en-US" type="preferred" displayName="Osteopathy"/>
+				</concept>
+				<concept code="5015" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Nursing" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Pflege"/>
+					<designation language="rm-CH" type="preferred" displayName="Tgira"/>
+					<designation language="fr-CH" type="preferred" displayName="Soins infirmiers"/>
+					<designation language="it-CH" type="preferred" displayName="Cure infermieristiche"/>
+					<designation language="en-US" type="preferred" displayName="Nursing"/>
+				</concept>
+				<concept code="5016" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Physiotherapy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Physiotherapie"/>
+					<designation language="rm-CH" type="preferred" displayName="Fisioterapia"/>
+					<designation language="fr-CH" type="preferred" displayName="Physiothérapie"/>
+					<designation language="it-CH" type="preferred" displayName="Fisioterapia"/>
+					<designation language="en-US" type="preferred" displayName="Physiotherapy"/>
+				</concept>
+				<concept code="5017" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Podiatry" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Podologie"/>
+					<designation language="rm-CH" type="preferred" displayName="Podologia"/>
+					<designation language="fr-CH" type="preferred" displayName="Podologie"/>
+					<designation language="it-CH" type="preferred" displayName="Podologia"/>
+					<designation language="en-US" type="preferred" displayName="Podiatry"/>
+				</concept>
+				<concept code="5018" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Paramedics" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Rettungssanität"/>
+					<designation language="rm-CH" type="preferred" displayName="Sanitad da salvament"/>
+					<designation language="fr-CH" type="preferred" displayName="Sauvetage"/>
+					<designation language="it-CH" type="preferred" displayName="Soccorso sanitario"/>
+					<designation language="en-US" type="preferred" displayName="Paramedics"/>
+				</concept>
+				<concept code="5019" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Optometry" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Optometrie"/>
+					<designation language="rm-CH" type="preferred" displayName="Optometria"/>
+					<designation language="fr-CH" type="preferred" displayName="Optométrie"/>
+					<designation language="it-CH" type="preferred" displayName="Optometria"/>
+					<designation language="en-US" type="preferred" displayName="Optometry"/>
+				</concept>
+				<concept code="5021" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Naturopathy Ayurveda Medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Naturheilpraktiker/-in Ayurveda-Medizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Naturopatia/medischina ayurvedica"/>
+					<designation language="fr-CH" type="preferred" displayName="Naturopathe médecine ayurvédique"/>
+					<designation language="it-CH" type="preferred" displayName="Naturopata medicina ayurvedica"/>
+					<designation language="en-US" type="preferred" displayName="Naturopathy ayurveda medicine"/>
+				</concept>
+				<concept code="5022" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Naturopathy Homeopathy" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Naturheilpraktiker/-in Homöopathie"/>
+					<designation language="rm-CH" type="preferred" displayName="Naturopatia/omeopatia"/>
+					<designation language="fr-CH" type="preferred" displayName="Naturopathe homéopathie"/>
+					<designation language="it-CH" type="preferred" displayName="Naturopata omeopatia"/>
+					<designation language="en-US" type="preferred" displayName="Naturopathy homeopathy"/>
+				</concept>
+				<concept code="5023" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Naturopathy Traditional Chinese Medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Naturheilpraktiker/-in Trad. Chinesische Medizin"/>
+					<designation language="rm-CH" type="preferred" displayName="Naturopatia/medischina tradiziunala chinaisa"/>
+					<designation language="fr-CH" type="preferred" displayName="Naturopathe médecine trad. chinoise"/>
+					<designation language="it-CH" type="preferred" displayName="Naturopata medicina trad. cinese"/>
+					<designation language="en-US" type="preferred" displayName="Naturopathy traditional chinese medicine"/>
+				</concept>
+				<concept code="5024" codeSystem="2.16.756.5.30.1.127.3.6" displayName="Naturopathy European Traditional Medicine" level="0" type="L">
+					<designation language="de-CH" type="preferred" displayName="Naturheilpraktiker/-in Trad. Europäische Naturheilkunde"/>
+					<designation language="rm-CH" type="preferred" displayName="Naturopatia/medischina tradiziunala europeica"/>
+					<designation language="fr-CH" type="preferred" displayName="Naturopathe médecine naturelle trad. européenne"/>
+					<designation language="it-CH" type="preferred" displayName="Naturopata medicina naturale trad. europea"/>
+					<designation language="en-US" type="preferred" displayName="Naturopathy traditional european medicine"/>
+				</concept>
+			</conceptList>
+		</valueSet>
+	</project>
+</valueSets>

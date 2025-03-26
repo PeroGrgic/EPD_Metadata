@@ -241,8 +241,8 @@ class AD_csv_to_i14y_json():
                         "it": "eHealth Suisse"
                     }
                 },
-                "responsibleDeputy": self.responsible_person,
-                "responsiblePerson": self.deputy_person,
+                "responsibleDeputy": self.deputy_person,
+                "responsiblePerson": self.responsible_person,
                 "themes": [],
                 "validFrom": self.concept.get_validFrom(),
                 "version": "2.0.0"
@@ -347,7 +347,10 @@ class AD_csv_to_i14y_json():
         if self.fileExtension == "csv":
             output = self.create_codeListEntries_output(self.codeListEntries)
         elif self.fileExtension == "xml":
-            output = self.create_concept_output()
+            if self.new_concept is True:
+                output = self.create_concept_output()
+            else:
+                output = self.create_codeListEntries_output(self.codeListEntries)
             #output = self.create_codeListEntries_output(self.codeListEntries)
         
         with open(self.json_output_file_path, 'w', encoding="utf-8") as json_file:
@@ -580,37 +583,34 @@ class concept():
 
 class codeListsId(enum.Enum):
     #Id of codelists version 2.0.0
-    SubmissionSet_contentTypeCode = '08dd3ac4-5400-26c2-9c23-aa5161d6f1ee'
-    EprRole = '08dd3ac5-3368-7166-8321-752d51b4c7fa' #The value sets SubmissionSet.Author.AuthorRole and DocumentEntry.author.authorRole are referencing this value set
+    SubmissionSet_contentTypeCode = '08dd632d-b449-6c4f-bff5-38488abd5b6f'
+    EprRole = '08dd632d-b378-e759-84d8-f04d0168890c' #The value sets SubmissionSet.Author.AuthorRole, DocumentEntry.author.authorRole and DocumentEntry.originalProviderRole are referencing this value set
     HCProfessional_hcSpecialisation = '' #import content from value set 
-    HCProfessional_hcProfession = '08dd3acd-7a56-0e11-b17a-793d26b64c01'
-    DocumentEntry_classCode = '08dd3a24-ed88-0a70-9837-bd77662abde7'
-    DocumentEntry_author_authorSpeciality = '' #i14y hat Probleme und ich kann keine neue version erstellen
-    DocumentEntry_confidentialityCode = '08dd3ac7-c913-0f55-add6-6e700fbd0b5a'
-    DocumentEntry_eventCodeList = '08dd3ac7-f8c5-1206-a6be-6a18a5d03aaf'
-    DocumentEntry_formatCode = '08dd3ac8-2381-0ee1-a776-b33cd44de513'
-    DocumentEntry_healthcareFacilityTypeCode ='08dd3ac8-4ae2-c5a2-ac9a-9570e73e6bf4'
-    DocumentEntry_mimeType = '08dd3ac8-b015-2aa9-8c23-41e386fd578a'
-    DocumentEntry_practiceSettingCode = '08dd3ac8-d173-9334-9f4f-84c5b4f7c665'
-    DocumentEntry_sourcePatientInfo_PID_8 = '08dd3ac9-0867-a02f-83c7-49f36a893f9d'
-    DocumentEntry_typeCode = '08dd3acb-b3be-14a8-9fea-5275a5798da7'
-    EprAuditTrailConsumptionEventType = '08dd3acb-d3eb-355a-a495-4ec8a225f127'
-    EprDeletionStatus = '08dd3acc-4897-11b5-ab2f-20a123bbc17c'
-    DocumentEntry_languageCode = '08dd3acc-c0f2-6dcf-8612-d87241707c19'
-    EprPurposeOfUse = '08dd3acc-eee9-b32e-ba19-4bb6f87f502b'
+    HCProfessional_hcProfession = '08dd632d-b3c5-ed64-a995-369c44b38c06'
+    DocumentEntry_classCode = '08dd632d-aa6b-ffb2-a78b-fbff93d4f167'
+    DocumentEntry_author_authorSpeciality = '08dd632d-a98d-34ff-9252-123e46d6f053'
+    DocumentEntry_confidentialityCode = '08dd632d-aada-98dd-bbc2-21ad33bd1565'
+    DocumentEntry_eventCodeList = '08dd632d-ab2e-9938-8e31-4fb07a28b4a3'
+    DocumentEntry_formatCode = '08dd632d-ab82-6614-a9a4-c9842737aa2f'
+    DocumentEntry_healthcareFacilityTypeCode ='08dd632d-abd6-c1fd-9468-533a88e19499'
+    DocumentEntry_mimeType = '08dd632d-aca1-b77d-80c2-3e6b677753f9'
+    DocumentEntry_practiceSettingCode = '08dd632d-ad55-7a02-b041-ae0059ba8d79'
+    DocumentEntry_sourcePatientInfo_PID_8 = '08dd632d-ada3-bda0-be32-f270bf291810'
+    DocumentEntry_typeCode = '08dd632d-adf6-96f1-9850-7ef00f059f80'
+    EprAuditTrailConsumptionEventType = '08dd632d-b23a-ec97-8812-886854f69afd'
+    EprDeletionStatus = '08dd632d-b2a2-0ed2-941d-fffb2bea1af5'
+    DocumentEntry_languageCode = '08dd632d-ac4d-977f-a53b-ec0b1af269f8'
+    EprPurposeOfUse = '08dd632d-b2f7-197a-889f-18e7a917dd67'
+    EprAgentRole = '08dd632d-aee2-333d-b1e4-505385fde8ff'
 
 class publisherPersons():
     def __init__(self):
         self.persons = {
             "PGR": {
-                "id": "08db0048-2e29-6f1b-9c94-70cc06980c35",
-                "identifier": "pero.grgic@e-health-suisse.ch",
-                "name": "Grgic Pero eHealth Suisse"
+                "email": "pero.grgic@e-health-suisse.ch"
             },
             "SNE": {
-                "id": "08db7190-7358-9c21-8114-9743e9051aa2",
-                "identifier": "stefanie.neuenschwander@e-health-suisse.ch",
-                "name": "Neuenschwander Stefanie eHealth Suisse"
+                "email": "stefanie.neuenschwander@e-health-suisse.ch"
             }
         }
 
@@ -667,93 +667,3 @@ if __name__ == "__main__":
     main()
 
 #TODO: ValidFrom auf Codeebene ist nicht dynamisch.
-"""
-Syntaktisch ist es ein Korrekes JSON der I14Y. Es soll aber keine Code ListEntries enthalten.
-def create_concept_output(self):
-        codeListEntries_output = self.create_codeListEntries_output(self.codeListEntries)             
-        if self.new_concept:
-            output = {
-                "data": {
-                    "codeListEntries": codeListEntries_output["data"],
-                    "codeListEntryValueMaxLength": 13, # Adjust the value as needed
-                    "codeListEntryValueType": "Numeric", # Adjust the value as needed
-                    "conceptType": "CodeList",
-                    "conformsTo": [],
-                    "description": {
-                        "de": self.concept.get_descriptionDE(),
-                        "en": self.concept.get_descriptionEN(),
-                        "fr": self.concept.get_descriptionFR(),
-                        "it": self.concept.get_descriptionIT()
-                    },
-                    "identifier": self.concept.get_identifier(),
-                    "isLocked": False,
-                    "keywords": [],
-                    "name": {
-                        "de": self.concept.get_name(),
-                        "en": self.concept.get_name(),
-                        "fr": self.concept.get_name(),
-                        "it": self.concept.get_name()
-                    },
-                    "publicationLevel": "Internal",
-                    "publisher": {
-                        "identifier": "CH_eHealth",
-                        "name": {
-                            "de": "eHealth Suisse",
-                            "en": "eHealth Suisse",
-                            "fr": "eHealth Suisse",
-                            "it": "eHealth Suisse"
-                        }
-                    },
-                    "registrationStatus": "Incomplete",
-                    "responsibleDeputy": self.responsible_person,
-                    "responsiblePerson": self.deputy_person,
-                    "themes": [],
-                    "validFrom": self.concept.get_validFrom(),
-                    "version": "2.0.0"
-                }
-        }
-        else:
-             output = {
-                "data": {
-                    "codeListEntries": codeListEntries_output["data"],
-                    "codeListEntryValueMaxLength": 13, # Adjust the value as needed
-                    "codeListEntryValueType": "Numeric", # Adjust the value as needed
-                    "conceptType": "CodeList",
-                    "conformsTo": [],
-                    "description": {
-                        "de": self.concept.get_descriptionDE(),
-                        "en": self.concept.get_descriptionEN(),
-                        "fr": self.concept.get_descriptionFR(),
-                        "it": self.concept.get_descriptionIT()
-                    },
-                    "id": self.concept.get_id(),
-                    "identifier": self.concept.get_identifier(),
-                    "isLocked": False,
-                    "keywords": [],
-                    "name": {
-                        "de": self.concept.get_name(),
-                        "en": self.concept.get_name(),
-                        "fr": self.concept.get_name(),
-                        "it": self.concept.get_name()
-                    },
-                    "publicationLevel": "Internal",
-                    "publisher": {
-                        "identifier": "CH_eHealth",
-                        "name": {
-                            "de": "eHealth Suisse",
-                            "en": "eHealth Suisse",
-                            "fr": "eHealth Suisse",
-                            "it": "eHealth Suisse"
-                        }
-                    },
-                    "registrationStatus": "Incomplete",
-                    "responsibleDeputy": self.responsible_person,
-                    "responsiblePerson": self.deputy_person,
-                    "themes": [],
-                    "validFrom": self.concept.get_validFrom(),
-                    "version": "2.0.0"
-            }
-        }
-        
-        return output
-"""

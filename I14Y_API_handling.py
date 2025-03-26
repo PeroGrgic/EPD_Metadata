@@ -5,6 +5,8 @@ import json
 import enum
 import sys
 import glob
+import certifi
+import datetime
 
 # Setting up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -107,7 +109,7 @@ class i14y_api_calls():
         self.delete_CodelistEntries(concept_id)
         self.post_CodelistEntries(file_path, concept_id)
     
-    def post_MultipleNewConceptVersion(self, directory_path):
+    def post_MultipleNewCodelists(self, directory_path):
         # Find all JSON files in the directory
         json_files = glob.glob(os.path.join(directory_path, "*_transformed.json"))
  
@@ -131,6 +133,7 @@ class i14y_api_calls():
             'EprRole_transformed': codeListsId.EprRole,
             'HCProfessional.hcProfession_transformed': codeListsId.HCProfessional_hcProfession,
             'DocumentEntry.classCode_transformed': codeListsId.DocumentEntry_classCode,
+            'DocumentEntry.authorSpeciality_transformed': codeListsId.DocumentEntry_author_authorSpeciality,
             'DocumentEntry.confidentialityCode_transformed': codeListsId.DocumentEntry_confidentialityCode,
             'DocumentEntry.eventCodeList_transformed': codeListsId.DocumentEntry_eventCodeList,
             'DocumentEntry.formatCode_transformed': codeListsId.DocumentEntry_formatCode,
@@ -141,8 +144,9 @@ class i14y_api_calls():
             'DocumentEntry.typeCode_transformed': codeListsId.DocumentEntry_typeCode,
             'EprAuditTrailConsumptionEventType_transformed': codeListsId.EprAuditTrailConsumptionEventType,
             'EprDeletionStatus_transformed': codeListsId.EprDeletionStatus,
+            'DocumentEntry.languageCode_transformed': codeListsId.DocumentEntry_languageCode,
             'EprPurposeOfUse_transformed': codeListsId.EprPurposeOfUse,
-            'DocumentEntry.languageCode_transformed': codeListsId.DocumentEntry_languageCode
+            'EprAgentRole_transformed': codeListsId.EprAgentRole
         }
     
         # Remove file extension and path to get base filename
@@ -150,15 +154,15 @@ class i14y_api_calls():
         # Return corresponding enum value or None if not found
         return mapping.get(base_filename)
     
-    def post_NewConcept(self, file_path):
+    def post_NewConcept(self, file_path): #TODO: anpassen dass inhalte in das neu erstellte konzept geschrieben werden
         headers = {
             'Content-Type': 'application/json',
             'Authorization': f'Bearer {self.AUTH_TOKEN}',
+            'Accept': 'application/json'
         }
         
         POST_URL = 'https://api.i14y.admin.ch/api/partner/v1/concepts'
-
-            
+       
         # Check if the file exists before making the request
         if not os.path.isfile(file_path):
             logging.error(f"File not found: {file_path}")
@@ -166,22 +170,31 @@ class i14y_api_calls():
 
         # Prepare the file to be sent in the request
         files = {'file': (os.path.basename(file_path), open(file_path, 'rb'), 'application/json')}
+        with open(file_path, 'r', encoding='utf-8') as file:
+            payload = json.load(file)
         
         try:
             logging.info(f"Posting file to URL: {POST_URL}")
-            response = requests.post(POST_URL, headers=headers, files=files, verify = False)
+            response = requests.post(POST_URL, headers=headers, json=payload, verify=False)
             response.raise_for_status()  # Raise an error for bad status codes
             logging.info("File posted successfully")
-            return response.json()
-        except requests.exceptions.HTTPError as http_err:
-            logging.error(f"HTTP error occurred: {http_err}")
-        except requests.exceptions.ConnectionError as conn_err:
-            logging.error(f"Connection error occurred: {conn_err}")
-        except requests.exceptions.Timeout as timeout_err:
-            logging.error(f"Timeout error occurred: {timeout_err}")
-        except Exception as err:
-            logging.error(f"An error occurred: {err}")
-        return None
+      
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed with error: {e.response.status_code} \nMore details: in file api_errors_log.txt")
+            error_message = f"""
+                Status Code: {e.response.status_code}
+                Error Response: {e.response.text}
+                Response Headers: {dict(e.response.headers)}
+                Request Exception: {str(e)}
+                Request Details: {e.request.method} {e.request.url}
+                Request Headers: {dict(e.request.headers)}
+                Request Body: {e.request.body}
+                """
+            # Write error messages to file
+            with open('.\\AD_VS\\api_errors_log.txt', 'a') as f:
+                f.write(f"\n--- Error occurred at {datetime.datetime.now()} ---\n")
+                f.write(error_message)
+                f.write("\n--------------------\n")
     
     def post_MultipleConcepts(self, directory_path):
         # Find all JSON files in the directory
@@ -193,36 +206,37 @@ class i14y_api_calls():
 
 class codeListsId(enum.Enum):
     #Id of codelists version 2.0.0
-    SubmissionSet_contentTypeCode = '08dd3ac4-5400-26c2-9c23-aa5161d6f1ee'
-    EprRole = '08dd3ac5-3368-7166-8321-752d51b4c7fa' #The value sets SubmissionSet.Author.AuthorRole and DocumentEntry.author.authorRole are referencing this value set
+    SubmissionSet_contentTypeCode = '08dd632d-b449-6c4f-bff5-38488abd5b6f'
+    EprRole = '08dd632d-b378-e759-84d8-f04d0168890c' #The value sets SubmissionSet.Author.AuthorRole, DocumentEntry.author.authorRole and DocumentEntry.originalProviderRole are referencing this value set
     HCProfessional_hcSpecialisation = '' #import content from value set 
-    HCProfessional_hcProfession = '08dd3acd-7a56-0e11-b17a-793d26b64c01'
-    DocumentEntry_classCode = '08dd3a24-ed88-0a70-9837-bd77662abde7'
-    DocumentEntry_author_authorSpeciality = '' #i14y hat Probleme und ich kann keine neue version erstellen
-    DocumentEntry_confidentialityCode = '08dd3ac7-c913-0f55-add6-6e700fbd0b5a'
-    DocumentEntry_eventCodeList = '08dd3ac7-f8c5-1206-a6be-6a18a5d03aaf'
-    DocumentEntry_formatCode = '08dd3ac8-2381-0ee1-a776-b33cd44de513'
-    DocumentEntry_healthcareFacilityTypeCode ='08dd3ac8-4ae2-c5a2-ac9a-9570e73e6bf4'
-    DocumentEntry_mimeType = '08dd3ac8-b015-2aa9-8c23-41e386fd578a'
-    DocumentEntry_practiceSettingCode = '08dd3ac8-d173-9334-9f4f-84c5b4f7c665'
-    DocumentEntry_sourcePatientInfo_PID_8 = '08dd3ac9-0867-a02f-83c7-49f36a893f9d'
-    DocumentEntry_typeCode = '08dd3acb-b3be-14a8-9fea-5275a5798da7'
-    EprAuditTrailConsumptionEventType = '08dd3acb-d3eb-355a-a495-4ec8a225f127'
-    EprDeletionStatus = '08dd3acc-4897-11b5-ab2f-20a123bbc17c'
-    DocumentEntry_languageCode = '08dd3acc-c0f2-6dcf-8612-d87241707c19'
-    EprPurposeOfUse = '08dd3acc-eee9-b32e-ba19-4bb6f87f502b'
+    HCProfessional_hcProfession = '08dd632d-b3c5-ed64-a995-369c44b38c06'
+    DocumentEntry_classCode = '08dd632d-aa6b-ffb2-a78b-fbff93d4f167'
+    DocumentEntry_author_authorSpeciality = '08dd632d-a98d-34ff-9252-123e46d6f053'
+    DocumentEntry_confidentialityCode = '08dd632d-aada-98dd-bbc2-21ad33bd1565'
+    DocumentEntry_eventCodeList = '08dd632d-ab2e-9938-8e31-4fb07a28b4a3'
+    DocumentEntry_formatCode = '08dd632d-ab82-6614-a9a4-c9842737aa2f'
+    DocumentEntry_healthcareFacilityTypeCode ='08dd632d-abd6-c1fd-9468-533a88e19499'
+    DocumentEntry_mimeType = '08dd632d-aca1-b77d-80c2-3e6b677753f9'
+    DocumentEntry_practiceSettingCode = '08dd632d-ad55-7a02-b041-ae0059ba8d79'
+    DocumentEntry_sourcePatientInfo_PID_8 = '08dd632d-ada3-bda0-be32-f270bf291810'
+    DocumentEntry_typeCode = '08dd632d-adf6-96f1-9850-7ef00f059f80'
+    EprAuditTrailConsumptionEventType = '08dd632d-b23a-ec97-8812-886854f69afd'
+    EprDeletionStatus = '08dd632d-b2a2-0ed2-941d-fffb2bea1af5'
+    DocumentEntry_languageCode = '08dd632d-ac4d-977f-a53b-ec0b1af269f8'
+    EprPurposeOfUse = '08dd632d-b2f7-197a-889f-18e7a917dd67'
+    EprAgentRole = '08dd632d-aee2-333d-b1e4-505385fde8ff'
 
 # Main execution
 def main():
     logging.basicConfig(level=logging.INFO)
 
     if len(sys.argv) < 3:
-        print("Usage: python I14_API_handling.py  <I14Y_user_token> <method> [file_path] [concept_id]")
+        print("Usage: python I14Y_API_handling.py <I14Y_user_token> <method> [file_path] [concept_id]")
         print("Methods:")
         print("  -pc   → post_NewConcept(file_path)")
         print("  -pmc  → post_MultipleNewConcepts(directory_path)")
         print("  -pcl  → post_CodelistEntries(file_path, concept_id)")
-        print("  -pmcl → update_CodelistEntries(file_path, concept_id)")
+        print("  -pmcl → post_MultipleNewCodelists(directory_path)")
         print("  -dcl  → delete_CodelistEntries(concept_id)")
         logging.error("Missing arguments.")
         sys.exit(1)
@@ -232,82 +246,56 @@ def main():
     i14y_user_token = sys.argv[1]  # Last argument is the auth_token
 
 
-    # Initialize API handler (directory_path is only required for -pmc)
+    # Initialize API handler (Only directory_path is required)
     if method == "-pmc":
         if len(sys.argv) < 4:
-            logging.error("Fehlendes Argument: directory_path für -pmc.")
+            logging.error("Missing argument: directory_path for -pmc.")
             sys.exit(1)
         directory_path = sys.argv[3]
         api_handler = i14y_api_calls(i14y_user_token, directory_path=directory_path)
         api_handler.post_MultipleConcepts(directory_path)
+
+    elif method == "-pmcl":
+        if len(sys.argv) < 4:
+            logging.error("Missing argument: directory_path for -pmcl.")
+            sys.exit(1)
+        directory_path = sys.argv[3]
+        api_handler = i14y_api_calls(i14y_user_token, directory_path=directory_path)
+        api_handler.post_MultipleNewCodelists(directory_path)
 
     else:
         api_handler = i14y_api_calls(i14y_user_token)
 
         if method == "-pc":
             if len(sys.argv) < 4:
-                logging.error("Fehlendes Argument: file_path für -pc.")
+                logging.error("Missing argument: file_path for -pc.")
                 sys.exit(1)
             file_path = sys.argv[3]
             api_handler.post_NewConcept(file_path)
 
         elif method == "-pcl":
             if len(sys.argv) < 5:
-                logging.error("Fehlende Argumente: file_path und concept_id für -pcl.")
+                logging.error("Missing argument: file_path und concept_id for -pcl.")
                 sys.exit(1)
             file_path, concept_id = sys.argv[3:4]
             api_handler.post_CodelistEntries(file_path, concept_id)
 
-        elif method == "-pmcl":
-            if len(sys.argv) < 5:
-                logging.error("Fehlende Argumente: file_path und concept_id für -pmcl.")
-                sys.exit(1)
-            file_path, concept_id = sys.argv[3:]
-            api_handler.update_CodelistEntries(file_path, concept_id)
+        
 
         elif method == "-dcl":
             if len(sys.argv) < 4:
-                logging.error("Fehlendes Argument: concept_id für -dcl.")
+                logging.error("Missing argument: concept_id for -dcl.")
                 sys.exit(1)
             concept_id = sys.argv[3]
             api_handler.delete_CodelistEntries(concept_id)
 
         else:
-            logging.error(f"Ungültiges Argument: {method}. Erlaubt sind: -pc, -pmc, -pcl, -pmcl, -dcl.")
+            logging.error(f"Invalid argument: {method}. Accepted arguments are: -pc, -pmc, -pcl, -pmcl, -dcl.")
             sys.exit(1)
 
     logging.info("Script execution completed.")
 
 if __name__ == "__main__":
     main()
-
-"""
-if __name__ == "__main__":
-    valid_args = {
-        "-pc": pc,
-        "-pmc": pmc,
-        "-pcl": pcl,
-        "-pmcl": pmcl,
-        "-dcl": dcl
-    }
-    
-    if len(sys.argv) != 4:
-        print("Usage: python I14_API_handling.py <directory_path> <I14Y_user_token> <method>= -pc, -pmc, -pcl, -pmcl, -dcl")
-        sys.exit(1)
-
-    directory_path = sys.argv[1]
-    i14y_user_tokern = sys.argv[2]
-    method = sys.argv[3]
-
-    if method in valid_args:
-        valid_args[method]()  # Rufe die entsprechende Methode auf
-    else:
-        print(f"Ungültiges Argument: {method}. Erlaubt sind: {', '.join(valid_args.keys())}")
-    
-    #auth_token = sys.argv[2]
-    api_handler = i14y_api_calls(i14y_user_tokern, directory_path=directory_path,)
-    api_handler.post_MultipleNewConceptVersion(directory_path)
-    logging.info("Script execution completed.")
-"""
-    
+   
 #TODO: Agrs anpassen um alles notwendige beim ausführen anzugeben. [1] dir path [2] auth token [3] welche operation ausgeführt werden soll (upload (new VS oder CodeListEntries), download, delete)
